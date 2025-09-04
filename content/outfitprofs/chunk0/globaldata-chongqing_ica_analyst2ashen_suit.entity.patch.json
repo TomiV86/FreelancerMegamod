@@ -1,0 +1,53 @@
+{
+	"tempHash": "00097AA87B144150",
+	"tbluHash": "00E738E7CF7A35E1",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"ab95f88ca7626624",
+				{
+					"AddProperty": [
+						"m_bWeaponsAllowed",
+						{ "type": "bool", "value": false }
+					]
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe235685bf8b71",
+				{
+					"parent": "ab95f88ca7626624",
+					"name": "Prof_Wet_Worker_FacilityAnalysts",
+					"factory": "[assembly:/_pro/design/actor/profession.template?/prof_wet_worker_facilityanalysts.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_wet_worker_facilityanalysts.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_aHolders": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["ab95f88ca7626624"],
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafea814b0490cc3",
+				{
+					"parent": "ab95f88ca7626624",
+					"name": "Prof_WET_Worker",
+					"factory": "[assembly:/_pro/design/actor/profession.template?/prof_wet_worker.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_wet_worker.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_aHolders": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["ab95f88ca7626624"]
+						}
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

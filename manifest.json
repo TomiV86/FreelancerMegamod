@@ -403,7 +403,7 @@
 		{
 			"name": "Disguises - Extra Suit Disguise Functionality",
 			"group": "Disguise Outfit Changes",
-			"tooltip": "Add extra disguise functionality to certain suits. Be wary of unexpected enforcers at mission start. Sniper Challenge Suit: New York Investment Banker, The Drop LED Suit: Berlin DJ, Freelancer Mastery Suit: Colorado Hacker, Arkian Tuxedo: Ark Sentinel with weapons allowed, Tropical Suit: Marrakesh Printer + Basic Soldier, Lucky Ducky Hoodie: Paris Stylist, Midnight Suit: Colombia Mansion Guard no weapons, Raver Suit: Bangkok Record Crew, Tactical Turtleneck: Ambrose Militia and Sapienza Biolab Guard no weapons, Ancestral Hunter + Formal Hunting: Outside access Dartmoor, Splitter Suit + Flashy Sins Suits: Bollywood Tower Guard no weapons.",
+			"tooltip": "Add extra disguise functionality to certain suits. Be wary of unexpected enforcers at mission start. Sniper Challenge Suit: New York Investment Banker, The Drop LED Suit: Berlin DJ, Freelancer Mastery Suit: Colorado Hacker, Arkian Tuxedo: Ark Sentinel with weapons allowed, Tropical Suit: Marrakesh Printer + Basic Soldier, Lucky Ducky Hoodie: Paris Stylist, Midnight Suit: Colombia Mansion Guard no weapons, Raver Suit: Bangkok Record Crew, Tactical Turtleneck: Ambrose Militia and Sapienza Biolab Guard no weapons, Ancestral Hunter + Formal Hunting: Outside access Dartmoor, Splitter Suit + Flashy Sins Suits: Bollywood Tower Guard no weapons, Ashen Suit: Chongqing ICA Analyst.",
 			"type": "checkbox",
 			"contentFolders": [
 				"content/outfitprofs"
@@ -496,6 +496,12 @@
 				{
 					"portFromChunk1": true,
 					"runtimeID": "00A0AAAFD2153B93"
+				},
+				{
+					"runtimeID": "00315BD1D25ACE8D"
+				},
+				{
+					"runtimeID": "00011A332A8F1346"
 				}
 			],
 			"enabledByDefault": true
