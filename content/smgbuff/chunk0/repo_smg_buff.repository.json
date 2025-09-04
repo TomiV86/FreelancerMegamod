@@ -1,1 +1,89 @@
-{"7bf3a6e6-b5aa-4c88-b953-c2c378d36118":{"AdditionalKeywords":["INVENTORY_PROPERTY_FIREARM","INVENTORY_TYPE_WEAPON","","INVENTORY_TYPE_SMG","INVENTORY_SIZE_MEDIUM"],"Evergreen_Price":14000.0,"HolsterAbility":"eHolsteringAllowed","ItemSize":"ITEMSIZE_MEDIUM"},"a494c3c8-9a41-4398-9542-559e6a5dc1cb":{"AdditionalKeywords":["INVENTORY_PROPERTY_FIREARM","INVENTORY_TYPE_WEAPON","","INVENTORY_TYPE_SMG","INVENTORY_SIZE_MEDIUM"],"Evergreen_CapacityCost":3.0,"Evergreen_Price":15700.0,"HolsterAbility":"eHolsteringAllowed","ItemSize":"ITEMSIZE_MEDIUM"},"b1cb79d7-9960-4d5c-8b43-81213c8594cd":{"AdditionalKeywords":["INVENTORY_PROPERTY_FIREARM","INVENTORY_TYPE_WEAPON","","INVENTORY_TYPE_SMG","INVENTORY_SIZE_MEDIUM"],"Evergreen_Price":14200.0,"HolsterAbility":"eHolsteringAllowed","ItemSize":"ITEMSIZE_MEDIUM"},"8a30c788-049a-4b83-b148-1a6db49d2ae5":{"AdditionalKeywords":["INVENTORY_PROPERTY_FIREARM","INVENTORY_TYPE_WEAPON","","INVENTORY_TYPE_SMG","INVENTORY_SIZE_MEDIUM"],"Evergreen_CapacityCost":3.0,"Evergreen_Price":16300.0,"HolsterAbility":"eHolsteringAllowed","ItemSize":"ITEMSIZE_MEDIUM"},"ba102d90-b8c9-47b9-97eb-b462344b46c3":{"AdditionalKeywords":["INVENTORY_PROPERTY_FIREARM","INVENTORY_TYPE_WEAPON","","INVENTORY_TYPE_SMG","INVENTORY_SIZE_MEDIUM"],"Evergreen_CapacityCost":2.0,"Evergreen_Price":6500.0,"HolsterAbility":"eHolsteringAllowed","ItemSize":"ITEMSIZE_MEDIUM"},"66f9cf6f-ff2b-4870-9516-59f0f0ef9b0b":{"AdditionalKeywords":["INVENTORY_PROPERTY_FIREARM","INVENTORY_TYPE_WEAPON","","INVENTORY_TYPE_SMG","INVENTORY_SIZE_MEDIUM"],"HolsterAbility":"eHolsteringAllowed","ItemSize":"ITEMSIZE_MEDIUM"},"302a5fed-c166-46db-a5cb-5410eb052d29":{"AdditionalKeywords":["INVENTORY_PROPERTY_FIREARM","INVENTORY_TYPE_WEAPON","","INVENTORY_TYPE_SMG","INVENTORY_SIZE_MEDIUM"],"Evergreen_CapacityCost":3.0,"Evergreen_Price":7500.0,"HolsterAbility":"eHolsteringAllowed","ItemSize":"ITEMSIZE_MEDIUM"}}
+{
+	"7bf3a6e6-b5aa-4c88-b953-c2c378d36118": {
+		"AdditionalKeywords": [
+			"INVENTORY_PROPERTY_FIREARM",
+			"INVENTORY_TYPE_WEAPON",
+			"",
+			"INVENTORY_TYPE_SMG",
+			"INVENTORY_SIZE_MEDIUM"
+		],
+		"Evergreen_Price": 14000.0,
+		"HolsterAbility": "eHolsteringAllowed",
+		"ItemSize": "ITEMSIZE_MEDIUM"
+	},
+	"a494c3c8-9a41-4398-9542-559e6a5dc1cb": {
+		"AdditionalKeywords": [
+			"INVENTORY_PROPERTY_FIREARM",
+			"INVENTORY_TYPE_WEAPON",
+			"",
+			"INVENTORY_TYPE_SMG",
+			"INVENTORY_SIZE_MEDIUM"
+		],
+		"Evergreen_CapacityCost": 3.0,
+		"Evergreen_Price": 15700.0,
+		"HolsterAbility": "eHolsteringAllowed",
+		"ItemSize": "ITEMSIZE_MEDIUM"
+	},
+	"b1cb79d7-9960-4d5c-8b43-81213c8594cd": {
+		"AdditionalKeywords": [
+			"INVENTORY_PROPERTY_FIREARM",
+			"INVENTORY_TYPE_WEAPON",
+			"",
+			"INVENTORY_TYPE_SMG",
+			"INVENTORY_SIZE_MEDIUM"
+		],
+		"Evergreen_Price": 14200.0,
+		"HolsterAbility": "eHolsteringAllowed",
+		"ItemSize": "ITEMSIZE_MEDIUM"
+	},
+	"8a30c788-049a-4b83-b148-1a6db49d2ae5": {
+		"AdditionalKeywords": [
+			"INVENTORY_PROPERTY_FIREARM",
+			"INVENTORY_TYPE_WEAPON",
+			"",
+			"INVENTORY_TYPE_SMG",
+			"INVENTORY_SIZE_MEDIUM"
+		],
+		"Evergreen_CapacityCost": 3.0,
+		"Evergreen_Price": 16300.0,
+		"HolsterAbility": "eHolsteringAllowed",
+		"ItemSize": "ITEMSIZE_MEDIUM"
+	},
+	"ba102d90-b8c9-47b9-97eb-b462344b46c3": {
+		"AdditionalKeywords": [
+			"INVENTORY_PROPERTY_FIREARM",
+			"INVENTORY_TYPE_WEAPON",
+			"",
+			"INVENTORY_TYPE_SMG",
+			"INVENTORY_SIZE_MEDIUM"
+		],
+		"Evergreen_CapacityCost": 2.0,
+		"Evergreen_Price": 6500.0,
+		"HolsterAbility": "eHolsteringAllowed",
+		"ItemSize": "ITEMSIZE_MEDIUM"
+	},
+	"66f9cf6f-ff2b-4870-9516-59f0f0ef9b0b": {
+		"AdditionalKeywords": [
+			"INVENTORY_PROPERTY_FIREARM",
+			"INVENTORY_TYPE_WEAPON",
+			"",
+			"INVENTORY_TYPE_SMG",
+			"INVENTORY_SIZE_MEDIUM"
+		],
+		"HolsterAbility": "eHolsteringAllowed",
+		"ItemSize": "ITEMSIZE_MEDIUM"
+	},
+	"302a5fed-c166-46db-a5cb-5410eb052d29": {
+		"AdditionalKeywords": [
+			"INVENTORY_PROPERTY_FIREARM",
+			"INVENTORY_TYPE_WEAPON",
+			"",
+			"INVENTORY_TYPE_SMG",
+			"INVENTORY_SIZE_MEDIUM"
+		],
+		"Evergreen_CapacityCost": 3.0,
+		"Evergreen_Price": 7500.0,
+		"HolsterAbility": "eHolsteringAllowed",
+		"ItemSize": "ITEMSIZE_MEDIUM"
+	}
+}

@@ -6,10 +6,7 @@
 			"SubEntityOperation": [
 				"342341822acc1080",
 				{
-					"AddProperty": [
-						"m_bWeaponsAllowed",
-						{ "type": "bool", "value": false }
-					]
+					"AddProperty": ["m_bWeaponsAllowed", { "type": "bool", "value": false }]
 				}
 			]
 		},

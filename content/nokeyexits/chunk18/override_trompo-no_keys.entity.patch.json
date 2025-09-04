@@ -19,27 +19,18 @@
 			]
 		},
 		{
-			"SubEntityOperation": [
-				"3aad77b2013cf2d1",
-				{ "RemovePropertyByName": "m_rToolKeywordRequirements" }
-			]
+			"SubEntityOperation": ["3aad77b2013cf2d1", { "RemovePropertyByName": "m_rToolKeywordRequirements" }]
 		},
 		{
 			"SubEntityOperation": [
 				"3aad77b2013cf2d1",
 				{
-					"AddProperty": [
-						"Manual_Exit_Trigger_Needed",
-						{ "type": "bool", "value": true }
-					]
+					"AddProperty": ["Manual_Exit_Trigger_Needed", { "type": "bool", "value": true }]
 				}
 			]
 		},
 		{
-			"SubEntityOperation": [
-				"3aad77b2013cf2d1",
-				{ "SetPropertyPostInit": ["m_eidParent", false] }
-			]
+			"SubEntityOperation": ["3aad77b2013cf2d1", { "SetPropertyPostInit": ["m_eidParent", false] }]
 		},
 		{
 			"SubEntityOperation": [
@@ -58,16 +49,10 @@
 			]
 		},
 		{
-			"SubEntityOperation": [
-				"4e0c04b232f70d11",
-				{ "RemovePropertyByName": "m_aConditions" }
-			]
+			"SubEntityOperation": ["4e0c04b232f70d11", { "RemovePropertyByName": "m_aConditions" }]
 		},
 		{
-			"SubEntityOperation": [
-				"4e0c04b232f70d11",
-				{ "RemovePropertyByName": "m_rToolKeywordRequirements" }
-			]
+			"SubEntityOperation": ["4e0c04b232f70d11", { "RemovePropertyByName": "m_rToolKeywordRequirements" }]
 		},
 		{
 			"SubEntityOperation": [
@@ -95,10 +80,7 @@
 			"SubEntityOperation": [
 				"4e0c04b232f70d11",
 				{
-					"AddProperty": [
-						"Manual_Exit_Trigger_Needed",
-						{ "type": "bool", "value": true }
-					]
+					"AddProperty": ["Manual_Exit_Trigger_Needed", { "type": "bool", "value": true }]
 				}
 			]
 		}

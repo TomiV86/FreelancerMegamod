@@ -10,10 +10,7 @@
 						"m_aBonusRequirements",
 						[
 							{
-								"AddItemAfter": [
-									"2ddda2801c050eb0",
-									"cafe85885344f5a4"
-								]
+								"AddItemAfter": ["2ddda2801c050eb0", "cafe85885344f5a4"]
 							}
 						]
 					]
@@ -71,10 +68,7 @@
 						},
 						"m_requirementBlacklist": {
 							"type": "TArray<SEntityTemplateReference>",
-							"value": [
-								"0826a41d02ab31b4",
-								"7ad1ed33a6043d3f"
-							]
+							"value": ["0826a41d02ab31b4", "7ad1ed33a6043d3f"]
 						}
 					}
 				}

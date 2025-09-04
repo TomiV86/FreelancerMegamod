@@ -19,16 +19,10 @@
 			]
 		},
 		{
-			"SubEntityOperation": [
-				"64c007aaf8738129",
-				{ "RemovePropertyByName": "m_rToolKeywordRequirements" }
-			]
+			"SubEntityOperation": ["64c007aaf8738129", { "RemovePropertyByName": "m_rToolKeywordRequirements" }]
 		},
 		{
-			"SubEntityOperation": [
-				"64c007aaf8738129",
-				{ "RemovePropertyByName": "m_RequiredItem" }
-			]
+			"SubEntityOperation": ["64c007aaf8738129", { "RemovePropertyByName": "m_RequiredItem" }]
 		},
 		{
 			"AddEntity": [

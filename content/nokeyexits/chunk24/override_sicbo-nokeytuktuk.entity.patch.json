@@ -3,19 +3,13 @@
 	"tbluHash": "00AFACCD8A18AE48",
 	"patch": [
 		{
-			"SubEntityOperation": [
-				"c8f0000f0cb42b4e",
-				{ "RemovePropertyByName": "m_aConditions" }
-			]
+			"SubEntityOperation": ["c8f0000f0cb42b4e", { "RemovePropertyByName": "m_aConditions" }]
 		},
 		{
 			"SubEntityOperation": [
 				"c8f0000f0cb42b4e",
 				{
-					"AddProperty": [
-						"Manual_Exit_Trigger_Needed",
-						{ "type": "bool", "value": true }
-					]
+					"AddProperty": ["Manual_Exit_Trigger_Needed", { "type": "bool", "value": true }]
 				}
 			]
 		}

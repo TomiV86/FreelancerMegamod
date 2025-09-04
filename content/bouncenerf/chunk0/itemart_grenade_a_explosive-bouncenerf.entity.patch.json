@@ -61,10 +61,7 @@
 			"SubEntityOperation": [
 				"2edd09981a6d3b32",
 				{
-					"AddProperty": [
-						"m_fRestitution",
-						{ "type": "float32", "value": 10.0 }
-					]
+					"AddProperty": ["m_fRestitution", { "type": "float32", "value": 10.0 }]
 				}
 			]
 		}

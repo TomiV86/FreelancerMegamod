@@ -10,10 +10,7 @@
 						"m_requirementBlacklist",
 						[
 							{
-								"AddItemAfter": [
-									"d38f004aadeaab5d",
-									"a1173bd02186fe4d"
-								]
+								"AddItemAfter": ["d38f004aadeaab5d", "a1173bd02186fe4d"]
 							}
 						]
 					]
@@ -28,10 +25,7 @@
 						"m_aBonusRequirements",
 						[
 							{
-								"AddItemAfter": [
-									"8198264b2b1191b8",
-									"a1173bd02186fe4d"
-								]
+								"AddItemAfter": ["8198264b2b1191b8", "a1173bd02186fe4d"]
 							}
 						]
 					]
@@ -42,10 +36,7 @@
 			"SubEntityOperation": [
 				"5bf8720f7386b970",
 				{
-					"PatchArrayPropertyValue": [
-						"m_aBonusRequirements",
-						[{ "RemoveItemByValue": "a1173bd02186fe4d" }]
-					]
+					"PatchArrayPropertyValue": ["m_aBonusRequirements", [{ "RemoveItemByValue": "a1173bd02186fe4d" }]]
 				}
 			]
 		},
@@ -57,10 +48,7 @@
 						"m_aBonusRequirements",
 						[
 							{
-								"AddItemAfter": [
-									"ca1892c136be4148",
-									"a1173bd02186fe4d"
-								]
+								"AddItemAfter": ["ca1892c136be4148", "a1173bd02186fe4d"]
 							}
 						]
 					]
@@ -75,10 +63,7 @@
 						"m_aBonusRequirements",
 						[
 							{
-								"AddItemAfter": [
-									"2dd6cd78d1ed4726",
-									"a1173bd02186fe4d"
-								]
+								"AddItemAfter": ["2dd6cd78d1ed4726", "a1173bd02186fe4d"]
 							}
 						]
 					]

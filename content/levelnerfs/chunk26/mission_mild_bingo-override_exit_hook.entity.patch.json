@@ -29,10 +29,7 @@
 			]
 		},
 		{
-			"SubEntityOperation": [
-				"e320a6ee11dfc348",
-				{ "SetPropertyPostInit": ["m_aValues", true] }
-			]
+			"SubEntityOperation": ["e320a6ee11dfc348", { "SetPropertyPostInit": ["m_aValues", true] }]
 		}
 	],
 	"patchVersion": 6

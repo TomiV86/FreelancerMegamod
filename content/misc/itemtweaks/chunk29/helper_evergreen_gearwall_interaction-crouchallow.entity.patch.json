@@ -28,11 +28,7 @@
 			"SubEntityOperation": [
 				"8c5e94729f28b8e3",
 				{
-					"RemoveEventConnection": [
-						"OnValue",
-						"SetY",
-						"a9dc9ea76331dd8f"
-					]
+					"RemoveEventConnection": ["OnValue", "SetY", "a9dc9ea76331dd8f"]
 				}
 			]
 		},
@@ -40,11 +36,7 @@
 			"SubEntityOperation": [
 				"bee9c335a8a457cb",
 				{
-					"RemoveEventConnection": [
-						"PollValue",
-						"SetY",
-						"a9dc9ea76331dd8f"
-					]
+					"RemoveEventConnection": ["PollValue", "SetY", "a9dc9ea76331dd8f"]
 				}
 			]
 		},
@@ -52,11 +44,7 @@
 			"SubEntityOperation": [
 				"a9dc9ea76331dd8f",
 				{
-					"RemoveEventConnection": [
-						"Value",
-						"Position",
-						"c72ac7255f1bcf63"
-					]
+					"RemoveEventConnection": ["Value", "Position", "c72ac7255f1bcf63"]
 				}
 			]
 		}

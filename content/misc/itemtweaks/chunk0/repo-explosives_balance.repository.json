@@ -1,1 +1,7 @@
-{"8f1bae41-3570-40cc-be87-77cb6a4af86c":{"Evergreen_CapacityCost":1.0},"7c691c03-7c6b-4eb4-9a68-898efe5eedaa":{"Evergreen_CapacityCost":2.0,"Evergreen_Price":1500.0},"9278382c-9c73-4d0b-8be2-9cb151d3667c":{"Evergreen_CapacityCost":2.0},"ba5c5c48-3d2e-4d4d-9dbe-f57b95200b1a":{"Evergreen_CapacityCost":2.0,"Evergreen_Price":1500.0},"7488229b-3fa8-4539-90ba-a7bf65798568":{"Evergreen_CapacityCost":2.0,"Evergreen_Price":1500.0}}
+{
+	"8f1bae41-3570-40cc-be87-77cb6a4af86c": { "Evergreen_CapacityCost": 1.0 },
+	"7c691c03-7c6b-4eb4-9a68-898efe5eedaa": { "Evergreen_CapacityCost": 2.0, "Evergreen_Price": 1500.0 },
+	"9278382c-9c73-4d0b-8be2-9cb151d3667c": { "Evergreen_CapacityCost": 2.0 },
+	"ba5c5c48-3d2e-4d4d-9dbe-f57b95200b1a": { "Evergreen_CapacityCost": 2.0, "Evergreen_Price": 1500.0 },
+	"7488229b-3fa8-4539-90ba-a7bf65798568": { "Evergreen_CapacityCost": 2.0, "Evergreen_Price": 1500.0 }
+}

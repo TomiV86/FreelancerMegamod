@@ -19,25 +19,16 @@
 			]
 		},
 		{
-			"SubEntityOperation": [
-				"6e3aaf9132ed8a5a",
-				{ "RemovePropertyByName": "m_rToolKeywordRequirements" }
-			]
+			"SubEntityOperation": ["6e3aaf9132ed8a5a", { "RemovePropertyByName": "m_rToolKeywordRequirements" }]
 		},
 		{
-			"SubEntityOperation": [
-				"6e3aaf9132ed8a5a",
-				{ "RemovePropertyByName": "m_RequiredItem" }
-			]
+			"SubEntityOperation": ["6e3aaf9132ed8a5a", { "RemovePropertyByName": "m_RequiredItem" }]
 		},
 		{
 			"SubEntityOperation": [
 				"6e3aaf9132ed8a5a",
 				{
-					"AddProperty": [
-						"Manual_Exit_Trigger_Needed",
-						{ "type": "bool", "value": true }
-					]
+					"AddProperty": ["Manual_Exit_Trigger_Needed", { "type": "bool", "value": true }]
 				}
 			]
 		},

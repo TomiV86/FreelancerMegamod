@@ -1,1 +1,19 @@
-{"14bf3a3c-54c7-4c98-9452-1e7f67da09bf":{"Evergreen_Price":200.0},"cbf40151-cb96-435a-b683-6430370a07f2":{"Evergreen_Price":250.0},"6294f1c4-68db-477f-b7c9-8c9825c077a1":{"Evergreen_Price":200.0},"0a5bebc8-0148-4745-90b2-f54b3c71116c":{"Evergreen_Price":1500.0},"b6108af4-702f-4954-ae7f-1204460833c7":{"Evergreen_Price":400.0},"98bf7fc1-7857-4999-bc99-586c49f24017":{"Evergreen_Price":200.0},"c434db4f-f0dc-4803-bc24-e83f85c09259":{"Evergreen_Price":250.0},"1b31e7e1-f2b7-4b61-8859-77b0c27bb94a":{"Evergreen_Price":250.0},"aa62586e-d463-494e-b55f-177bcdf8c08c":{"Evergreen_Price":300.0},"5952b621-fee9-4699-809c-8889abadfdb8":{"Evergreen_Price":100.0},"a83349bf-3d9c-43ec-92ee-c8c98cbeabc1":{"Evergreen_CapacityCost":3.0,"Evergreen_Price":1500.0},"84f50c4c-de1d-41f3-8021-1cba7df987cd":{"Evergreen_Price":200.0},"af8a7b6c-692c-4a76-b9bc-2b91ce32bcbc":{"Evergreen_Price":750.0},"903d273c-c750-441d-916a-31557fea3382":{"Evergreen_Price":300.0},"8ee26350-67f9-48bd-983e-8f276eea04cc":{"Evergreen_Price":300.0},"f04bd2e9-3f3a-42cd-9150-b7845e952d67":{"Evergreen_Price":200.0},"6561a437-86ef-4338-a01f-005b3476be20":{"Evergreen_Price":400.0}}
+{
+	"14bf3a3c-54c7-4c98-9452-1e7f67da09bf": { "Evergreen_Price": 200.0 },
+	"cbf40151-cb96-435a-b683-6430370a07f2": { "Evergreen_Price": 250.0 },
+	"6294f1c4-68db-477f-b7c9-8c9825c077a1": { "Evergreen_Price": 200.0 },
+	"0a5bebc8-0148-4745-90b2-f54b3c71116c": { "Evergreen_Price": 1500.0 },
+	"b6108af4-702f-4954-ae7f-1204460833c7": { "Evergreen_Price": 400.0 },
+	"98bf7fc1-7857-4999-bc99-586c49f24017": { "Evergreen_Price": 200.0 },
+	"c434db4f-f0dc-4803-bc24-e83f85c09259": { "Evergreen_Price": 250.0 },
+	"1b31e7e1-f2b7-4b61-8859-77b0c27bb94a": { "Evergreen_Price": 250.0 },
+	"aa62586e-d463-494e-b55f-177bcdf8c08c": { "Evergreen_Price": 300.0 },
+	"5952b621-fee9-4699-809c-8889abadfdb8": { "Evergreen_Price": 100.0 },
+	"a83349bf-3d9c-43ec-92ee-c8c98cbeabc1": { "Evergreen_CapacityCost": 3.0, "Evergreen_Price": 1500.0 },
+	"84f50c4c-de1d-41f3-8021-1cba7df987cd": { "Evergreen_Price": 200.0 },
+	"af8a7b6c-692c-4a76-b9bc-2b91ce32bcbc": { "Evergreen_Price": 750.0 },
+	"903d273c-c750-441d-916a-31557fea3382": { "Evergreen_Price": 300.0 },
+	"8ee26350-67f9-48bd-983e-8f276eea04cc": { "Evergreen_Price": 300.0 },
+	"f04bd2e9-3f3a-42cd-9150-b7845e952d67": { "Evergreen_Price": 200.0 },
+	"6561a437-86ef-4338-a01f-005b3476be20": { "Evergreen_Price": 400.0 }
+}

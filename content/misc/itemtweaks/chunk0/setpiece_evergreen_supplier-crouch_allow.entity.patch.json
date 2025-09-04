@@ -3,31 +3,19 @@
 	"tbluHash": "00EA78EDBE5A496E",
 	"patch": [
 		{
-			"SubEntityOperation": [
-				"7abd2ed164431c64",
-				{ "RemovePropertyByName": "m_bStandUp" }
-			]
+			"SubEntityOperation": ["7abd2ed164431c64", { "RemovePropertyByName": "m_bStandUp" }]
 		},
 		{
-			"SubEntityOperation": [
-				"7abd2ed164431c64",
-				{ "RemovePropertyByName": "m_bNoSnapSneak" }
-			]
+			"SubEntityOperation": ["7abd2ed164431c64", { "RemovePropertyByName": "m_bNoSnapSneak" }]
 		},
 		{
-			"SubEntityOperation": [
-				"7abd2ed164431c64",
-				{ "RemovePropertyByName": "m_bSneak" }
-			]
+			"SubEntityOperation": ["7abd2ed164431c64", { "RemovePropertyByName": "m_bSneak" }]
 		},
 		{
 			"SubEntityOperation": [
 				"7abd2ed164431c64",
 				{
-					"AddProperty": [
-						"m_bAllowBaseMovements",
-						{ "type": "bool", "value": true }
-					]
+					"AddProperty": ["m_bAllowBaseMovements", { "type": "bool", "value": true }]
 				}
 			]
 		}

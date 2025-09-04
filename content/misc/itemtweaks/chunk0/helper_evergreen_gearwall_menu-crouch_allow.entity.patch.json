@@ -6,11 +6,7 @@
 			"SubEntityOperation": [
 				"79e5d2b4e9ff570d",
 				{
-					"AddEventConnection": [
-						"OnOpening",
-						"SetHeroHidden",
-						"cafeaf2c0b39e737"
-					]
+					"AddEventConnection": ["OnOpening", "SetHeroHidden", "cafeaf2c0b39e737"]
 				}
 			]
 		},
@@ -18,11 +14,7 @@
 			"SubEntityOperation": [
 				"79e5d2b4e9ff570d",
 				{
-					"AddEventConnection": [
-						"OnClosed",
-						"SetHeroVisible",
-						"cafeaf2c0b39e737"
-					]
+					"AddEventConnection": ["OnClosed", "SetHeroVisible", "cafeaf2c0b39e737"]
 				}
 			]
 		},
@@ -30,10 +22,7 @@
 			"SubEntityOperation": [
 				"d41895c5278a8a75",
 				{
-					"AddProperty": [
-						"m_bAllowBaseMovements",
-						{ "type": "bool", "value": true }
-					]
+					"AddProperty": ["m_bAllowBaseMovements", { "type": "bool", "value": true }]
 				}
 			]
 		},
@@ -41,10 +30,7 @@
 			"SubEntityOperation": [
 				"d41895c5278a8a75",
 				{
-					"AddProperty": [
-						"m_bNoSnapSneak",
-						{ "type": "bool", "value": false }
-					]
+					"AddProperty": ["m_bNoSnapSneak", { "type": "bool", "value": false }]
 				}
 			]
 		},
