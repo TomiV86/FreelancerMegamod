@@ -10,10 +10,7 @@
 						"m_EntranceIds",
 						[
 							{
-								"AddItemAfter": [
-									"52918dd66edb5037",
-									"cafe6cc38ffffc09"
-								]
+								"AddItemAfter": ["52918dd66edb5037", "cafe6cc38ffffc09"]
 							}
 						]
 					]

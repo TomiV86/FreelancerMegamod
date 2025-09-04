@@ -1,1 +1,10 @@
-{"aaffeb68-c597-4ca8-9b8d-802ce08e1187":{"IsCheckedWhenFrisked":false,"IsPerceivedAsWeapon":false,"Evergreen_LoseOnWounded":true,"Evergreen_Price":750.0,"Evergreen_Rarity":3.0,"Rarity":"ITEMRARITY_EPIC"}}
+{
+	"aaffeb68-c597-4ca8-9b8d-802ce08e1187": {
+		"IsCheckedWhenFrisked": false,
+		"IsPerceivedAsWeapon": false,
+		"Evergreen_LoseOnWounded": true,
+		"Evergreen_Price": 750.0,
+		"Evergreen_Rarity": 3.0,
+		"Rarity": "ITEMRARITY_EPIC"
+	}
+}

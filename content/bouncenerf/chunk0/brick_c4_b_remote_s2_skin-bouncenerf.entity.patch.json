@@ -50,10 +50,7 @@
 			"SubEntityOperation": [
 				"8c971e0640085e97",
 				{
-					"AddProperty": [
-						"m_fMass",
-						{ "type": "float32", "value": 6.0 }
-					]
+					"AddProperty": ["m_fMass", { "type": "float32", "value": 6.0 }]
 				}
 			]
 		}

@@ -29,10 +29,7 @@
 			]
 		},
 		{
-			"SubEntityOperation": [
-				"0a502b85187ca680",
-				{ "SetPropertyPostInit": ["m_aValues", true] }
-			]
+			"SubEntityOperation": ["0a502b85187ca680", { "SetPropertyPostInit": ["m_aValues", true] }]
 		}
 	],
 	"patchVersion": 6

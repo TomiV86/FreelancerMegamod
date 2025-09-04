@@ -6,11 +6,7 @@
 			"SubEntityOperation": [
 				"2697d742c52114cb",
 				{
-					"AddEventConnection": [
-						"Out02",
-						"Pick",
-						"cafe0d666b27b295"
-					]
+					"AddEventConnection": ["Out02", "Pick", "cafe0d666b27b295"]
 				}
 			]
 		},
@@ -18,11 +14,7 @@
 			"SubEntityOperation": [
 				"2697d742c52114cb",
 				{
-					"AddEventConnection": [
-						"Out02",
-						"Pick",
-						"cafe9ba14755e2a1"
-					]
+					"AddEventConnection": ["Out02", "Pick", "cafe9ba14755e2a1"]
 				}
 			]
 		},
@@ -94,154 +86,79 @@
 						"m_entries",
 						[
 							{
-								"AddItemAfter": [
-									"914e65fa2fbedede",
-									"cafe4cd96318dbec"
-								]
+								"AddItemAfter": ["914e65fa2fbedede", "cafe4cd96318dbec"]
 							},
 							{
-								"AddItemAfter": [
-									"914e65fa2fbedede",
-									"cafe7a05ba852f3c"
-								]
+								"AddItemAfter": ["914e65fa2fbedede", "cafe7a05ba852f3c"]
 							},
 							{
-								"AddItemAfter": [
-									"914e65fa2fbedede",
-									"cafe04b883397d94"
-								]
+								"AddItemAfter": ["914e65fa2fbedede", "cafe04b883397d94"]
 							},
 							{
-								"AddItemAfter": [
-									"914e65fa2fbedede",
-									"cafea7d71117d797"
-								]
+								"AddItemAfter": ["914e65fa2fbedede", "cafea7d71117d797"]
 							},
 							{
-								"AddItemAfter": [
-									"914e65fa2fbedede",
-									"cafe72d487cde5c4"
-								]
+								"AddItemAfter": ["914e65fa2fbedede", "cafe72d487cde5c4"]
 							},
 							{
-								"AddItemAfter": [
-									"914e65fa2fbedede",
-									"cafe2c3b19b81734"
-								]
+								"AddItemAfter": ["914e65fa2fbedede", "cafe2c3b19b81734"]
 							},
 							{
-								"AddItemAfter": [
-									"914e65fa2fbedede",
-									"cafe297955440a3d"
-								]
+								"AddItemAfter": ["914e65fa2fbedede", "cafe297955440a3d"]
 							},
 							{
-								"AddItemAfter": [
-									"914e65fa2fbedede",
-									"cafe429d74d7d68e"
-								]
+								"AddItemAfter": ["914e65fa2fbedede", "cafe429d74d7d68e"]
 							},
 							{
-								"AddItemAfter": [
-									"914e65fa2fbedede",
-									"cafe5ad290e1a2dd"
-								]
+								"AddItemAfter": ["914e65fa2fbedede", "cafe5ad290e1a2dd"]
 							},
 							{
-								"AddItemAfter": [
-									"914e65fa2fbedede",
-									"cafecac8d2547128"
-								]
+								"AddItemAfter": ["914e65fa2fbedede", "cafecac8d2547128"]
 							},
 							{
-								"AddItemAfter": [
-									"914e65fa2fbedede",
-									"cafedcee9f0776dd"
-								]
+								"AddItemAfter": ["914e65fa2fbedede", "cafedcee9f0776dd"]
 							},
 							{
-								"AddItemAfter": [
-									"914e65fa2fbedede",
-									"cafe5f74c24c1535"
-								]
+								"AddItemAfter": ["914e65fa2fbedede", "cafe5f74c24c1535"]
 							},
 							{
-								"AddItemAfter": [
-									"914e65fa2fbedede",
-									"cafe57c87755b5e4"
-								]
+								"AddItemAfter": ["914e65fa2fbedede", "cafe57c87755b5e4"]
 							},
 							{
-								"AddItemAfter": [
-									"914e65fa2fbedede",
-									"cafe9d6d9dd8d90f"
-								]
+								"AddItemAfter": ["914e65fa2fbedede", "cafe9d6d9dd8d90f"]
 							},
 							{
-								"AddItemAfter": [
-									"914e65fa2fbedede",
-									"cafe067403636130"
-								]
+								"AddItemAfter": ["914e65fa2fbedede", "cafe067403636130"]
 							},
 							{
-								"AddItemAfter": [
-									"914e65fa2fbedede",
-									"cafed5b2c990bf2c"
-								]
+								"AddItemAfter": ["914e65fa2fbedede", "cafed5b2c990bf2c"]
 							},
 							{
-								"AddItemAfter": [
-									"914e65fa2fbedede",
-									"cafec1bf50dee11d"
-								]
+								"AddItemAfter": ["914e65fa2fbedede", "cafec1bf50dee11d"]
 							},
 							{
-								"AddItemAfter": [
-									"914e65fa2fbedede",
-									"cafe7716b3334f29"
-								]
+								"AddItemAfter": ["914e65fa2fbedede", "cafe7716b3334f29"]
 							},
 							{
-								"AddItemAfter": [
-									"914e65fa2fbedede",
-									"cafead813866ebec"
-								]
+								"AddItemAfter": ["914e65fa2fbedede", "cafead813866ebec"]
 							},
 							{
-								"AddItemAfter": [
-									"914e65fa2fbedede",
-									"cafe8c7a2e4d2ec8"
-								]
+								"AddItemAfter": ["914e65fa2fbedede", "cafe8c7a2e4d2ec8"]
 							},
 							{
-								"AddItemAfter": [
-									"914e65fa2fbedede",
-									"cafe79a0d8152822"
-								]
+								"AddItemAfter": ["914e65fa2fbedede", "cafe79a0d8152822"]
 							},
 							{
-								"AddItemAfter": [
-									"914e65fa2fbedede",
-									"cafe28d298d239c4"
-								]
+								"AddItemAfter": ["914e65fa2fbedede", "cafe28d298d239c4"]
 							},
 							{
-								"AddItemAfter": [
-									"914e65fa2fbedede",
-									"cafedfba64c83210"
-								]
+								"AddItemAfter": ["914e65fa2fbedede", "cafedfba64c83210"]
 							},
 							{
-								"AddItemAfter": [
-									"914e65fa2fbedede",
-									"cafe25d43a80de10"
-								]
+								"AddItemAfter": ["914e65fa2fbedede", "cafe25d43a80de10"]
 							},
 							{
-								"AddItemAfter": [
-									"914e65fa2fbedede",
-									"cafed5b2c990bf2c"
-								]
+								"AddItemAfter": ["914e65fa2fbedede", "cafed5b2c990bf2c"]
 							}
 						]
 					]
@@ -256,154 +173,79 @@
 						"m_entries",
 						[
 							{
-								"AddItemAfter": [
-									"914e65fa2fbedede",
-									"cafe4cd96318dbec"
-								]
+								"AddItemAfter": ["914e65fa2fbedede", "cafe4cd96318dbec"]
 							},
 							{
-								"AddItemAfter": [
-									"914e65fa2fbedede",
-									"cafe7a05ba852f3c"
-								]
+								"AddItemAfter": ["914e65fa2fbedede", "cafe7a05ba852f3c"]
 							},
 							{
-								"AddItemAfter": [
-									"914e65fa2fbedede",
-									"cafe04b883397d94"
-								]
+								"AddItemAfter": ["914e65fa2fbedede", "cafe04b883397d94"]
 							},
 							{
-								"AddItemAfter": [
-									"914e65fa2fbedede",
-									"cafea7d71117d797"
-								]
+								"AddItemAfter": ["914e65fa2fbedede", "cafea7d71117d797"]
 							},
 							{
-								"AddItemAfter": [
-									"914e65fa2fbedede",
-									"cafe72d487cde5c4"
-								]
+								"AddItemAfter": ["914e65fa2fbedede", "cafe72d487cde5c4"]
 							},
 							{
-								"AddItemAfter": [
-									"914e65fa2fbedede",
-									"cafe2c3b19b81734"
-								]
+								"AddItemAfter": ["914e65fa2fbedede", "cafe2c3b19b81734"]
 							},
 							{
-								"AddItemAfter": [
-									"914e65fa2fbedede",
-									"cafe297955440a3d"
-								]
+								"AddItemAfter": ["914e65fa2fbedede", "cafe297955440a3d"]
 							},
 							{
-								"AddItemAfter": [
-									"914e65fa2fbedede",
-									"cafe429d74d7d68e"
-								]
+								"AddItemAfter": ["914e65fa2fbedede", "cafe429d74d7d68e"]
 							},
 							{
-								"AddItemAfter": [
-									"914e65fa2fbedede",
-									"cafe5ad290e1a2dd"
-								]
+								"AddItemAfter": ["914e65fa2fbedede", "cafe5ad290e1a2dd"]
 							},
 							{
-								"AddItemAfter": [
-									"914e65fa2fbedede",
-									"cafecac8d2547128"
-								]
+								"AddItemAfter": ["914e65fa2fbedede", "cafecac8d2547128"]
 							},
 							{
-								"AddItemAfter": [
-									"914e65fa2fbedede",
-									"cafedcee9f0776dd"
-								]
+								"AddItemAfter": ["914e65fa2fbedede", "cafedcee9f0776dd"]
 							},
 							{
-								"AddItemAfter": [
-									"914e65fa2fbedede",
-									"cafe5f74c24c1535"
-								]
+								"AddItemAfter": ["914e65fa2fbedede", "cafe5f74c24c1535"]
 							},
 							{
-								"AddItemAfter": [
-									"914e65fa2fbedede",
-									"cafe57c87755b5e4"
-								]
+								"AddItemAfter": ["914e65fa2fbedede", "cafe57c87755b5e4"]
 							},
 							{
-								"AddItemAfter": [
-									"914e65fa2fbedede",
-									"cafe9d6d9dd8d90f"
-								]
+								"AddItemAfter": ["914e65fa2fbedede", "cafe9d6d9dd8d90f"]
 							},
 							{
-								"AddItemAfter": [
-									"914e65fa2fbedede",
-									"cafe067403636130"
-								]
+								"AddItemAfter": ["914e65fa2fbedede", "cafe067403636130"]
 							},
 							{
-								"AddItemAfter": [
-									"914e65fa2fbedede",
-									"cafed5b2c990bf2c"
-								]
+								"AddItemAfter": ["914e65fa2fbedede", "cafed5b2c990bf2c"]
 							},
 							{
-								"AddItemAfter": [
-									"914e65fa2fbedede",
-									"cafec1bf50dee11d"
-								]
+								"AddItemAfter": ["914e65fa2fbedede", "cafec1bf50dee11d"]
 							},
 							{
-								"AddItemAfter": [
-									"914e65fa2fbedede",
-									"cafe7716b3334f29"
-								]
+								"AddItemAfter": ["914e65fa2fbedede", "cafe7716b3334f29"]
 							},
 							{
-								"AddItemAfter": [
-									"914e65fa2fbedede",
-									"cafead813866ebec"
-								]
+								"AddItemAfter": ["914e65fa2fbedede", "cafead813866ebec"]
 							},
 							{
-								"AddItemAfter": [
-									"914e65fa2fbedede",
-									"cafe8c7a2e4d2ec8"
-								]
+								"AddItemAfter": ["914e65fa2fbedede", "cafe8c7a2e4d2ec8"]
 							},
 							{
-								"AddItemAfter": [
-									"914e65fa2fbedede",
-									"cafe79a0d8152822"
-								]
+								"AddItemAfter": ["914e65fa2fbedede", "cafe79a0d8152822"]
 							},
 							{
-								"AddItemAfter": [
-									"914e65fa2fbedede",
-									"cafe28d298d239c4"
-								]
+								"AddItemAfter": ["914e65fa2fbedede", "cafe28d298d239c4"]
 							},
 							{
-								"AddItemAfter": [
-									"914e65fa2fbedede",
-									"cafedfba64c83210"
-								]
+								"AddItemAfter": ["914e65fa2fbedede", "cafedfba64c83210"]
 							},
 							{
-								"AddItemAfter": [
-									"914e65fa2fbedede",
-									"cafe25d43a80de10"
-								]
+								"AddItemAfter": ["914e65fa2fbedede", "cafe25d43a80de10"]
 							},
 							{
-								"AddItemAfter": [
-									"914e65fa2fbedede",
-									"cafed5b2c990bf2c"
-								]
+								"AddItemAfter": ["914e65fa2fbedede", "cafed5b2c990bf2c"]
 							}
 						]
 					]
@@ -414,11 +256,7 @@
 			"SubEntityOperation": [
 				"a0cf7c7732f335b6",
 				{
-					"AddEventConnection": [
-						"OnPickFailed",
-						"Pick",
-						"ffdc469af6b2b204"
-					]
+					"AddEventConnection": ["OnPickFailed", "Pick", "ffdc469af6b2b204"]
 				}
 			]
 		},
@@ -426,11 +264,7 @@
 			"SubEntityOperation": [
 				"4d661fa986a84d18",
 				{
-					"AddInputCopyConnection": [
-						"Pick",
-						"Rand",
-						"cafe6928326ae3fc"
-					]
+					"AddInputCopyConnection": ["Pick", "Rand", "cafe6928326ae3fc"]
 				}
 			]
 		},

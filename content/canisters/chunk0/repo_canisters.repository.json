@@ -1,1 +1,13 @@
-{"8431dd21-42ba-4da8-bfdb-6d870c9e1458":{"Evergreen_CapacityCost":3.0,"HolsterAbility":"eHolsteringAllowed","ItemSize":"ITEMSIZE_MEDIUM"},"f16c9e93-3f04-4268-aafd-aa1fc187c181":{"HolsterAbility":"eHolsteringAllowed","ItemSize":"ITEMSIZE_MEDIUM"},"00d1f430-1192-4562-be0f-5538b6d0c575":{"Evergreen_CapacityCost":1.0,"Evergreen_Price":700.0,"ThrowType":"THROW_NORMAL"}}
+{
+	"8431dd21-42ba-4da8-bfdb-6d870c9e1458": {
+		"Evergreen_CapacityCost": 3.0,
+		"HolsterAbility": "eHolsteringAllowed",
+		"ItemSize": "ITEMSIZE_MEDIUM"
+	},
+	"f16c9e93-3f04-4268-aafd-aa1fc187c181": { "HolsterAbility": "eHolsteringAllowed", "ItemSize": "ITEMSIZE_MEDIUM" },
+	"00d1f430-1192-4562-be0f-5538b6d0c575": {
+		"Evergreen_CapacityCost": 1.0,
+		"Evergreen_Price": 700.0,
+		"ThrowType": "THROW_NORMAL"
+	}
+}

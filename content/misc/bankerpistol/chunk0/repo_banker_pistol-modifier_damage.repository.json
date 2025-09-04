@@ -1,1 +1,14 @@
-{"237be312-334c-4c77-821f-975ce83993a6":{"ImpactForceMultiplier":8.0,"RagdollImpactUpKickMultiplier":2.0,"DamageCloseMultiplier":1.9,"DamageFarMultiplier":1.0,"DamageMediumMultiplier":1.15,"DamageNearMultiplier":1.4,"ModifierType":"MODIFIER_DAMAGE","RagdollImpactForceMultiplier":1.0,"SetAudioLowPassFilterIndex":0.0,"CommonName":"Banker Pistol Dmg Mod"}}
+{
+	"237be312-334c-4c77-821f-975ce83993a6": {
+		"ImpactForceMultiplier": 8.0,
+		"RagdollImpactUpKickMultiplier": 2.0,
+		"DamageCloseMultiplier": 1.9,
+		"DamageFarMultiplier": 1.0,
+		"DamageMediumMultiplier": 1.15,
+		"DamageNearMultiplier": 1.4,
+		"ModifierType": "MODIFIER_DAMAGE",
+		"RagdollImpactForceMultiplier": 1.0,
+		"SetAudioLowPassFilterIndex": 0.0,
+		"CommonName": "Banker Pistol Dmg Mod"
+	}
+}

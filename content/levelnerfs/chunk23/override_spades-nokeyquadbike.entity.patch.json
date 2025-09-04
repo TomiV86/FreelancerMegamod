@@ -19,10 +19,7 @@
 			]
 		},
 		{
-			"SubEntityOperation": [
-				"2e45ae06af2463d1",
-				{ "RemovePropertyByName": "m_rToolKeywordRequirements" }
-			]
+			"SubEntityOperation": ["2e45ae06af2463d1", { "RemovePropertyByName": "m_rToolKeywordRequirements" }]
 		},
 		{
 			"SubEntityOperation": [
@@ -46,18 +43,12 @@
 			"SubEntityOperation": [
 				"2e45ae06af2463d1",
 				{
-					"AddProperty": [
-						"Manual_Exit_Trigger_Needed",
-						{ "type": "bool", "value": true }
-					]
+					"AddProperty": ["Manual_Exit_Trigger_Needed", { "type": "bool", "value": true }]
 				}
 			]
 		},
 		{
-			"SubEntityOperation": [
-				"d7e465e2219283e9",
-				{ "RemovePropertyByName": "m_rToolKeywordRequirements" }
-			]
+			"SubEntityOperation": ["d7e465e2219283e9", { "RemovePropertyByName": "m_rToolKeywordRequirements" }]
 		}
 	],
 	"patchVersion": 6

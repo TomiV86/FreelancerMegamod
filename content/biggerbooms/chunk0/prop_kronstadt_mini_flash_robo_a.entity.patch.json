@@ -6,10 +6,7 @@
 			"SubEntityOperation": [
 				"67cb5cf86c9d6803",
 				{
-					"AddProperty": [
-						"m_fRadius",
-						{ "type": "float32", "value": 12 }
-					]
+					"AddProperty": ["m_fRadius", { "type": "float32", "value": 12 }]
 				}
 			]
 		},
@@ -17,10 +14,7 @@
 			"SubEntityOperation": [
 				"67cb5cf86c9d6803",
 				{
-					"AddProperty": [
-						"MinStunDuration",
-						{ "type": "float32", "value": 9 }
-					]
+					"AddProperty": ["MinStunDuration", { "type": "float32", "value": 9 }]
 				}
 			]
 		},
@@ -28,10 +22,7 @@
 			"SubEntityOperation": [
 				"67cb5cf86c9d6803",
 				{
-					"AddProperty": [
-						"MaxStunDuration",
-						{ "type": "float32", "value": 14 }
-					]
+					"AddProperty": ["MaxStunDuration", { "type": "float32", "value": 14 }]
 				}
 			]
 		},

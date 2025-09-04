@@ -6,11 +6,7 @@
 			"SubEntityOperation": [
 				"a80002eaa28e8c40",
 				{
-					"AddInputCopyConnection": [
-						"Pick",
-						"Pick",
-						"d0d31d5fe1fccf4b"
-					]
+					"AddInputCopyConnection": ["Pick", "Pick", "d0d31d5fe1fccf4b"]
 				}
 			]
 		}

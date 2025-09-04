@@ -41,16 +41,10 @@
 			]
 		},
 		{
-			"SubEntityOperation": [
-				"c1108923f33e008e",
-				{ "RemovePropertyByName": "m_aConditions" }
-			]
+			"SubEntityOperation": ["c1108923f33e008e", { "RemovePropertyByName": "m_aConditions" }]
 		},
 		{
-			"SubEntityOperation": [
-				"c1108923f33e008e",
-				{ "RemovePropertyByName": "m_rToolKeywordRequirements" }
-			]
+			"SubEntityOperation": ["c1108923f33e008e", { "RemovePropertyByName": "m_rToolKeywordRequirements" }]
 		},
 		{
 			"SubEntityOperation": [
@@ -78,10 +72,7 @@
 			"SubEntityOperation": [
 				"c1108923f33e008e",
 				{
-					"AddProperty": [
-						"Manual_Exit_Trigger_Needed",
-						{ "type": "bool", "value": true }
-					]
+					"AddProperty": ["Manual_Exit_Trigger_Needed", { "type": "bool", "value": true }]
 				}
 			]
 		}

@@ -28,10 +28,7 @@
 			"SubEntityOperation": [
 				"4a477572fef5fad4",
 				{
-					"AddProperty": [
-						"m_fAttentionGainModifier",
-						{ "type": "float32", "value": 6 }
-					]
+					"AddProperty": ["m_fAttentionGainModifier", { "type": "float32", "value": 6 }]
 				}
 			]
 		},
@@ -39,10 +36,7 @@
 			"SubEntityOperation": [
 				"4a477572fef5fad4",
 				{
-					"AddProperty": [
-						"m_fAttentionGainRange",
-						{ "type": "float32", "value": 10 }
-					]
+					"AddProperty": ["m_fAttentionGainRange", { "type": "float32", "value": 10 }]
 				}
 			]
 		}

@@ -19,25 +19,16 @@
 			]
 		},
 		{
-			"SubEntityOperation": [
-				"b955c06331530cb9",
-				{ "RemovePropertyByName": "m_rRequirements" }
-			]
+			"SubEntityOperation": ["b955c06331530cb9", { "RemovePropertyByName": "m_rRequirements" }]
 		},
 		{
-			"SubEntityOperation": [
-				"b955c06331530cb9",
-				{ "RemovePropertyByName": "OutfitRequirement" }
-			]
+			"SubEntityOperation": ["b955c06331530cb9", { "RemovePropertyByName": "OutfitRequirement" }]
 		},
 		{
 			"SubEntityOperation": [
 				"b955c06331530cb9",
 				{
-					"AddProperty": [
-						"Manual_Exit_Trigger_Needed",
-						{ "type": "bool", "value": true }
-					]
+					"AddProperty": ["Manual_Exit_Trigger_Needed", { "type": "bool", "value": true }]
 				}
 			]
 		},
@@ -80,25 +71,16 @@
 			]
 		},
 		{
-			"SubEntityOperation": [
-				"130f14aaa126d869",
-				{ "RemovePropertyByName": "m_aConditions" }
-			]
+			"SubEntityOperation": ["130f14aaa126d869", { "RemovePropertyByName": "m_aConditions" }]
 		},
 		{
-			"SubEntityOperation": [
-				"130f14aaa126d869",
-				{ "RemovePropertyByName": "m_rToolKeywordRequirements" }
-			]
+			"SubEntityOperation": ["130f14aaa126d869", { "RemovePropertyByName": "m_rToolKeywordRequirements" }]
 		},
 		{
 			"SubEntityOperation": [
 				"130f14aaa126d869",
 				{
-					"AddProperty": [
-						"Manual_Exit_Trigger_Needed",
-						{ "type": "bool", "value": true }
-					]
+					"AddProperty": ["Manual_Exit_Trigger_Needed", { "type": "bool", "value": true }]
 				}
 			]
 		},

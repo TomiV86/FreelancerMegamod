@@ -14,10 +14,7 @@
 			]
 		},
 		{
-			"SubEntityOperation": [
-				"2c3dfca5d2825703",
-				{ "SetParent": "cafe84f995d239ec" }
-			]
+			"SubEntityOperation": ["2c3dfca5d2825703", { "SetParent": "cafe84f995d239ec" }]
 		},
 		{
 			"SubEntityOperation": [
@@ -27,10 +24,7 @@
 						"m_Choices",
 						[
 							{
-								"AddItemAfter": [
-									"b888cc688d29859a",
-									"cafec27f909ccd91"
-								]
+								"AddItemAfter": ["b888cc688d29859a", "cafec27f909ccd91"]
 							}
 						]
 					]
@@ -41,11 +35,7 @@
 			"SubEntityOperation": [
 				"ad18b65a4c79888b",
 				{
-					"AddEventConnection": [
-						"EventReceived",
-						"Unpick",
-						"cafe84f995d239ec"
-					]
+					"AddEventConnection": ["EventReceived", "Unpick", "cafe84f995d239ec"]
 				}
 			]
 		},
@@ -68,34 +58,19 @@
 						"m_Choices",
 						[
 							{
-								"AddItemAfter": [
-									"2c348bf5de015c23",
-									"cafeff9b9913123d"
-								]
+								"AddItemAfter": ["2c348bf5de015c23", "cafeff9b9913123d"]
 							},
 							{
-								"AddItemAfter": [
-									"2c348bf5de015c23",
-									"cafe0f207a54bd18"
-								]
+								"AddItemAfter": ["2c348bf5de015c23", "cafe0f207a54bd18"]
 							},
 							{
-								"AddItemAfter": [
-									"2c348bf5de015c23",
-									"cafefd009985be26"
-								]
+								"AddItemAfter": ["2c348bf5de015c23", "cafefd009985be26"]
 							},
 							{
-								"AddItemAfter": [
-									"2c348bf5de015c23",
-									"cafe8ea6ae198b5c"
-								]
+								"AddItemAfter": ["2c348bf5de015c23", "cafe8ea6ae198b5c"]
 							},
 							{
-								"AddItemAfter": [
-									"2c348bf5de015c23",
-									"cafebeeadbe88bd1"
-								]
+								"AddItemAfter": ["2c348bf5de015c23", "cafebeeadbe88bd1"]
 							}
 						]
 					]
@@ -156,10 +131,7 @@
 			"SubEntityOperation": [
 				"0d00ce10aaf32a1c",
 				{
-					"PatchArrayPropertyValue": [
-						"m_Choices",
-						[{ "RemoveItemByValue": "2c3dfca5d2825703" }]
-					]
+					"PatchArrayPropertyValue": ["m_Choices", [{ "RemoveItemByValue": "2c3dfca5d2825703" }]]
 				}
 			]
 		},
@@ -572,11 +544,7 @@
 					"properties": {
 						"m_Choices": {
 							"type": "TArray<SEntityTemplateReference>",
-							"value": [
-								"cafe99c37bb188ce",
-								"cafe364bbd62a37c",
-								"2c3dfca5d2825703"
-							]
+							"value": ["cafe99c37bb188ce", "cafe364bbd62a37c", "2c3dfca5d2825703"]
 						},
 						"m_mTransform": {
 							"type": "SMatrix43",
@@ -608,11 +576,7 @@
 					},
 					"events": {
 						"OnPickFailed": {
-							"Pick": [
-								"0d00ce10aaf32a1c",
-								"59dbe5bffaf34f19",
-								"8924a8fcbeb8bbdb"
-							]
+							"Pick": ["0d00ce10aaf32a1c", "59dbe5bffaf34f19", "8924a8fcbeb8bbdb"]
 						}
 					},
 					"exposedEntities": {

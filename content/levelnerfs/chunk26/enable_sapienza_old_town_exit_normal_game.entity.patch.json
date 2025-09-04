@@ -17,10 +17,7 @@
 			"SubEntityOperation": [
 				"37c0d26d4e8945f1",
 				{
-					"AddProperty": [
-						"m_bValueOpenFromOutside",
-						{ "type": "bool", "value": true }
-					]
+					"AddProperty": ["m_bValueOpenFromOutside", { "type": "bool", "value": true }]
 				}
 			]
 		},
@@ -61,10 +58,7 @@
 			"SubEntityOperation": [
 				"72aa27feb1d59142",
 				{
-					"AddProperty": [
-						"m_bValue",
-						{ "type": "bool", "value": true }
-					]
+					"AddProperty": ["m_bValue", { "type": "bool", "value": true }]
 				}
 			]
 		}

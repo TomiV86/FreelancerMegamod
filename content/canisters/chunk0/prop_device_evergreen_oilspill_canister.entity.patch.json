@@ -3,10 +3,7 @@
 	"tbluHash": "004F7402639FE77B",
 	"patch": [
 		{
-			"SubEntityOperation": [
-				"ce56ca43e24a0788",
-				{ "SetName": "Keyword_WEAPON_SMALL" }
-			]
+			"SubEntityOperation": ["ce56ca43e24a0788", { "SetName": "Keyword_WEAPON_SMALL" }]
 		},
 		{
 			"SubEntityOperation": [

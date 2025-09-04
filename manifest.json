@@ -3,11 +3,9 @@
 	"id": "syncretic86.freelancerbalance",
 	"name": "Freelancer Balancing",
 	"description": "An eclectic mix of Freelancer balancing.",
-	"version": "0.5.0",
-	"authors": [
-		"Syncretic86"
-	],
-	"frameworkVersion": "2.33.23",
+	"version": "0.2.0",
+	"authors": ["Syncretic86"],
+	"frameworkVersion": "2.33.27",
 	"updateCheck": "https://github.com/TomiV86/FreelancerMegamod/releases/latest/download/updates.json",
 	"options": [
 		{
@@ -15,27 +13,21 @@
 			"tooltip": "Make assassins not able to one-shot you at full health.",
 			"type": "checkbox",
 			"enabledByDefault": true,
-			"contentFolders": [
-				"content/assassinnerf"
-			]
+			"contentFolders": ["content/assassinnerf"]
 		},
 		{
 			"name": "Bigger Booms",
 			"tooltip": "Make explosives of all kinds have a larger radius of effect.",
 			"type": "checkbox",
 			"enabledByDefault": true,
-			"contentFolders": [
-				"content/biggerbooms"
-			]
+			"contentFolders": ["content/biggerbooms"]
 		},
 		{
 			"name": "Mission Mod - Santa Fortuna",
 			"tooltip": "Adds extra props and geometry for more cover from eyesight to Santa Fortuna town docks. Adds a new mission start point and exit point into the underground tunnels.",
 			"type": "checkbox",
 			"enabledByDefault": true,
-			"contentFolders": [
-				"content/colombiaextra"
-			],
+			"contentFolders": ["content/colombiaextra"],
 			"dependencies": [
 				{
 					"runtimeID": "005D28DF00C9A942",
@@ -111,27 +103,21 @@
 			"tooltip": "Adds a new possible starting point to Dartmoor next to the ruined church.",
 			"type": "checkbox",
 			"enabledByDefault": true,
-			"contentFolders": [
-				"content/dartmoorstart"
-			]
+			"contentFolders": ["content/dartmoorstart"]
 		},
 		{
 			"name": "Mission Start - Sgail",
 			"tooltip": "Adds a new possible starting point to the Isle of Sgail at a keep rampart overlooking the funeral mound.",
 			"type": "checkbox",
 			"enabledByDefault": true,
-			"contentFolders": [
-				"content/sgailstart"
-			]
+			"contentFolders": ["content/sgailstart"]
 		},
 		{
 			"name": "Mission Exit - Marrakesh",
 			"tooltip": "Adds a new Freelancer exit point in the market alley near the protest.",
 			"type": "checkbox",
 			"enabledByDefault": true,
-			"contentFolders": [
-				"content/marrakeshexit"
-			],
+			"contentFolders": ["content/marrakeshexit"],
 			"dependencies": [
 				{
 					"runtimeID": "00123FA9724889BE",
@@ -173,9 +159,7 @@
 			"tooltip": "Adds a new Freelancer exit point to Miami at the pier outside the Kronstadt facility.",
 			"type": "checkbox",
 			"enabledByDefault": true,
-			"contentFolders": [
-				"content/miamiexit"
-			],
+			"contentFolders": ["content/miamiexit"],
 			"dependencies": [
 				{
 					"runtimeID": "00589AFF33CCE3C4"
@@ -214,72 +198,56 @@
 			"tooltip": "Make explosive/area-of-effect items bounce less.",
 			"type": "checkbox",
 			"enabledByDefault": true,
-			"contentFolders": [
-				"content/bouncenerf"
-			]
+			"contentFolders": ["content/bouncenerf"]
 		},
 		{
 			"name": "Canister Buffs",
 			"tooltip": "Make canisters carryable in your inventory. Water canister costs 1 less capacity. Slightly buffed spill effect range.",
 			"type": "checkbox",
 			"enabledByDefault": true,
-			"contentFolders": [
-				"content/canisters"
-			]
+			"contentFolders": ["content/canisters"]
 		},
 		{
 			"name": "Colorful Weapon Replacements",
 			"tooltip": "Replace some weapons with skinned variants.",
 			"type": "checkbox",
 			"enabledByDefault": true,
-			"contentFolders": [
-				"content/colorfulweapons"
-			]
+			"contentFolders": ["content/colorfulweapons"]
 		},
 		{
 			"name": "Extra Epic Unsilenced Weapons",
 			"tooltip": "Classicballer, the Striker, and HWK 21 white are now Epic weapons. Also Rude Ruby, Ornamental, and Concept 5 pistols, with stat enhancements (also to price).",
 			"type": "checkbox",
 			"enabledByDefault": true,
-			"contentFolders": [
-				"content/epicunsilenced"
-			]
+			"contentFolders": ["content/epicunsilenced"]
 		},
 		{
 			"name": "Extra Stash Loot",
 			"tooltip": "Some more items with rarity can be looted from stashes. Stashes are slightly more likely to have items with rarity.",
 			"type": "checkbox",
 			"enabledByDefault": true,
-			"contentFolders": [
-				"content/extraitemsstash"
-			]
+			"contentFolders": ["content/extraitemsstash"]
 		},
 		{
 			"name": "Extra Supplier Items",
 			"tooltip": "Suppliers sell some additional non-rarity items usually found in stashes like rusty tools and throwaway explosives. These items only last for the mission they are bought in. Fixes pistols not appearing in some situations.",
 			"type": "checkbox",
 			"enabledByDefault": true,
-			"contentFolders": [
-				"content/extraitemssupplier"
-			]
+			"contentFolders": ["content/extraitemssupplier"]
 		},
 		{
 			"name": "Fishing More Productive",
 			"tooltip": "Better chances to get the useful items from fishing.",
 			"type": "checkbox",
 			"enabledByDefault": true,
-			"contentFolders": [
-				"content/fishing"
-			]
+			"contentFolders": ["content/fishing"]
 		},
 		{
 			"name": "Level Nerfs",
 			"tooltip": "Makes some destinations have less guards, changes NPC routines, adds disguise pickups, and/or restores some removed-from-Freelancer items. Old Town Gate exit added to Sapienza.",
 			"type": "checkbox",
 			"enabledByDefault": true,
-			"contentFolders": [
-				"content/levelnerfs"
-			],
+			"contentFolders": ["content/levelnerfs"],
 			"dependencies": [
 				{
 					"runtimeID": "00ACA1DB6E152C28"
@@ -291,36 +259,28 @@
 			"tooltip": "Replace the proximity ICA explosive device with the snake ring explosive from the sin of Lust - with enhanced explosive range.",
 			"type": "checkbox",
 			"enabledByDefault": true,
-			"contentFolders": [
-				"content/lustboom"
-			]
+			"contentFolders": ["content/lustboom"]
 		},
 		{
 			"name": "Lust Blinding Dart Gun",
 			"tooltip": "Buffs the Lust Dart Gun blind duration.",
 			"type": "checkbox",
 			"enabledByDefault": true,
-			"contentFolders": [
-				"content/lustdartgunbuff"
-			]
+			"contentFolders": ["content/lustdartgunbuff"]
 		},
 		{
 			"name": "Miscellaneous - Item Tweaks",
 			"tooltip": "Reduce Freelancer tool screwdriver capacity cost by 1. Reduce price of audio distractions and DLC pack consumables. Tripwire mine and 3 cost concussive explosive capacity cost reduced by 1. Tripwire mine counts as a Proximity Explosive for objectives.",
 			"type": "checkbox",
 			"enabledByDefault": true,
-			"contentFolders": [
-				"content/misc/itemtweaks"
-			]
+			"contentFolders": ["content/misc/itemtweaks"]
 		},
 		{
 			"name": "Miscellaneous - Banker Pistol Piercing Version",
 			"tooltip": "Turns Banker pistol into body piercing magnum with less accuracy and lower firerate, increased price, but remains suppressed.",
 			"type": "checkbox",
 			"enabledByDefault": true,
-			"contentFolders": [
-				"content/misc/bankerpistol"
-			],
+			"contentFolders": ["content/misc/bankerpistol"],
 			"localisationOverrides": {
 				"006986A5A3F98191": {
 					"english": {
@@ -334,27 +294,21 @@
 			"tooltip": "Mercers you can pick up in levels are increased moderately in the amount of money they grant.",
 			"type": "checkbox",
 			"enabledByDefault": true,
-			"contentFolders": [
-				"content/money"
-			]
+			"contentFolders": ["content/money"]
 		},
 		{
 			"name": "Easier Exits",
 			"tooltip": "Some of the more tedious exits in maps do not require keys or disguises anymore. Includes Yates' car and shrine, Santa Fortuna boat and car, Haven diver exit and jetski, Marrakesh consulate car, Bangkok tuk-tuk, Whittleton construction, and New York CEO exit.",
 			"type": "checkbox",
 			"enabledByDefault": true,
-			"contentFolders": [
-				"content/nokeyexits"
-			]
+			"contentFolders": ["content/nokeyexits"]
 		},
 		{
 			"name": "Non-target Kill Penalty Nerf",
 			"tooltip": "Triples the non-target kill penalty.",
 			"type": "checkbox",
 			"enabledByDefault": true,
-			"contentFolders": [
-				"content/nontargetkill"
-			]
+			"contentFolders": ["content/nontargetkill"]
 		},
 		{
 			"name": "Objectives - SMG Guard Kill",
@@ -362,18 +316,14 @@
 			"tooltip": "SMG Guard Kills is no longer a generic Syndicate objective, but is instead limited to more appropriate Syndicates.",
 			"type": "checkbox",
 			"enabledByDefault": true,
-			"contentFolders": [
-				"content/objectives/smgguardkills"
-			]
+			"contentFolders": ["content/objectives/smgguardkills"]
 		},
 		{
 			"name": "Objectives - Payout Changes",
 			"group": "Objective Changes",
 			"tooltip": "All objective payouts rebalanced to reward difficulty and potential time spent on completing objective better.",
 			"type": "checkbox",
-			"contentFolders": [
-				"content/objectives/payouts"
-			]
+			"contentFolders": ["content/objectives/payouts"]
 		},
 		{
 			"name": "Objectives - No Extra Objectives",
@@ -386,9 +336,7 @@
 			"group": "Objective Changes Extra",
 			"tooltip": "Adds more generic objectives possible for all Syndicates. Included are explosion (remote, prox, generic) kills, accident kill, blind target, and fiberwire kill.",
 			"type": "select",
-			"contentFolders": [
-				"content/objectives/addobjectives"
-			],
+			"contentFolders": ["content/objectives/addobjectives"],
 			"enabledByDefault": true
 		},
 		{
@@ -396,18 +344,14 @@
 			"group": "Objective Changes Extra",
 			"tooltip": "Adds more generic objectives possible for all Syndicates. Included are accident kill, blind target, and fiberwire kill.",
 			"type": "select",
-			"contentFolders": [
-				"content/objectives/addobjectivesnoboom"
-			]
+			"contentFolders": ["content/objectives/addobjectivesnoboom"]
 		},
 		{
 			"name": "Disguises - Extra Suit Disguise Functionality",
 			"group": "Disguise Outfit Changes",
 			"tooltip": "Add extra disguise functionality to certain suits. Be wary of unexpected enforcers at mission start. Sniper Challenge Suit: New York Investment Banker, The Drop LED Suit: Berlin DJ, Freelancer Mastery Suit: Colorado Hacker, Arkian Tuxedo: Ark Sentinel with weapons allowed, Tropical Suit: Marrakesh Printer + Basic Soldier, Lucky Ducky Hoodie: Paris Stylist, Midnight Suit: Colombia Mansion Guard no weapons, Raver Suit: Bangkok Record Crew, Tactical Turtleneck: Ambrose Militia and Sapienza Biolab Guard no weapons, Ancestral Hunter + Formal Hunting: Outside access Dartmoor, Splitter Suit + Flashy Sins Suits: Bollywood Tower Guard no weapons.",
 			"type": "checkbox",
-			"contentFolders": [
-				"content/outfitprofs"
-			],
+			"contentFolders": ["content/outfitprofs"],
 			"dependencies": [
 				{
 					"runtimeID": "0021BE3F833B3FF0"
@@ -505,9 +449,7 @@
 			"group": "Disguise Outfit Changes",
 			"tooltip": "Add extra disguise functionality to mod provided replacement suits. Said mods required to run with this option. 'Refined Tactical' by Bryn from Tidy Suits mod: Sapienza Mansion Guard with weapons",
 			"type": "checkbox",
-			"contentFolders": [
-				"content/outfitprofsmods"
-			],
+			"contentFolders": ["content/outfitprofsmods"],
 			"dependencies": [
 				{
 					"runtimeID": "0041832395E4E883"
@@ -516,72 +458,56 @@
 					"runtimeID": "006105747A4AF266"
 				}
 			],
-			"requirements": [
-				"Bryn.TidySuits"
-			]
+			"requirements": ["Bryn.TidySuits"]
 		},
 		{
 			"name": "Placing Items Buff",
 			"tooltip": "Should increase item placement range. Place items in Safehouse.",
 			"type": "checkbox",
 			"enabledByDefault": true,
-			"contentFolders": [
-				"content/placeitems"
-			]
+			"contentFolders": ["content/placeitems"]
 		},
 		{
 			"name": "Safehouse Reward Chest Nerf",
 			"tooltip": "Nerfs the possible items from the Showdown completion reward crate. This means Legendary and Epic items as rewards are much rarer and not guaranteed.",
 			"type": "checkbox",
 			"enabledByDefault": true,
-			"contentFolders": [
-				"content/rewardnerf"
-			]
+			"contentFolders": ["content/rewardnerf"]
 		},
 		{
 			"name": "Slippery Items Buff",
 			"tooltip": "Bananas and grape vines should have slightly larger slip areas when placed.",
 			"type": "checkbox",
 			"enabledByDefault": true,
-			"contentFolders": [
-				"content/slippybuff"
-			]
+			"contentFolders": ["content/slippybuff"]
 		},
 		{
 			"name": "Shotgun Buff",
 			"tooltip": "HV shotguns (except Ornamental) can be holstered. Capacity values changed. Supplier prices raised.",
 			"type": "checkbox",
 			"enabledByDefault": true,
-			"contentFolders": [
-				"content/shotgunbuff"
-			]
+			"contentFolders": ["content/shotgunbuff"]
 		},
 		{
 			"name": "SMG Buff",
 			"tooltip": "TAC (except Ornamental) and Raptor SMGs can be holstered. Capacity values changed. Supplier prices raised accordingly.",
 			"type": "checkbox",
 			"enabledByDefault": true,
-			"contentFolders": [
-				"content/smgbuff"
-			]
+			"contentFolders": ["content/smgbuff"]
 		},
 		{
 			"name": "Tazer Buffs",
 			"tooltip": "All tazers cost 1 less capacity.",
 			"type": "checkbox",
 			"enabledByDefault": true,
-			"contentFolders": [
-				"content/tazers"
-			]
+			"contentFolders": ["content/tazers"]
 		},
 		{
 			"name": "Scope Laser Removal",
 			"tooltip": "Remove scope laser from the Leviathan.",
 			"type": "checkbox",
 			"enabledByDefault": true,
-			"contentFolders": [
-				"content/scopelaser"
-			]
+			"contentFolders": ["content/scopelaser"]
 		}
 	]
 }

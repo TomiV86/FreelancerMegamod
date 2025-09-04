@@ -3,10 +3,7 @@
 	"tbluHash": "0099441FF2CC8BED",
 	"patch": [
 		{
-			"SubEntityOperation": [
-				"ca16199d211b879d",
-				{ "SetName": "Exit_Evergreen_PushButtonYatesCar" }
-			]
+			"SubEntityOperation": ["ca16199d211b879d", { "SetName": "Exit_Evergreen_PushButtonYatesCar" }]
 		},
 		{
 			"SubEntityOperation": [
@@ -25,10 +22,7 @@
 			]
 		},
 		{
-			"SubEntityOperation": [
-				"ca16199d211b879d",
-				{ "RemovePropertyByName": "m_rToolKeywordRequirements" }
-			]
+			"SubEntityOperation": ["ca16199d211b879d", { "RemovePropertyByName": "m_rToolKeywordRequirements" }]
 		},
 		{
 			"SubEntityOperation": [
@@ -63,10 +57,7 @@
 			"SubEntityOperation": [
 				"ca16199d211b879d",
 				{
-					"AddProperty": [
-						"Manual_Exit_Trigger_Needed",
-						{ "type": "bool", "value": true }
-					]
+					"AddProperty": ["Manual_Exit_Trigger_Needed", { "type": "bool", "value": true }]
 				}
 			]
 		},
@@ -74,10 +65,7 @@
 			"SubEntityOperation": [
 				"ca16199d211b879d",
 				{
-					"AddProperty": [
-						"m_bCanBeOperatedFromAnyAngle",
-						{ "type": "bool", "value": true }
-					]
+					"AddProperty": ["m_bCanBeOperatedFromAnyAngle", { "type": "bool", "value": true }]
 				}
 			]
 		},

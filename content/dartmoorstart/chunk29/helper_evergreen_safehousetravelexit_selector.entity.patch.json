@@ -10,10 +10,7 @@
 						"m_EntranceIds",
 						[
 							{
-								"AddItemBefore": [
-									"3b8fcbd462f01a30",
-									"cafe0dc3d52daa6b"
-								]
+								"AddItemBefore": ["3b8fcbd462f01a30", "cafe0dc3d52daa6b"]
 							}
 						]
 					]

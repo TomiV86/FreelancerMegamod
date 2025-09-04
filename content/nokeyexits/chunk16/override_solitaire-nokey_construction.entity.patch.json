@@ -19,10 +19,7 @@
 			]
 		},
 		{
-			"SubEntityOperation": [
-				"e0e6bc2dc7e38397",
-				{ "RemovePropertyByName": "m_rToolKeywordRequirements" }
-			]
+			"SubEntityOperation": ["e0e6bc2dc7e38397", { "RemovePropertyByName": "m_rToolKeywordRequirements" }]
 		},
 		{
 			"RemovePropertyOverrideConnection": {

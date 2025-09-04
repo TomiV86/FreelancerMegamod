@@ -10,10 +10,7 @@
 						"m_aBonusRequirements",
 						[
 							{
-								"AddItemAfter": [
-									"2ddda2801c050eb0",
-									"cafe9b05f64967ef"
-								]
+								"AddItemAfter": ["2ddda2801c050eb0", "cafe9b05f64967ef"]
 							}
 						]
 					]
