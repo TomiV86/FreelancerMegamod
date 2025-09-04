@@ -1,0 +1,73 @@
+{
+	"tempHash": "0075D8C1EC865F1A",
+	"tbluHash": "00214529CB1C7DF1",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"b78a7fb810878194",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_fEffectiveRange",
+						"value": 5.0
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"b78a7fb810878194",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_fMaxRange",
+						"value": 12.0
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"b78a7fb810878194",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_fRadius",
+						"value": 1.1
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"b78a7fb810878194",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_fRadiusFalloff",
+						"value": 1.0
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"4df3a03ac8fc83ee",
+				{
+					"SetPropertyValue": {
+						"property_name": "MinStunDuration",
+						"value": 10.0
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"4df3a03ac8fc83ee",
+				{
+					"SetPropertyValue": {
+						"property_name": "MaxStunDuration",
+						"value": 15.0
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

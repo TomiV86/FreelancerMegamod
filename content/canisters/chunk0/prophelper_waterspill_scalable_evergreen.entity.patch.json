@@ -1,0 +1,29 @@
+{
+	"tempHash": "0031E544B2243742",
+	"tbluHash": "00F7C1A0A6EBD32D",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"c079500fbacaccf7",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_vGlobalSize",
+						"value": { "x": 5.0, "y": 5.0, "z": 0.9 }
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"cbe52aa8ab030b8b",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_vGlobalSize",
+						"value": { "x": 5.0, "y": 5.0, "z": 0.9 }
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

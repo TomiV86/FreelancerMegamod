@@ -1,0 +1,51 @@
+{
+	"tempHash": "00053808CB89CAD7",
+	"tbluHash": "00C7E348A80A6E6E",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"8c971e0640085e97",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_fLinearDampening",
+						"value": 3.0
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"8c971e0640085e97",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_fAngularDampening",
+						"value": 3.0
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"8c971e0640085e97",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_fRestitution",
+						"value": 10.0
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"8c971e0640085e97",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_fFriction",
+						"value": 500.0
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

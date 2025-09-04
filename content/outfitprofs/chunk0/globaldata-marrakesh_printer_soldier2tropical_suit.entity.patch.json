@@ -1,0 +1,78 @@
+{
+	"tempHash": "00097AA87B144150",
+	"tbluHash": "00E738E7CF7A35E1",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"5e42eb7f1fd9ac45",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_eOutfitAICategory",
+						"value": "OAC_Soldier"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"5e42eb7f1fd9ac45",
+				{
+					"AddProperty": [
+						"m_aAllowedWeaponKeywords",
+						{
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["cafe563b904968b5"]
+						}
+					]
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafea7d6b9527d37",
+				{
+					"parent": "5e42eb7f1fd9ac45",
+					"name": "Prof_Marrakesh_Worker_LocalPressPrinter",
+					"factory": "[assembly:/_pro/design/actor/profession.template?/prof_marrakesh_worker_localpressprinter.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_marrakesh_worker_localpressprinter.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_aHolders": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["5e42eb7f1fd9ac45"],
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafec3edb5dff557",
+				{
+					"parent": "5e42eb7f1fd9ac45",
+					"name": "Prof_Marrakesh_Soldier",
+					"factory": "[assembly:/_pro/design/actor/profession.template?/prof_marrakesh_soldier.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_marrakesh_soldier.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_aHolders": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["5e42eb7f1fd9ac45"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe563b904968b5",
+				{
+					"parent": "5e42eb7f1fd9ac45",
+					"name": "Keyword_Weapon_Pistol",
+					"factory": "[assembly:/_pro/design/gamecore/keywords/keywordweapondescriptors.template?/keyword_weapon_pistol.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordweapondescriptors.template?/keyword_weapon_pistol.entitytemplate].pc_entityblueprint"
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

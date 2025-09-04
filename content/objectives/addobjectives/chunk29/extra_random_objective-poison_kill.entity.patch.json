@@ -1,0 +1,73 @@
+{
+	"tempHash": "00A9B93A825F5BDC",
+	"tbluHash": "005BA5CA6AC00627",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"5f37900bf49880fb",
+				{
+					"PatchArrayPropertyValue": [
+						"m_aBonusRequirements",
+						[
+							{
+								"AddItemAfter": [
+									"2ddda2801c050eb0",
+									"cafed25f8944cae7"
+								]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafed25f8944cae7",
+				{
+					"parent": "ec35ba7ec67bf19a",
+					"name": "BonusReq_ID08_Poison_Kill",
+					"factory": "[modules:/zevergreenbonusrequirementdefinitionentity.class].pc_entitytype",
+					"blueprint": "[modules:/zevergreenbonusrequirementdefinitionentity.class].pc_entityblueprint",
+					"properties": {
+						"m_id": { "type": "int32", "value": 8 },
+						"m_sweetTitle": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "[assembly:/localization/hitman6/conversations/ui/pro/gamemode_evergreen/evergreen_bonusrequirements.sweetmenutext?/ui_contract_evergreen_mild_client_requirements_killmethod_poison_name.sweetline].pc_sweetline",
+								"flag": "5F"
+							}
+						},
+						"m_icon": {
+							"type": "EUIIconLibrary",
+							"value": "evergreen_kill_method_poison"
+						},
+						"m_killRequirement": {
+							"type": "bool",
+							"value": true
+						},
+						"m_argsTitle": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": [
+								{
+									"ref": "1c8a3cd106f999fe",
+									"externalScene": null,
+									"exposedEntity": "Obj_PayoutValue_008"
+								}
+							],
+							"postInit": true
+						},
+						"m_requirementBlacklist": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": [
+								"949702805ffdcad4",
+								"10de02b111c97d0e",
+								"d6f16f4d669c4f95"
+							]
+						}
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

@@ -1,0 +1,261 @@
+{
+	"tempHash": "00BD7D3DFB458061",
+	"tbluHash": "00AFACCD8A18AE48",
+	"patch": [
+		{
+			"AddEntity": [
+				"cafea353d3d682c2",
+				{
+					"parent": "5c3cde5faac31a4f",
+					"name": "NPC_DramaSitch_DeliverySecurityAlley",
+					"factory": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituation.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituation.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_aRoles": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["cafe22586e73feff"],
+							"postInit": true
+						},
+						"m_nPriority": { "type": "int32", "value": 6 },
+						"m_bIsEnabled": { "type": "bool", "value": true }
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe1f45d02ee2c0",
+				{
+					"parent": "cafea353d3d682c2",
+					"name": "DramaSituationProxy",
+					"factory": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituationproxy.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituationproxy.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_rOriginalDrama": {
+							"type": "SEntityTemplateReference",
+							"value": "cafea353d3d682c2"
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe22586e73feff",
+				{
+					"parent": "cafea353d3d682c2",
+					"name": "Role",
+					"factory": "[assembly:/_pro/design/actor/dramasystem2.template?/role.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/actor/dramasystem2.template?/role.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_rActorProvider": {
+							"type": "SEntityTemplateReference",
+							"value": {
+								"ref": "3901a2b3048635d4",
+								"externalScene": "[assembly:/_pro/scenes/missions/bangkok/npc_ambient_deliveryarea.brick].pc_entitytype"
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe1e5b4fb7b1db",
+				{
+					"parent": "cafea353d3d682c2",
+					"name": "Act_MR_Guard_Stand_LookTable",
+					"factory": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_look_table_100cm.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_look_table_100cm.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": -0.0,
+									"y": 0,
+									"z": -90.71905
+								},
+								"position": {
+									"x": 141.72935,
+									"y": -22.053904,
+									"z": 49.710384
+								}
+							}
+						},
+						"m_fActTimeout": {
+							"type": "float32",
+							"value": 15.0
+						},
+						"m_pActor": {
+							"type": "SEntityTemplateReference",
+							"value": "3c174ea041872bdb",
+							"postInit": true
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "fffffffffffffffe",
+							"postInit": true
+						}
+					},
+					"events": {
+						"OnActTimeout": { "Start": ["cafe95be2e2f1c22"] }
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe95be2e2f1c22",
+				{
+					"parent": "cafea353d3d682c2",
+					"name": "Act_MR_Guard_Stand_ArmsCrossed",
+					"factory": "[assembly:/_pro/design/actor/acts/mr_guard.template?/act_mr_guard_stand_armscrossed.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/actor/acts/mr_guard.template?/act_mr_guard_stand_armscrossed.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": -0.0,
+									"y": 0,
+									"z": 113.66303
+								},
+								"position": {
+									"x": 146.53438,
+									"y": -16.252472,
+									"z": 49.696133
+								}
+							}
+						},
+						"m_fActTimeout": {
+							"type": "float32",
+							"value": 15.0
+						},
+						"m_pActor": {
+							"type": "SEntityTemplateReference",
+							"value": "3c174ea041872bdb",
+							"postInit": true
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "fffffffffffffffe",
+							"postInit": true
+						}
+					},
+					"events": {
+						"OnActTimeout": { "Start": ["cafe1e5b4fb7b1db"] }
+					}
+				}
+			]
+		},
+		{
+			"AddPropertyOverrideConnection": {
+				"entity": {
+					"ref": "6c2fcb965f10c607",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/difficulty_pro1_bangkok_tiger.brick].pc_entitytype"
+				},
+				"propertyName": "m_mTransform",
+				"propertyOverride": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -90.09600518646036
+						},
+						"position": {
+							"x": 131.23403930664065,
+							"y": -13.4741792678833,
+							"z": 52.31241989135742
+						}
+					}
+				}
+			}
+		},
+		{
+			"AddPropertyOverrideConnection": {
+				"entity": {
+					"ref": "6c2fcb965f10c607",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/difficulty_pro1_bangkok_tiger.brick].pc_entitytype"
+				},
+				"propertyName": "RotationOffset",
+				"propertyOverride": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 9.19695471698236,
+							"y": 0.14479415224812772,
+							"z": 7.998103604125395
+						},
+						"position": { "x": 0.0, "y": 0.0, "z": 0.0 }
+					}
+				}
+			}
+		},
+		{
+			"AddPropertyOverrideConnection": {
+				"entity": {
+					"ref": "6c2fcb965f10c607",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/difficulty_pro1_bangkok_tiger.brick].pc_entitytype"
+				},
+				"propertyName": "m_fFrequency",
+				"propertyOverride": { "type": "float32", "value": 0.048 }
+			}
+		},
+		{
+			"AddPropertyOverrideConnection": {
+				"entity": {
+					"ref": "6c2fcb965f10c607",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/difficulty_pro1_bangkok_tiger.brick].pc_entitytype"
+				},
+				"propertyName": "DetectionDistance",
+				"propertyOverride": { "type": "float32", "value": 16.0 }
+			}
+		},
+		{
+			"AddPropertyOverrideConnection": {
+				"entity": {
+					"ref": "de955445290d6f3d",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/npc_ambient_deliveryarea.brick].pc_entitytype"
+				},
+				"propertyName": "m_bTerminateOnDone",
+				"propertyOverride": { "type": "bool", "value": true }
+			}
+		},
+		{
+			"AddOverrideDelete": {
+				"ref": "43f9a1f79c3fe54b",
+				"externalScene": "[assembly:/_pro/scenes/missions/bangkok/difficulty_pro1_bangkok_tiger.brick].pc_entitytype"
+			}
+		},
+		{
+			"AddOverrideDelete": {
+				"ref": "5f261e6636d4f4e6",
+				"externalScene": "[assembly:/_pro/scenes/missions/bangkok/difficulty_pro1_bangkok_tiger.brick].pc_entitytype"
+			}
+		},
+		{
+			"AddOverrideDelete": {
+				"ref": "ac36591aa908ac66",
+				"externalScene": "[assembly:/_pro/scenes/missions/bangkok/difficulty_pro1_bangkok_tiger.brick].pc_entitytype"
+			}
+		},
+		{
+			"AddOverrideDelete": {
+				"ref": "1d94aa48849fd62e",
+				"externalScene": "[assembly:/_pro/scenes/missions/bangkok/npc_ambient_restaurant_dining.brick].pc_entitytype"
+			}
+		},
+		{
+			"AddExternalScene": "[assembly:/_pro/scenes/missions/bangkok/difficulty_pro1_bangkok_tiger.brick].pc_entitytype"
+		},
+		{
+			"AddExternalScene": "[assembly:/_pro/scenes/missions/bangkok/npc_ambient_restaurant_dining.brick].pc_entitytype"
+		},
+		{
+			"AddExternalScene": "[assembly:/_pro/scenes/missions/bangkok/npc_ambient_deliveryarea.brick].pc_entitytype"
+		}
+	],
+	"patchVersion": 6
+}

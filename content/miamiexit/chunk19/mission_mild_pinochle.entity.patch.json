@@ -1,0 +1,33 @@
+{
+	"tempHash": "004D4229C4B64540",
+	"tbluHash": "008B5D741BB684C6",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"f13c64ee9dd4cc9c",
+				{
+					"PatchArrayPropertyValue": [
+						"m_aValues",
+						[
+							{
+								"AddItemAfter": [
+									{
+										"ref": "fd4f39570d65b731",
+										"externalScene": "[assembly:/_pro/scenes/missions/miami/override_pinochle.brick].pc_entitytype",
+										"exposedEntity": "exitActivated"
+									},
+									{
+										"ref": "cafec548b21349b2",
+										"externalScene": "[assembly:/_pro/scenes/missions/miami/override_pinochle.brick].pc_entitytype",
+										"exposedEntity": "exitActivated"
+									}
+								]
+							}
+						]
+					]
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

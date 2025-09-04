@@ -1,0 +1,118 @@
+{
+	"tempHash": "00F9068910496A80",
+	"tbluHash": "0099441FF2CC8BED",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"ca16199d211b879d",
+				{ "SetName": "Exit_Evergreen_PushButtonYatesCar" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"ca16199d211b879d",
+				{
+					"SetFactory": "[assembly:/_pro/design/setpieces/setpieces_evergreen.template?/exit_evergreen_pushbutton.entitytemplate].pc_entitytype"
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"ca16199d211b879d",
+				{
+					"SetBlueprint": "[assembly:/_pro/design/setpieces/setpieces_evergreen.template?/exit_evergreen_pushbutton.entitytemplate].pc_entityblueprint"
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"ca16199d211b879d",
+				{ "RemovePropertyByName": "m_rToolKeywordRequirements" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"ca16199d211b879d",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+							"position": {
+								"x": -27.444664,
+								"y": -47.94403,
+								"z": 5.218334
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"ca16199d211b879d",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_eidParent",
+						"value": "fffffffffffffffe"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"ca16199d211b879d",
+				{
+					"AddProperty": [
+						"Manual_Exit_Trigger_Needed",
+						{ "type": "bool", "value": true }
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"ca16199d211b879d",
+				{
+					"AddProperty": [
+						"m_bCanBeOperatedFromAnyAngle",
+						{ "type": "bool", "value": true }
+					]
+				}
+			]
+		},
+		{
+			"AddPropertyOverrideConnection": {
+				"entity": {
+					"ref": "63c8863ffc5fe74a",
+					"externalScene": "[assembly:/_pro/scenes/missions/elegant/scenario_llama.brick].pc_entitytype"
+				},
+				"propertyName": "m_aEnableConditions",
+				"propertyOverride": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						{
+							"ref": "4638521e43606168",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/scenario_llama.brick].pc_entitytype"
+						}
+					]
+				}
+			}
+		},
+		{
+			"AddPinConnectionOverrideDelete": {
+				"fromEntity": {
+					"ref": "a76f26a19fc70f21",
+					"externalScene": "[assembly:/_pro/scenes/missions/elegant/scenario_llama.brick].pc_entitytype"
+				},
+				"fromPin": "ExitSequenceOver",
+				"toEntity": {
+					"ref": "256b1741f7cd4420",
+					"externalScene": "[assembly:/_pro/scenes/missions/elegant/scenario_llama.brick].pc_entitytype"
+				},
+				"toPin": "Trigger"
+			}
+		}
+	],
+	"patchVersion": 6
+}

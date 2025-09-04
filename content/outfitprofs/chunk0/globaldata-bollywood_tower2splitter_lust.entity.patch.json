@@ -1,0 +1,66 @@
+{
+	"tempHash": "00097AA87B144150",
+	"tbluHash": "00E738E7CF7A35E1",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"30ac57ba30e14a83",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_eOutfitAICategory",
+						"value": "OAC_Mumbsec"
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe4c0e626eb5a9",
+				{
+					"parent": "30ac57ba30e14a83",
+					"name": "Prof_Mumbai_Guard",
+					"factory": "[assembly:/_pro/design/actor/profession.template?/prof_mumbai_guard.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_mumbai_guard.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_aHolders": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": [
+								"30ac57ba30e14a83",
+								"7977d11e3fb39917",
+								"ca3407b949f62024",
+								"8d654f3815efc7d7",
+								"ca3407b949f62024",
+								"ad825cbdbca85369"
+							]
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe81aca533f65d",
+				{
+					"parent": "30ac57ba30e14a83",
+					"name": "Prof_Mumbai_Guard_LocalSecurity",
+					"factory": "[assembly:/_pro/design/actor/profession.template?/prof_mumbai_guard_localsecurity.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_mumbai_guard_localsecurity.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_aHolders": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": [
+								"30ac57ba30e14a83",
+								"7977d11e3fb39917",
+								"ca3407b949f62024",
+								"8d654f3815efc7d7",
+								"ca3407b949f62024",
+								"ad825cbdbca85369"
+							]
+						}
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

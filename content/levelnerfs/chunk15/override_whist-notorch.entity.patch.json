@@ -1,0 +1,374 @@
+{
+	"tempHash": "000DC47AA2A17BFC",
+	"tbluHash": "0064D2D9AE247E8B",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"64c007aaf8738129",
+				{
+					"SetFactory": "[assembly:/_pro/design/setpieces/setpieces_evergreen.template?/exit_evergreen_pushbutton.entitytemplate].pc_entitytype"
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"64c007aaf8738129",
+				{
+					"SetBlueprint": "[assembly:/_pro/design/setpieces/setpieces_evergreen.template?/exit_evergreen_pushbutton.entitytemplate].pc_entityblueprint"
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"64c007aaf8738129",
+				{ "RemovePropertyByName": "m_rToolKeywordRequirements" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"64c007aaf8738129",
+				{ "RemovePropertyByName": "m_RequiredItem" }
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe30eda1d00a7f",
+				{
+					"parent": "fffffffffffffffe",
+					"name": "Item_BoneyPick",
+					"factory": "0030BF696BB41000",
+					"blueprint": "00DC98D5903C0196",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": -64.72056,
+									"y": 90,
+									"z": 0
+								},
+								"position": {
+									"x": -38.44703,
+									"y": 85.827484,
+									"z": 32.034913
+								}
+							}
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "fffffffffffffffe",
+							"postInit": true
+						},
+						"m_bSpawnOnStart": {
+							"type": "bool",
+							"value": true
+						},
+						"m_rMainItemKey": {
+							"type": "SEntityTemplateReference",
+							"value": "cafe32c29ea47bc7",
+							"postInit": true
+						},
+						"m_eRoomBehaviour": {
+							"type": "ZSpatialEntity.ERoomBehaviour",
+							"value": "ROOM_DYNAMIC"
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe32c29ea47bc7",
+				{
+					"parent": "fffffffffffffffe",
+					"name": "ItemKey_Bony_Lockpick",
+					"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+					"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+					"properties": {
+						"m_RepositoryId": {
+							"type": "ZGuid",
+							"value": "99ad5567-2734-44c7-a7db-5d0aaf01932e"
+						}
+					}
+				}
+			]
+		},
+		{
+			"RemoveOverrideDelete": {
+				"ref": "fa467d3b21acb598",
+				"externalScene": "[assembly:/_pro/scenes/missions/theark/scenario_magpie.brick].pc_entitytype"
+			}
+		},
+		{
+			"RemoveOverrideDelete": {
+				"ref": "5e9af3d3b5fd342b",
+				"externalScene": "[assembly:/_pro/scenes/missions/theark/scenario_magpie.brick].pc_entitytype"
+			}
+		},
+		{
+			"RemoveOverrideDelete": {
+				"ref": "35d2115b03992226",
+				"externalScene": "[assembly:/_pro/scenes/missions/theark/scenario_magpie.brick].pc_entitytype"
+			}
+		},
+		{
+			"RemoveOverrideDelete": {
+				"ref": "5c20090afa5860b8",
+				"externalScene": "[assembly:/_pro/scenes/missions/theark/scenario_magpie.brick].pc_entitytype"
+			}
+		},
+		{
+			"RemoveOverrideDelete": {
+				"ref": "25133de2fac8bd0d",
+				"externalScene": "[assembly:/_pro/scenes/missions/theark/scenario_magpie.brick].pc_entitytype"
+			}
+		},
+		{
+			"RemoveOverrideDelete": {
+				"ref": "00a9ba0a8e4ae7e4",
+				"externalScene": "[assembly:/_pro/scenes/missions/theark/scenario_magpie.brick].pc_entitytype"
+			}
+		},
+		{
+			"RemoveOverrideDelete": {
+				"ref": "9c873f9f838a0630",
+				"externalScene": "[assembly:/_pro/scenes/missions/theark/scenario_magpie.brick].pc_entitytype"
+			}
+		},
+		{
+			"RemoveOverrideDelete": {
+				"ref": "4dd5d65640b49208",
+				"externalScene": "[assembly:/_pro/scenes/missions/theark/scenario_magpie.brick].pc_entitytype"
+			}
+		},
+		{
+			"RemoveOverrideDelete": {
+				"ref": "9c463d4b7c80f26b",
+				"externalScene": "[assembly:/_pro/scenes/missions/theark/scenario_magpie.brick].pc_entitytype"
+			}
+		},
+		{
+			"RemoveOverrideDelete": {
+				"ref": "da1a0feacf0f9b0e",
+				"externalScene": "[assembly:/_pro/scenes/missions/theark/scenario_magpie.brick].pc_entitytype"
+			}
+		},
+		{
+			"RemoveOverrideDelete": {
+				"ref": "0d7b808834994d15",
+				"externalScene": "[assembly:/_pro/scenes/missions/theark/scenario_magpie.brick].pc_entitytype"
+			}
+		},
+		{
+			"RemoveOverrideDelete": {
+				"ref": "057ad4b7f8baa3fc",
+				"externalScene": "[assembly:/_pro/scenes/missions/theark/scenario_magpie.brick].pc_entitytype"
+			}
+		},
+		{
+			"RemoveOverrideDelete": {
+				"ref": "a54dde42a8789851",
+				"externalScene": "[assembly:/_pro/scenes/missions/theark/scenario_magpie.brick].pc_entitytype"
+			}
+		},
+		{
+			"RemoveOverrideDelete": {
+				"ref": "1765e790201ad4ae",
+				"externalScene": "[assembly:/_pro/scenes/missions/theark/scenario_magpie.brick].pc_entitytype"
+			}
+		},
+		{
+			"RemoveOverrideDelete": {
+				"ref": "ae6a4774315056b3",
+				"externalScene": "[assembly:/_pro/scenes/missions/theark/scenario_magpie.brick].pc_entitytype"
+			}
+		},
+		{
+			"RemoveOverrideDelete": {
+				"ref": "a42dfd85964d3cdf",
+				"externalScene": "[assembly:/_pro/scenes/missions/theark/scenario_magpie.brick].pc_entitytype"
+			}
+		},
+		{
+			"RemoveOverrideDelete": {
+				"ref": "2928b0cde7567581",
+				"externalScene": "[assembly:/_pro/scenes/missions/theark/scenario_magpie.brick].pc_entitytype"
+			}
+		},
+		{
+			"RemoveOverrideDelete": {
+				"ref": "6bec8fddabd2785a",
+				"externalScene": "[assembly:/_pro/scenes/missions/theark/scenario_magpie.brick].pc_entitytype"
+			}
+		},
+		{
+			"RemoveOverrideDelete": {
+				"ref": "382c0aabfb9c75a3",
+				"externalScene": "[assembly:/_pro/scenes/missions/theark/scenario_magpie.brick].pc_entitytype"
+			}
+		},
+		{
+			"RemoveOverrideDelete": {
+				"ref": "82bae1e9669c8190",
+				"externalScene": "[assembly:/_pro/scenes/missions/theark/scenario_magpie.brick].pc_entitytype"
+			}
+		},
+		{
+			"RemoveOverrideDelete": {
+				"ref": "c543b42432a5acfe",
+				"externalScene": "[assembly:/_pro/scenes/missions/theark/scenario_magpie.brick].pc_entitytype"
+			}
+		},
+		{
+			"RemoveOverrideDelete": {
+				"ref": "92d14d14e7a25df0",
+				"externalScene": "[assembly:/_pro/scenes/missions/theark/scenario_magpie.brick].pc_entitytype"
+			}
+		},
+		{
+			"RemoveOverrideDelete": {
+				"ref": "d37d18ba9fd06a31",
+				"externalScene": "[assembly:/_pro/scenes/missions/theark/scenario_magpie.brick].pc_entitytype"
+			}
+		},
+		{
+			"RemoveOverrideDelete": {
+				"ref": "a3912d7239eb454f",
+				"externalScene": "[assembly:/_pro/scenes/missions/theark/scenario_magpie.brick].pc_entitytype"
+			}
+		},
+		{
+			"RemoveOverrideDelete": {
+				"ref": "55d97be4c701fac8",
+				"externalScene": "[assembly:/_pro/scenes/missions/theark/scenario_magpie.brick].pc_entitytype"
+			}
+		},
+		{
+			"RemoveOverrideDelete": {
+				"ref": "5291288ff18adfa6",
+				"externalScene": "[assembly:/_pro/scenes/missions/theark/scenario_magpie.brick].pc_entitytype"
+			}
+		},
+		{
+			"RemoveOverrideDelete": {
+				"ref": "1ffd5844ec41f9a3",
+				"externalScene": "[assembly:/_pro/scenes/missions/theark/scenario_magpie.brick].pc_entitytype"
+			}
+		},
+		{
+			"RemoveOverrideDelete": {
+				"ref": "145d283889ef3797",
+				"externalScene": "[assembly:/_pro/scenes/missions/theark/scenario_magpie.brick].pc_entitytype"
+			}
+		},
+		{
+			"RemoveOverrideDelete": {
+				"ref": "6b0341a34b3a2eee",
+				"externalScene": "[assembly:/_pro/scenes/missions/theark/scenario_magpie.brick].pc_entitytype"
+			}
+		},
+		{
+			"RemoveOverrideDelete": {
+				"ref": "f769c752de358c00",
+				"externalScene": "[assembly:/_pro/scenes/missions/theark/scenario_magpie.brick].pc_entitytype"
+			}
+		},
+		{
+			"RemoveOverrideDelete": {
+				"ref": "8764f804cb4902d9",
+				"externalScene": "[assembly:/_pro/scenes/missions/theark/scenario_magpie.brick].pc_entitytype"
+			}
+		},
+		{
+			"RemoveOverrideDelete": {
+				"ref": "41af59919582bd1a",
+				"externalScene": "[assembly:/_pro/scenes/missions/theark/scenario_magpie.brick].pc_entitytype"
+			}
+		},
+		{
+			"RemoveOverrideDelete": {
+				"ref": "dd209a6d46d3d06f",
+				"externalScene": "[assembly:/_pro/scenes/missions/theark/scenario_magpie.brick].pc_entitytype"
+			}
+		},
+		{
+			"RemoveOverrideDelete": {
+				"ref": "be27083c2ae28b15",
+				"externalScene": "[assembly:/_pro/scenes/missions/theark/scenario_magpie.brick].pc_entitytype"
+			}
+		},
+		{
+			"RemoveOverrideDelete": {
+				"ref": "cd5cfc8da1f97854",
+				"externalScene": "[assembly:/_pro/scenes/missions/theark/scenario_magpie.brick].pc_entitytype"
+			}
+		},
+		{
+			"RemoveOverrideDelete": {
+				"ref": "a80937829c4780fb",
+				"externalScene": "[assembly:/_pro/scenes/missions/theark/scenario_magpie.brick].pc_entitytype"
+			}
+		},
+		{
+			"RemoveOverrideDelete": {
+				"ref": "612fb96eded87f9f",
+				"externalScene": "[assembly:/_pro/scenes/missions/theark/scenario_magpie.brick].pc_entitytype"
+			}
+		},
+		{
+			"RemoveOverrideDelete": {
+				"ref": "5c24465289f3446a",
+				"externalScene": "[assembly:/_pro/scenes/missions/theark/scenario_magpie.brick].pc_entitytype"
+			}
+		},
+		{
+			"RemoveOverrideDelete": {
+				"ref": "0f6f4417ea197589",
+				"externalScene": "[assembly:/_pro/scenes/missions/theark/scenario_magpie.brick].pc_entitytype"
+			}
+		},
+		{
+			"RemoveOverrideDelete": {
+				"ref": "39666b931432dd20",
+				"externalScene": "[assembly:/_pro/scenes/missions/theark/scenario_magpie.brick].pc_entitytype"
+			}
+		},
+		{
+			"RemoveOverrideDelete": {
+				"ref": "c11ac5009f09c2ad",
+				"externalScene": "[assembly:/_pro/scenes/missions/theark/scenario_magpie.brick].pc_entitytype"
+			}
+		},
+		{
+			"RemoveOverrideDelete": {
+				"ref": "294f238487fb7127",
+				"externalScene": "[assembly:/_pro/scenes/missions/theark/scenario_magpie.brick].pc_entitytype"
+			}
+		},
+		{
+			"RemoveOverrideDelete": {
+				"ref": "26fd5206ad9ad6be",
+				"externalScene": "[assembly:/_pro/scenes/missions/theark/scenario_magpie.brick].pc_entitytype"
+			}
+		},
+		{
+			"RemoveOverrideDelete": {
+				"ref": "61731ab58850557f",
+				"externalScene": "[assembly:/_pro/scenes/missions/theark/scenario_magpie.brick].pc_entitytype"
+			}
+		},
+		{
+			"RemoveOverrideDelete": {
+				"ref": "9f93cdf16c7136b3",
+				"externalScene": "[assembly:/_pro/scenes/missions/theark/scenario_magpie.brick].pc_entitytype"
+			}
+		},
+		{
+			"RemoveOverrideDelete": {
+				"ref": "0f816f2ebd82682c",
+				"externalScene": "[assembly:/_pro/scenes/missions/theark/scenario_magpie.brick].pc_entitytype"
+			}
+		}
+	],
+	"patchVersion": 6
+}

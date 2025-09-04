@@ -1,0 +1,65 @@
+{
+	"tempHash": "00DA547A60DF4EBF",
+	"tbluHash": "00E84415108C2123",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"8c5e94729f28b8e3",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_bSetValueAlwaysTriggerChangedEvent",
+						"value": false
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"8c5e94729f28b8e3",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_bSignalsInEditMode",
+						"value": false
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"8c5e94729f28b8e3",
+				{
+					"RemoveEventConnection": [
+						"OnValue",
+						"SetY",
+						"a9dc9ea76331dd8f"
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"bee9c335a8a457cb",
+				{
+					"RemoveEventConnection": [
+						"PollValue",
+						"SetY",
+						"a9dc9ea76331dd8f"
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"a9dc9ea76331dd8f",
+				{
+					"RemoveEventConnection": [
+						"Value",
+						"Position",
+						"c72ac7255f1bcf63"
+					]
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

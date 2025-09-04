@@ -1,0 +1,330 @@
+{
+	"tempHash": "001B8721449A41C9",
+	"tbluHash": "00F4631DF8921D40",
+	"patch": [
+		{
+			"AddEntity": [
+				"cafe871f1801a0aa",
+				{
+					"parent": "cafedc9da63ddaa7",
+					"name": "Role",
+					"factory": "[assembly:/_pro/design/actor/spsystem.template?/role.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/actor/spsystem.template?/role.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_aActors": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": [
+								{
+									"ref": "c5df57bc13c72d14",
+									"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/npc_mission_snowcrane.brick].pc_entitytype"
+								}
+							],
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafedc9da63ddaa7",
+				{
+					"parent": "fffffffffffffffe",
+					"name": "DR Sentry Post Hallwindow",
+					"factory": "[assembly:/_pro/design/actor/spsystem.template?/dramasituation.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/actor/spsystem.template?/dramasituation.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_rDrama": {
+							"type": "SEntityTemplateReference",
+							"value": "cafea3ee1be580b8",
+							"postInit": true
+						},
+						"m_aActors": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": [
+								{
+									"ref": "c5df57bc13c72d14",
+									"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/npc_mission_snowcrane.brick].pc_entitytype"
+								}
+							],
+							"postInit": true
+						},
+						"m_nCooldown": {
+							"type": "float32",
+							"value": 30.0
+						},
+						"m_nPriority": { "type": "int32", "value": 6 }
+					},
+					"events": {
+						"OnDone": {
+							"Start": [
+								{
+									"ref": "9e415a9f3645f6bf",
+									"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/npc_mission_snowcrane.brick].pc_entitytype"
+								}
+							]
+						}
+					},
+					"propertyAliases": {
+						"m_aActors": [
+							{
+								"originalProperty": "m_aActors",
+								"originalEntity": "cafe871f1801a0aa"
+							}
+						]
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafee6c788358d91",
+				{
+					"parent": "cafedc9da63ddaa7",
+					"name": "Act_MR_Stand_ArmsBack",
+					"factory": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_armsback.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_armsback.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": 94.13099,
+									"y": 90,
+									"z": 0
+								},
+								"position": {
+									"x": -92.7893,
+									"y": 31.1617,
+									"z": -0.4270692
+								}
+							}
+						},
+						"m_AlignRotation": {
+							"type": "ZActBehaviorEntity.ERotationAlignment",
+							"value": "RA_EXACT"
+						},
+						"m_bAlignPosition": {
+							"type": "bool",
+							"value": true
+						},
+						"m_pActor": {
+							"type": "SEntityTemplateReference",
+							"value": "cafe871f1801a0aa",
+							"postInit": true
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "fffffffffffffffe",
+							"postInit": true
+						},
+						"m_fActTimeout": {
+							"type": "float32",
+							"value": 15.0
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafea3ee1be580b8",
+				{
+					"parent": "cafedc9da63ddaa7",
+					"name": "Screenplay",
+					"factory": "[assembly:/_pro/design/actor/spsystem.template?/screenplay.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/actor/spsystem.template?/screenplay.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"Roles": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["cafe871f1801a0aa"]
+						}
+					},
+					"events": {
+						"OnStart": { "Start": ["cafee6c788358d91"] }
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe41a5447a6822",
+				{
+					"parent": "cc7de3f097704642",
+					"name": "ClothBundleSpawner_DocOutfit",
+					"factory": "[modules:/zclothbundlespawnentity.class].pc_entitytype",
+					"blueprint": "[modules:/zclothbundlespawnentity.class].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": 44.701763,
+									"y": 90,
+									"z": 0
+								},
+								"position": {
+									"x": -94.23326,
+									"y": 46.38223,
+									"z": -4.77
+								}
+							}
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "fffffffffffffffe"
+						},
+						"m_eRoomBehaviour": {
+							"type": "ZSpatialEntity.ERoomBehaviour",
+							"value": "ROOM_DYNAMIC"
+						},
+						"m_RepositoryId": {
+							"type": "ZGuid",
+							"value": "a8191fb6-9a6d-4145-8baf-d786e6f392b7"
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafec72486118c3f",
+				{
+					"parent": "fffffffffffffffe",
+					"name": "DoubleDoor_Hokkaido_D_Tall06_Replace_Frosted",
+					"factory": "[assembly:/_pro/environment/templates/architecture/doors/doors_hokkaido_a.template?/doubledoor_hokkaido_d_tall_frosted.entitytemplate](sounddoorinteraction+[assembly:/templates/sound/customsoundtemplates.template?/sound_doorinteraction.entitytemplate].entitytype).pc_entitytype",
+					"blueprint": "[assembly:/_pro/environment/templates/architecture/doors/doors_hokkaido_a.template?/doubledoor_hokkaido_d_tall_frosted.entitytemplate](sounddoorinteraction+[assembly:/templates/sound/customsoundtemplates.template?/sound_doorinteraction.entitytemplate].entitytype).pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": -0.0,
+									"y": 0.0,
+									"z": 179.99979956872457
+								},
+								"position": {
+									"x": 0.06312776356935501,
+									"y": -6.988326072692871,
+									"z": -0.00009202957153320312
+								}
+							}
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": {
+								"ref": "97d5351dd17670cf",
+								"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/location.brick].pc_entitytype"
+							}
+						},
+						"m_eRoomBehaviour": {
+							"type": "ZSpatialEntity.ERoomBehaviour",
+							"value": "ROOM_DYNAMIC"
+						}
+					},
+					"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
+				}
+			]
+		},
+		{
+			"AddPropertyOverrideConnection": {
+				"entity": {
+					"ref": "51ac97da7eb46730",
+					"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/difficulty_pro1_hokkaido_snowcrane.brick].pc_entitytype"
+				},
+				"propertyName": "RotationOffset",
+				"propertyOverride": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -16.00116717342933,
+							"y": 0.0,
+							"z": -23.5960291786618
+						},
+						"position": { "x": 0.0, "y": 0.0, "z": 0.0 }
+					}
+				}
+			}
+		},
+		{
+			"AddPropertyOverrideConnection": {
+				"entity": {
+					"ref": "51ac97da7eb46730",
+					"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/difficulty_pro1_hokkaido_snowcrane.brick].pc_entitytype"
+				},
+				"propertyName": "m_fFrequency",
+				"propertyOverride": { "type": "float32", "value": 0.04 }
+			}
+		},
+		{
+			"AddPropertyOverrideConnection": {
+				"entity": {
+					"ref": "02e181544cd17c34",
+					"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/location.brick].pc_entitytype"
+				},
+				"propertyName": "m_Clients",
+				"propertyOverride": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						{
+							"ref": "cc4f61e46ba813f1",
+							"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/location.brick].pc_entitytype"
+						},
+						{
+							"ref": "78c81879c6d4bb9a",
+							"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/location.brick].pc_entitytype"
+						},
+						{
+							"ref": "1ea996afd4584d92",
+							"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/location.brick].pc_entitytype"
+						},
+						{
+							"ref": "007f55488fe88042",
+							"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/location.brick].pc_entitytype"
+						},
+						{
+							"ref": "2757646cb73e223e",
+							"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/location.brick].pc_entitytype"
+						},
+						"cafec72486118c3f"
+					]
+				}
+			}
+		},
+		{
+			"AddPropertyOverrideConnection": {
+				"entity": {
+					"ref": "5c559a55f7f951d7",
+					"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/location.brick].pc_entitytype"
+				},
+				"propertyName": "m_rDoor",
+				"propertyOverride": {
+					"type": "SEntityTemplateReference",
+					"value": "cafec72486118c3f"
+				}
+			}
+		},
+		{
+			"RemoveOverrideDelete": {
+				"ref": "8550b31d39528fed",
+				"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/mission_snowcrane.brick].pc_entitytype"
+			}
+		},
+		{
+			"AddOverrideDelete": {
+				"ref": "92c926899db5b0db",
+				"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/difficulty_pro1_hokkaido_snowcrane.brick].pc_entitytype"
+			}
+		},
+		{
+			"AddOverrideDelete": {
+				"ref": "e455b8e71cedafbd",
+				"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/location.brick].pc_entitytype"
+			}
+		},
+		{
+			"AddExternalScene": "[assembly:/_pro/scenes/missions/hokkaido/difficulty_pro1_hokkaido_snowcrane.brick].pc_entitytype"
+		}
+	],
+	"patchVersion": 6
+}

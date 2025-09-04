@@ -1,0 +1,62 @@
+{
+	"tempHash": "00CCADB9DC141B80",
+	"tbluHash": "003383A2655FC47C",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"725b3a46a6c4d28b",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_fMass",
+						"value": 18.0
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"725b3a46a6c4d28b",
+				{
+					"AddProperty": [
+						"m_fAngularDampening",
+						{ "type": "float32", "value": 3.0 }
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"725b3a46a6c4d28b",
+				{
+					"AddProperty": [
+						"m_fLinearDampening",
+						{ "type": "float32", "value": 3.0 }
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"725b3a46a6c4d28b",
+				{
+					"AddProperty": [
+						"m_fRestitution",
+						{ "type": "float32", "value": 10.0 }
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"725b3a46a6c4d28b",
+				{
+					"AddProperty": [
+						"m_fFriction",
+						{ "type": "float32", "value": 500.0 }
+					]
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

@@ -1,0 +1,51 @@
+{
+	"tempHash": "004868F794D35933",
+	"tbluHash": "006E467BCDA40509",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"cedd24d459f71b47",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": -0.0,
+								"y": 0.0,
+								"z": -178.6579532058741
+							},
+							"position": {
+								"x": 4.361814022064209,
+								"y": -145.7218017578125,
+								"z": 5.000155925750732
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"62ee86d51434d847",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": -0.0,
+								"y": 0,
+								"z": 128.23999
+							},
+							"position": {
+								"x": 5.1618137,
+								"y": -142.3818,
+								"z": 5.000156
+							}
+						}
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

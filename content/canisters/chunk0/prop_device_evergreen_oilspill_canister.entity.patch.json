@@ -1,0 +1,29 @@
+{
+	"tempHash": "000F9AF24932924D",
+	"tbluHash": "004F7402639FE77B",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"ce56ca43e24a0788",
+				{ "SetName": "Keyword_WEAPON_SMALL" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"ce56ca43e24a0788",
+				{
+					"SetFactory": "[assembly:/_pro/design/gamecore/keywords/keywordweapondescriptors.template?/keyword_weapon_small.entitytemplate].pc_entitytype"
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"ce56ca43e24a0788",
+				{
+					"SetBlueprint": "[assembly:/_pro/design/gamecore/keywords/keywordweapondescriptors.template?/keyword_weapon_small.entitytemplate].pc_entityblueprint"
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

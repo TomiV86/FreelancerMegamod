@@ -1,0 +1,73 @@
+{
+	"tempHash": "00A9B93A825F5BDC",
+	"tbluHash": "005BA5CA6AC00627",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"ebe386fd0dad5c42",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_Weight",
+						"value": 0.44
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"28a45d8e2462f740",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_Weight",
+						"value": 0.2
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"f1764152461888ab",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_Weight",
+						"value": 0.75
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"471373a83a0fdc8d",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_Weight",
+						"value": 0.05
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"6d3ffe3237e2608c",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_Weight",
+						"value": 0.5
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"162e4acf154965dd",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_Weight",
+						"value": 0.05
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

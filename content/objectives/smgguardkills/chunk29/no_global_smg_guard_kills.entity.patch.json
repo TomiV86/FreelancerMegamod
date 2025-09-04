@@ -1,0 +1,90 @@
+{
+	"tempHash": "00A9B93A825F5BDC",
+	"tbluHash": "005BA5CA6AC00627",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"c314a6e8e0b8e9b4",
+				{
+					"PatchArrayPropertyValue": [
+						"m_requirementBlacklist",
+						[
+							{
+								"AddItemAfter": [
+									"d38f004aadeaab5d",
+									"a1173bd02186fe4d"
+								]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"79683bad20314c78",
+				{
+					"PatchArrayPropertyValue": [
+						"m_aBonusRequirements",
+						[
+							{
+								"AddItemAfter": [
+									"8198264b2b1191b8",
+									"a1173bd02186fe4d"
+								]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"5bf8720f7386b970",
+				{
+					"PatchArrayPropertyValue": [
+						"m_aBonusRequirements",
+						[{ "RemoveItemByValue": "a1173bd02186fe4d" }]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"389247bc666c75d9",
+				{
+					"PatchArrayPropertyValue": [
+						"m_aBonusRequirements",
+						[
+							{
+								"AddItemAfter": [
+									"ca1892c136be4148",
+									"a1173bd02186fe4d"
+								]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"eb23127977ff210a",
+				{
+					"PatchArrayPropertyValue": [
+						"m_aBonusRequirements",
+						[
+							{
+								"AddItemAfter": [
+									"2dd6cd78d1ed4726",
+									"a1173bd02186fe4d"
+								]
+							}
+						]
+					]
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

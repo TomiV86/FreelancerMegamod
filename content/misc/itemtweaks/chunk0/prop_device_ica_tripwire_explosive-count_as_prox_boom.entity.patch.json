@@ -1,0 +1,24 @@
+{
+	"tempHash": "0013F82287879011",
+	"tbluHash": "00D0E10B6129E0EC",
+	"patch": [
+		{
+			"AddEntity": [
+				"cafeba8d28b0da7d",
+				{
+					"parent": "9acb56072c961dca",
+					"name": "Keyword_WEAPON_DELIVERYTYPE_PROXIMITY",
+					"factory": "[assembly:/_pro/design/gamecore/keywords/keywordweapondescriptors.template?/keyword_weapon_deliverytype_proximity.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordweapondescriptors.template?/keyword_weapon_deliverytype_proximity.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_aHolders": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["dbb3bce600c647e0"]
+						}
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

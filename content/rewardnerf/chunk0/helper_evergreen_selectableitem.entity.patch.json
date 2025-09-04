@@ -1,0 +1,304 @@
+{
+	"tempHash": "007EE200640F15E5",
+	"tbluHash": "00BCA591C00A579D",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"99c4406ff49475d5",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_fValue",
+						"value": 8.0
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"08994816867b2b42",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_fValue",
+						"value": 15.0
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"212ac3e9c91ba479",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_fValue",
+						"value": 35.0
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"84a3a5a71544ae25",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_fValue",
+						"value": 14.0
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"fd923be52b3b2d58",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_fValue",
+						"value": 35.0
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"e973ac7b0fb834bd",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_fValue",
+						"value": 12.0
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"2fa4ee53cd7804cc",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_fValue",
+						"value": 0.0
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"17692208f784c8b7",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_fValue",
+						"value": 17.0
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"25c89fbbf44adf7d",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_fValue",
+						"value": 0.0
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"fdb2f6d347b4284c",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_fValue",
+						"value": 0.0
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"2c1528be25e1c271",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_fValue",
+						"value": 35.0
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"1a260544bdfc8635",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_fValue",
+						"value": 25.0
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"bd549a5734b6c6fd",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_fValue",
+						"value": 8.0
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"075b617de2ffc202",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_fValue",
+						"value": 0.0
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"e268a28c6fbe343e",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_fValue",
+						"value": 20.0
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"fcb4289c13feb0a3",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_fValue",
+						"value": 25.0
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"20028f89b525616f",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_fValue",
+						"value": 35.0
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"ff2c889eb6b52ae7",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_fValue",
+						"value": 12.0
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"805d855d5aa6f9a5",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_fValue",
+						"value": 15.0
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"5ca9017a70308b25",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_fValue",
+						"value": 7.0
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"5f2ac0a91dcdee14",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_fValue",
+						"value": 0.0
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"ed654391c7b4ff4b",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_fValue",
+						"value": 10.0
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"28230aa9be96b69f",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_fValue",
+						"value": 8.0
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"a2cf23c226f5a879",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_fValue",
+						"value": 0.0
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"d312155519cb875e",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_fValue",
+						"value": 15.0
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"3019c79b24065be6",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_fValue",
+						"value": 25.0
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"d612546bba28ca8e",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_fValue",
+						"value": 25.0
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

@@ -1,0 +1,359 @@
+{
+	"tempHash": "00D2255195F8E5C6",
+	"tbluHash": "008BCA0C384592FF",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"090cf5683f1781a7",
+				{
+					"SetPropertyValue": {
+						"property_name": "Payout",
+						"value": 3750
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"58a46205bc0da5df",
+				{
+					"SetPropertyValue": {
+						"property_name": "Payout",
+						"value": 750
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"52c5abe4483bcd05",
+				{
+					"SetPropertyValue": {
+						"property_name": "Payout",
+						"value": 9000
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"29b64020f77bda46",
+				{
+					"SetPropertyValue": {
+						"property_name": "Payout",
+						"value": 750
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"f239d77121d109dc",
+				{
+					"SetPropertyValue": {
+						"property_name": "Payout",
+						"value": 850
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"bbc2e5d5ee2b5f93",
+				{
+					"SetPropertyValue": {
+						"property_name": "Payout",
+						"value": 2000
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"127cac3fcc421b01",
+				{
+					"SetPropertyValue": {
+						"property_name": "Payout",
+						"value": 5000
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"924e9edceccb053e",
+				{
+					"SetPropertyValue": {
+						"property_name": "Payout",
+						"value": 1000
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"ff0235162a39b068",
+				{
+					"SetPropertyValue": {
+						"property_name": "Payout",
+						"value": 1850
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"076581a5383136bb",
+				{
+					"SetPropertyValue": {
+						"property_name": "Payout",
+						"value": 1000
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"50fba0929ef004b4",
+				{
+					"SetPropertyValue": {
+						"property_name": "Payout",
+						"value": 4000
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"fd261f342e61afd9",
+				{
+					"SetPropertyValue": {
+						"property_name": "Payout",
+						"value": 2800
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"19974dc3351a3f58",
+				{
+					"SetPropertyValue": {
+						"property_name": "Payout",
+						"value": 2000
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"8be3189041b605a1",
+				{
+					"SetPropertyValue": {
+						"property_name": "Payout",
+						"value": 1000
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"e6a60953ebf17fc6",
+				{
+					"SetPropertyValue": {
+						"property_name": "Payout",
+						"value": 2000
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"7f5805c1f5644663",
+				{
+					"SetPropertyValue": {
+						"property_name": "Payout",
+						"value": 1750
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"57c047415a7dbd37",
+				{
+					"SetPropertyValue": {
+						"property_name": "Payout",
+						"value": 4000
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"02b3da6037391e5c",
+				{
+					"SetPropertyValue": {
+						"property_name": "Payout",
+						"value": 7000
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"0d1c293eeae33cf3",
+				{
+					"SetPropertyValue": {
+						"property_name": "Payout",
+						"value": 5000
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"6c9e057bf1722e55",
+				{
+					"SetPropertyValue": {
+						"property_name": "Payout",
+						"value": 10000
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"e3f800bc9c7a263f",
+				{
+					"SetPropertyValue": {
+						"property_name": "Payout",
+						"value": 1750
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"a8e34ea0af2245b8",
+				{
+					"SetPropertyValue": {
+						"property_name": "Payout",
+						"value": 3500
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"9b97127ea6e1ae87",
+				{
+					"SetPropertyValue": {
+						"property_name": "Payout",
+						"value": 7000
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"3b02668960a3a4f8",
+				{
+					"SetPropertyValue": {
+						"property_name": "Payout",
+						"value": 1250
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"577028b6c5a23080",
+				{
+					"SetPropertyValue": {
+						"property_name": "Payout",
+						"value": 4000
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"e94f3aa849f9b76a",
+				{
+					"SetPropertyValue": {
+						"property_name": "Payout",
+						"value": 4000
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"84c8d9ae802103f6",
+				{
+					"SetPropertyValue": {
+						"property_name": "Payout",
+						"value": 1500
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"cb2812589bac9e88",
+				{
+					"SetPropertyValue": {
+						"property_name": "Payout",
+						"value": 2000
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"ceac0e17f2876c58",
+				{
+					"SetPropertyValue": {
+						"property_name": "Payout",
+						"value": 3500
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"64b20bff335772db",
+				{
+					"SetPropertyValue": {
+						"property_name": "Payout",
+						"value": 3500
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"9ae96239ae91344d",
+				{
+					"SetPropertyValue": {
+						"property_name": "Payout",
+						"value": 1250
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"8a31b1be4e250847",
+				{
+					"SetPropertyValue": {
+						"property_name": "Payout",
+						"value": 1250
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

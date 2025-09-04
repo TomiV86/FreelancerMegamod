@@ -1,0 +1,87 @@
+{
+	"tempHash": "00097AA87B144150",
+	"tbluHash": "00E738E7CF7A35E1",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"ed6b295861475b02",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_eOutfitAICategory",
+						"value": "OAC_Investbanker"
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe265414aab7f3",
+				{
+					"parent": "ed6b295861475b02",
+					"name": "Prof_Greedy_Worker_InvestmentBanker",
+					"factory": "[assembly:/_pro/design/actor/profession.template?/prof_greedy_worker_investmentbanker.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_greedy_worker_investmentbanker.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_aHolders": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["ed6b295861475b02"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafef97ac5c2b39c",
+				{
+					"parent": "ed6b295861475b02",
+					"name": "Prof_Greedy_Worker_Tier1",
+					"factory": "[assembly:/_pro/design/actor/profession.template?/prof_greedy_worker_tier1.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_greedy_worker_tier1.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_aHolders": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["ed6b295861475b02"],
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe120ead574f0c",
+				{
+					"parent": "ed6b295861475b02",
+					"name": "Prof_Greedy_Worker_Tier2",
+					"factory": "[assembly:/_pro/design/actor/profession.template?/prof_greedy_worker_tier2.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_greedy_worker_tier2.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_aHolders": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["ed6b295861475b02"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafefb23c6756cae",
+				{
+					"parent": "ed6b295861475b02",
+					"name": "Prof_Greedy_Worker_Tier3",
+					"factory": "[assembly:/_pro/design/actor/profession.template?/prof_greedy_worker_tier3.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_greedy_worker_tier3.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_aHolders": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["ed6b295861475b02"]
+						}
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

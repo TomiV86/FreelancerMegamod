@@ -1,0 +1,43 @@
+{
+	"tempHash": "00097AA87B144150",
+	"tbluHash": "00E738E7CF7A35E1",
+	"patch": [
+		{
+			"AddEntity": [
+				"cafe804f6ebf8d1b",
+				{
+					"parent": "a99d2e343b411ba2",
+					"name": "Prof_Sapienza_Guard_Mansion",
+					"factory": "[assembly:/_pro/design/actor/profession.template?/prof_sapienza_guard_mansion.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_sapienza_guard_mansion.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_aHolders": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["a99d2e343b411ba2"],
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafeab854d36c03c",
+				{
+					"parent": "a99d2e343b411ba2",
+					"name": "Prof_Sapienza_Guard",
+					"factory": "[assembly:/_pro/design/actor/profession.template?/prof_sapienza_guard.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_sapienza_guard.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_aHolders": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["a99d2e343b411ba2"],
+							"postInit": true
+						}
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

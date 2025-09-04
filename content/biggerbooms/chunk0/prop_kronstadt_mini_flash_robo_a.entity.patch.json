@@ -1,0 +1,51 @@
+{
+	"tempHash": "004557D7DD812A15",
+	"tbluHash": "00EB2903B1E08BD5",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"67cb5cf86c9d6803",
+				{
+					"AddProperty": [
+						"m_fRadius",
+						{ "type": "float32", "value": 12 }
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"67cb5cf86c9d6803",
+				{
+					"AddProperty": [
+						"MinStunDuration",
+						{ "type": "float32", "value": 9 }
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"67cb5cf86c9d6803",
+				{
+					"AddProperty": [
+						"MaxStunDuration",
+						{ "type": "float32", "value": 14 }
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"a8206f6858beb4af",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_fRange",
+						"value": 16.0
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

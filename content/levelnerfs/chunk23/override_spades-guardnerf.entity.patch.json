@@ -1,0 +1,82 @@
+{
+	"tempHash": "003D21A82CB9D649",
+	"tbluHash": "001AEB26830A2363",
+	"patch": [
+		{
+			"AddOverrideDelete": {
+				"ref": "41383117719cca89",
+				"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/npc_mission_bull.brick].pc_entitytype"
+			}
+		},
+		{
+			"AddOverrideDelete": {
+				"ref": "143b7cf8ec4d803d",
+				"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/npc_mission_bull.brick].pc_entitytype"
+			}
+		},
+		{
+			"AddOverrideDelete": {
+				"ref": "309922505c80d32e",
+				"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/npc_mission_bull.brick].pc_entitytype"
+			}
+		},
+		{
+			"AddOverrideDelete": {
+				"ref": "ff51cec2c40f0bfd",
+				"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/npc_mission_bull.brick].pc_entitytype"
+			}
+		},
+		{
+			"AddOverrideDelete": {
+				"ref": "9e983eb5d921fb9d",
+				"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/npc_mission_bull.brick].pc_entitytype"
+			}
+		},
+		{
+			"AddOverrideDelete": {
+				"ref": "5764cb400005f35c",
+				"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/npc_mission_bull.brick].pc_entitytype"
+			}
+		},
+		{
+			"AddOverrideDelete": {
+				"ref": "a993ef8de4ec141c",
+				"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/npc_mission_bull.brick].pc_entitytype"
+			}
+		},
+		{
+			"AddOverrideDelete": {
+				"ref": "ae6ab1a04cc8a9f4",
+				"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/npc_mission_bull.brick].pc_entitytype"
+			}
+		},
+		{
+			"AddOverrideDelete": {
+				"ref": "d52c99fa795b2087",
+				"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/difficulty_pro1_bull.brick].pc_entitytype"
+			}
+		},
+		{
+			"AddOverrideDelete": {
+				"ref": "e94a625d3a195caa",
+				"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/difficulty_pro1_bull.brick].pc_entitytype"
+			}
+		},
+		{
+			"AddOverrideDelete": {
+				"ref": "b377f91b3fbec97a",
+				"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/difficulty_pro1_bull.brick].pc_entitytype"
+			}
+		},
+		{
+			"AddOverrideDelete": {
+				"ref": "7bd143ba74591701",
+				"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/difficulty_pro1_bull.brick].pc_entitytype"
+			}
+		},
+		{
+			"AddExternalScene": "[assembly:/_pro/scenes/missions/colorado_2/difficulty_pro1_bull.brick].pc_entitytype"
+		}
+	],
+	"patchVersion": 6
+}

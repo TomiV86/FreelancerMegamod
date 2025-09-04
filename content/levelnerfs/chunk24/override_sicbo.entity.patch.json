@@ -1,0 +1,55 @@
+{
+	"tempHash": "00BD7D3DFB458061",
+	"tbluHash": "00AFACCD8A18AE48",
+	"patch": [
+		{
+			"RemoveOverrideDelete": {
+				"ref": "4b0c6a02788bc73f",
+				"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_tiger.brick].pc_entitytype"
+			}
+		},
+		{
+			"RemoveOverrideDelete": {
+				"ref": "94848c93e386fd6f",
+				"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_tiger.brick].pc_entitytype"
+			}
+		},
+		{
+			"RemoveOverrideDelete": {
+				"ref": "4132be057d59240e",
+				"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_tiger.brick].pc_entitytype"
+			}
+		},
+		{
+			"RemoveOverrideDelete": {
+				"ref": "713a17bfd22a151b",
+				"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_tiger.brick].pc_entitytype"
+			}
+		},
+		{
+			"RemoveOverrideDelete": {
+				"ref": "acddf82dd0b8b944",
+				"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_tiger.brick].pc_entitytype"
+			}
+		},
+		{
+			"RemoveOverrideDelete": {
+				"ref": "be499e280badbebe",
+				"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_tiger.brick].pc_entitytype"
+			}
+		},
+		{
+			"RemoveOverrideDelete": {
+				"ref": "7961a1b52b9a7f7c",
+				"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_tiger.brick].pc_entitytype"
+			}
+		},
+		{
+			"RemoveOverrideDelete": {
+				"ref": "c3af69eccd155017",
+				"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_tiger.brick].pc_entitytype"
+			}
+		}
+	],
+	"patchVersion": 6
+}

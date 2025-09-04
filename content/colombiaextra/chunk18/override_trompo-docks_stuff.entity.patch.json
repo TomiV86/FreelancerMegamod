@@ -1,0 +1,511 @@
+{
+	"tempHash": "00A0CD2B099538B1",
+	"tbluHash": "00E8B8AA18F809D3",
+	"patch": [
+		{
+			"AddEntity": [
+				"cafe8680f2e00772",
+				{
+					"parent": "0c55348365518a8d",
+					"name": "FreelancerExtra",
+					"factory": "[modules:/zentity.class].pc_entitytype",
+					"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafebf4dbd260481",
+				{
+					"parent": "cafe8680f2e00772",
+					"name": "DocksStuff",
+					"factory": "[modules:/zentity.class].pc_entitytype",
+					"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe4bd9fc53a06c",
+				{
+					"parent": "cafebf4dbd260481",
+					"name": "Docks Stuff Parent",
+					"factory": "[modules:/zentity.class].pc_entitytype",
+					"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe3c41e2a34587",
+				{
+					"parent": "cafe4bd9fc53a06c",
+					"name": "village_const_woodwall_a",
+					"factory": "[assembly:/_pro/environment/templates/levels/colombia/village_upper_part_geom_a.template?/village_const_woodwall_a.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/environment/templates/levels/colombia/village_upper_part_geom_a.template?/village_const_woodwall_a.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": {
+								"ref": "60a3ea7916d6669d",
+								"externalScene": "[assembly:/_pro/scenes/missions/colombia/scenario_hippo.brick].pc_entitytype"
+							}
+						},
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": -0.0,
+									"y": 0.0,
+									"z": -89.9999965849052
+								},
+								"position": {
+									"x": -28.716087341308594,
+									"y": 24.597000122070312,
+									"z": -7.214199066162109
+								}
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe94282bed9ddf",
+				{
+					"parent": "cafe4bd9fc53a06c",
+					"name": "village_const_woodwall_b",
+					"factory": "[assembly:/_pro/environment/templates/levels/colombia/village_upper_part_geom_a.template?/village_const_woodwall_b.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/environment/templates/levels/colombia/village_upper_part_geom_a.template?/village_const_woodwall_b.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": {
+								"ref": "60a3ea7916d6669d",
+								"externalScene": "[assembly:/_pro/scenes/missions/colombia/scenario_hippo.brick].pc_entitytype"
+							}
+						},
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": -0.0,
+									"y": 0.0,
+									"z": -89.9999965849052
+								},
+								"position": {
+									"x": -28.83608627319336,
+									"y": 20.03700065612793,
+									"z": -7.394199371337891
+								}
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe10986c11452f",
+				{
+					"parent": "cafe4bd9fc53a06c",
+					"name": "village_const_woodwall_c",
+					"factory": "[assembly:/_pro/environment/templates/levels/colombia/village_upper_part_geom_a.template?/village_const_woodwall_c.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/environment/templates/levels/colombia/village_upper_part_geom_a.template?/village_const_woodwall_c.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": {
+								"ref": "60a3ea7916d6669d",
+								"externalScene": "[assembly:/_pro/scenes/missions/colombia/scenario_hippo.brick].pc_entitytype"
+							}
+						},
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": -0.0,
+									"y": 0.0,
+									"z": -89.9999965849052
+								},
+								"position": {
+									"x": -28.736087799072266,
+									"y": 20.597000122070312,
+									"z": -7.394199371337891
+								}
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe12e54ee0bf5c",
+				{
+					"parent": "cafe4bd9fc53a06c",
+					"name": "VisBlocker",
+					"factory": "[modules:/zentity.class].pc_entitytype",
+					"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe3ea6a3cc3cf5",
+				{
+					"parent": "cafe12e54ee0bf5c",
+					"name": "zaivisionblockerplane",
+					"factory": "[modules:/zaivisionblockerplane.class].pc_entitytype",
+					"blueprint": "[modules:/zaivisionblockerplane.class].pc_entityblueprint",
+					"properties": {
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": {
+								"ref": "60a3ea7916d6669d",
+								"externalScene": "[assembly:/_pro/scenes/missions/colombia/scenario_hippo.brick].pc_entitytype"
+							}
+						},
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": -0.0,
+									"y": 0.0,
+									"z": -0.0
+								},
+								"position": {
+									"x": -28.716087341308594,
+									"y": 24.416961669921875,
+									"z": -5.993999481201172
+								}
+							}
+						},
+						"m_vPortalSize": {
+							"type": "SVector3",
+							"value": {
+								"x": 0.05000000074505806,
+								"y": 9.0,
+								"z": 3.200000047683716
+							}
+						},
+						"m_eRoomBehaviour": {
+							"type": "ZSpatialEntity.ERoomBehaviour",
+							"value": "ROOM_DYNAMIC"
+						},
+						"m_bAmbientOnly": {
+							"type": "bool",
+							"value": false
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe14e0cbfd1666",
+				{
+					"parent": "cafe4bd9fc53a06c",
+					"name": "militia_fence_a.prim",
+					"factory": "[assembly:/_pro/environment/geometry/props/farm_props/militia_fences_a.wl2?/militia_fence_a.prim].pc_entitytype",
+					"blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": {
+								"ref": "60a3ea7916d6669d",
+								"externalScene": "[assembly:/_pro/scenes/missions/colombia/scenario_hippo.brick].pc_entitytype"
+							}
+						},
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": -0.0,
+									"y": 0.0,
+									"z": -180.0
+								},
+								"position": {
+									"x": -16.11211395263672,
+									"y": 21.7572021484375,
+									"z": -7.474199295043945
+								}
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe153803b87f8b",
+				{
+					"parent": "cafe4bd9fc53a06c",
+					"name": "single_plank_c",
+					"factory": "[assembly:/_pro/environment/templates/levels/colombia/village_shanty_walkpaths.template?/single_plank_c.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/environment/templates/levels/colombia/village_shanty_walkpaths.template?/single_plank_c.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": {
+								"ref": "60a3ea7916d6669d",
+								"externalScene": "[assembly:/_pro/scenes/missions/colombia/scenario_hippo.brick].pc_entitytype"
+							}
+						},
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": 90.00008196227004,
+									"y": -0.00732959329224506,
+									"z": -178.58516537189146
+								},
+								"position": {
+									"x": -28.677162170410156,
+									"y": 26.619537353515625,
+									"z": -6.114198684692383
+								}
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe38cd07d67bd6",
+				{
+					"parent": "cafe4bd9fc53a06c",
+					"name": "single_plank_d",
+					"factory": "[assembly:/_pro/environment/templates/levels/colombia/village_shanty_walkpaths.template?/single_plank_d.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/environment/templates/levels/colombia/village_shanty_walkpaths.template?/single_plank_d.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": {
+								"ref": "60a3ea7916d6669d",
+								"externalScene": "[assembly:/_pro/scenes/missions/colombia/scenario_hippo.brick].pc_entitytype"
+							}
+						},
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": -180.0,
+									"y": 89.97200988450297,
+									"z": -0.0
+								},
+								"position": {
+									"x": -16.190467834472656,
+									"y": 21.955413818359375,
+									"z": -7.551101684570312
+								}
+							}
+						},
+						"m_PrimitiveScale": {
+							"type": "SVector3",
+							"value": {
+								"x": 1.0,
+								"y": 1.2000000476837158,
+								"z": 1.0
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe31f1fb732915",
+				{
+					"parent": "cafe4bd9fc53a06c",
+					"name": "barn_scaffold_tarpaulin_a",
+					"factory": "[assembly:/_pro/environment/templates/levels/colorado/farm_structures_a.template?/barn_scaffold_tarpaulin_a.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/environment/templates/levels/colorado/farm_structures_a.template?/barn_scaffold_tarpaulin_a.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": {
+								"ref": "60a3ea7916d6669d",
+								"externalScene": "[assembly:/_pro/scenes/missions/colombia/scenario_hippo.brick].pc_entitytype"
+							}
+						},
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": -0.0,
+									"y": 0.0,
+									"z": -89.9999965849052
+								},
+								"position": {
+									"x": -28.932113647460938,
+									"y": 27.917205810546875,
+									"z": -7.474199295043945
+								}
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafeb768a4d2b37e",
+				{
+					"parent": "cafe4bd9fc53a06c",
+					"name": "barn_scaffold_tarpaulin_b",
+					"factory": "[assembly:/_pro/environment/templates/levels/colorado/farm_structures_a.template?/barn_scaffold_tarpaulin_b.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/environment/templates/levels/colorado/farm_structures_a.template?/barn_scaffold_tarpaulin_b.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": {
+								"ref": "60a3ea7916d6669d",
+								"externalScene": "[assembly:/_pro/scenes/missions/colombia/scenario_hippo.brick].pc_entitytype"
+							}
+						},
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": -0.0,
+									"y": 0.0,
+									"z": -177.20305614811278
+								},
+								"position": {
+									"x": -17.512115478515625,
+									"y": 20.13720703125,
+									"z": -6.854000091552734
+								}
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe99215f784535",
+				{
+					"parent": "cafe4bd9fc53a06c",
+					"name": "village_smallext_toilet_a_door",
+					"factory": "[assembly:/_pro/environment/templates/levels/colombia/village_upper_part_geom_a.template?/village_smallext_toilet_a_door.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/environment/templates/levels/colombia/village_upper_part_geom_a.template?/village_smallext_toilet_a_door.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": {
+								"ref": "60a3ea7916d6669d",
+								"externalScene": "[assembly:/_pro/scenes/missions/colombia/scenario_hippo.brick].pc_entitytype"
+							}
+						},
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": 4.19229276205022,
+									"y": 0.4100675679784884,
+									"z": 84.60008536852474
+								},
+								"position": {
+									"x": -13.451998710632324,
+									"y": 23.277191162109375,
+									"z": -7.254199981689453
+								}
+							}
+						},
+						"m_PrimitiveScale": {
+							"type": "SVector3",
+							"value": {
+								"x": 1.0,
+								"y": 1.0,
+								"z": 1.2000000476837158
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe83bc9ef5dc82",
+				{
+					"parent": "cafe4bd9fc53a06c",
+					"name": "corrugated_sheet_d",
+					"factory": "[assembly:/_pro/environment/templates/levels/colombia/village_hut_f.template?/corrugated_sheet_d.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/environment/templates/levels/colombia/village_hut_f.template?/corrugated_sheet_d.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": {
+								"ref": "60a3ea7916d6669d",
+								"externalScene": "[assembly:/_pro/scenes/missions/colombia/scenario_hippo.brick].pc_entitytype"
+							}
+						},
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": -180.0,
+									"y": 0.0,
+									"z": -0.0
+								},
+								"position": {
+									"x": -16.432113647460938,
+									"y": 22.57720947265625,
+									"z": -6.834199905395508
+								}
+							}
+						},
+						"m_PrimitiveScale": {
+							"type": "SVector3",
+							"value": {
+								"x": 1.2000000476837158,
+								"y": 1.100000023841858,
+								"z": 1.100000023841858
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe051c713c45eb",
+				{
+					"parent": "cafe4bd9fc53a06c",
+					"name": "village_shantywoodb_support_c",
+					"factory": "[assembly:/_pro/environment/templates/levels/colombia/village_shanty_walkpaths.template?/village_shantywoodb_support_c.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/environment/templates/levels/colombia/village_shanty_walkpaths.template?/village_shantywoodb_support_c.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": {
+								"ref": "60a3ea7916d6669d",
+								"externalScene": "[assembly:/_pro/scenes/missions/colombia/scenario_hippo.brick].pc_entitytype"
+							}
+						},
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": -0.0,
+									"y": 0.0,
+									"z": -89.9999965849052
+								},
+								"position": {
+									"x": -28.69211196899414,
+									"y": 22.9971923828125,
+									"z": -5.914201736450195
+								}
+							}
+						}
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

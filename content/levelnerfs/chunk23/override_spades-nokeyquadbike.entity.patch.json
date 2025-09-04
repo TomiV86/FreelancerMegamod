@@ -1,0 +1,64 @@
+{
+	"tempHash": "003D21A82CB9D649",
+	"tbluHash": "001AEB26830A2363",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"2e45ae06af2463d1",
+				{
+					"SetFactory": "[assembly:/_pro/design/setpieces/setpieces_evergreen.template?/exit_evergreen_pushbutton.entitytemplate].pc_entitytype"
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"2e45ae06af2463d1",
+				{
+					"SetBlueprint": "[assembly:/_pro/design/setpieces/setpieces_evergreen.template?/exit_evergreen_pushbutton.entitytemplate].pc_entityblueprint"
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"2e45ae06af2463d1",
+				{ "RemovePropertyByName": "m_rToolKeywordRequirements" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"2e45ae06af2463d1",
+				{
+					"PatchArrayPropertyValue": [
+						"m_aConditions",
+						[
+							{
+								"RemoveItemByValue": {
+									"ref": "bc8d5e10ef7869e8",
+									"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/mission_bull.brick].pc_entitytype"
+								}
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"2e45ae06af2463d1",
+				{
+					"AddProperty": [
+						"Manual_Exit_Trigger_Needed",
+						{ "type": "bool", "value": true }
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"d7e465e2219283e9",
+				{ "RemovePropertyByName": "m_rToolKeywordRequirements" }
+			]
+		}
+	],
+	"patchVersion": 6
+}

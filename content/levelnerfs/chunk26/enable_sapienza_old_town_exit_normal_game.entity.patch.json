@@ -1,0 +1,73 @@
+{
+	"tempHash": "00E9F09C3B030590",
+	"tbluHash": "001AAD1665989627",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"37c0d26d4e8945f1",
+				{
+					"SetPropertyValue": {
+						"property_name": "RequireActivation",
+						"value": false
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"37c0d26d4e8945f1",
+				{
+					"AddProperty": [
+						"m_bValueOpenFromOutside",
+						{ "type": "bool", "value": true }
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"fb8dfcd7a113e19b",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": -0.0,
+								"y": 0.0,
+								"z": 77.24085972860863
+							},
+							"position": {
+								"x": 55.85457992553711,
+								"y": 65.909,
+								"z": 7.272282123565674
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"fb8dfcd7a113e19b",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_bForceVisible",
+						"value": true
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"72aa27feb1d59142",
+				{
+					"AddProperty": [
+						"m_bValue",
+						{ "type": "bool", "value": true }
+					]
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

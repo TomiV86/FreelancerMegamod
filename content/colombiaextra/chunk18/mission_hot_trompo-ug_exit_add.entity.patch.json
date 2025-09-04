@@ -1,0 +1,33 @@
+{
+	"tempHash": "00B05AB27AE01D3B",
+	"tbluHash": "00F03009B2CCB711",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"7fc7de5677dc16d1",
+				{
+					"PatchArrayPropertyValue": [
+						"m_aValues",
+						[
+							{
+								"AddItemAfter": [
+									{
+										"ref": "9b3c31765ffcd96c",
+										"externalScene": "[assembly:/_pro/scenes/missions/colombia/override_trompo.brick].pc_entitytype",
+										"exposedEntity": "exitActivated"
+									},
+									{
+										"ref": "cafe5a3e24c98d02",
+										"externalScene": "[assembly:/_pro/scenes/missions/colombia/override_trompo.brick].pc_entitytype",
+										"exposedEntity": "exitActivated"
+									}
+								]
+							}
+						]
+					]
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

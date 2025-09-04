@@ -1,0 +1,99 @@
+{
+	"tempHash": "00A9B93A825F5BDC",
+	"tbluHash": "005BA5CA6AC00627",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"5f37900bf49880fb",
+				{
+					"PatchArrayPropertyValue": [
+						"m_aBonusRequirements",
+						[
+							{
+								"AddItemAfter": [
+									"2ddda2801c050eb0",
+									"cafe85885344f5a4"
+								]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"7ad1ed33a6043d3f",
+				{
+					"AddProperty": [
+						"m_requirementBlacklist",
+						{
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["0826a41d02ab31b4"]
+						}
+					]
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe85885344f5a4",
+				{
+					"parent": "ec35ba7ec67bf19a",
+					"name": "BonusReq_ID06_Accident_Kill",
+					"factory": "[modules:/zevergreenbonusrequirementdefinitionentity.class].pc_entitytype",
+					"blueprint": "[modules:/zevergreenbonusrequirementdefinitionentity.class].pc_entityblueprint",
+					"properties": {
+						"m_id": { "type": "int32", "value": 6 },
+						"m_sweetTitle": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "[assembly:/localization/hitman6/conversations/ui/pro/gamemode_evergreen/evergreen_bonusrequirements.sweetmenutext?/ui_contract_evergreen_mild_client_requirements_killmethod_accident_name.sweetline].pc_sweetline",
+								"flag": "5F"
+							}
+						},
+						"m_icon": {
+							"type": "EUIIconLibrary",
+							"value": "evergreen_kill_method_accident"
+						},
+						"m_argsTitle": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": [
+								{
+									"ref": "1c8a3cd106f999fe",
+									"externalScene": null,
+									"exposedEntity": "Obj_PayoutValue_006"
+								}
+							]
+						},
+						"m_killRequirement": {
+							"type": "bool",
+							"value": true
+						},
+						"m_requirementBlacklist": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": [
+								"0826a41d02ab31b4",
+								"7ad1ed33a6043d3f"
+							]
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafecfb83994c5c6",
+				{
+					"parent": "cafe85885344f5a4",
+					"name": "ValueInt",
+					"factory": "[assembly:/_pro/design/logic/valueint.template?/valueint.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/logic/valueint.template?/valueint.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_nValue": { "type": "int32", "value": 5 }
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

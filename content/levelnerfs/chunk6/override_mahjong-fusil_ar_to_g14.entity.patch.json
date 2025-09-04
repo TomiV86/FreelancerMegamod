@@ -1,0 +1,20 @@
+{
+	"tempHash": "00F90288DCFD71D6",
+	"tbluHash": "00F0F42E2D1A504B",
+	"patch": [
+		{
+			"AddPropertyOverrideConnection": {
+				"entity": {
+					"ref": "520db9ddd4cc1d41",
+					"externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+				},
+				"propertyName": "m_RepositoryId",
+				"propertyOverride": {
+					"type": "ZGuid",
+					"value": "16edb112-58cc-4069-a7dd-ebd258b14044"
+				}
+			}
+		}
+	],
+	"patchVersion": 6
+}

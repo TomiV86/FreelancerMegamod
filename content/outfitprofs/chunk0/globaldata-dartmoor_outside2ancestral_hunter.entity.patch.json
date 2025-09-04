@@ -1,0 +1,148 @@
+{
+	"tempHash": "00097AA87B144150",
+	"tbluHash": "00E738E7CF7A35E1",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"f0576df9abef0e14",
+				{
+					"AddProperty": [
+						"m_aAllowedWeaponKeys",
+						{
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["cafe45de81bde5fc"]
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"8e45edf81fd16c5d",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_eOutfitAICategory",
+						"value": "OAC_47STARTCLASSY"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"8e45edf81fd16c5d",
+				{
+					"AddProperty": [
+						"m_aAllowedWeaponKeywords",
+						{
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["cafe8c1d52ea39cb"]
+						}
+					]
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe1750b1178e3a",
+				{
+					"parent": "f0576df9abef0e14",
+					"name": "Prof_Ancestral_Worker_Gardener",
+					"factory": "[assembly:/_pro/design/actor/profession.template?/prof_ancestral_worker_gardener.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_ancestral_worker_gardener.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_aHolders": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["f0576df9abef0e14"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafef0f3056eb5a3",
+				{
+					"parent": "f0576df9abef0e14",
+					"name": "Prof_Ancestral_Worker",
+					"factory": "[assembly:/_pro/design/actor/profession.template?/prof_ancestral_worker.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_ancestral_worker.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_aHolders": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["f0576df9abef0e14"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe45de81bde5fc",
+				{
+					"parent": "f0576df9abef0e14",
+					"name": "Keyword_WEAPON_SHOTGUN",
+					"factory": "[modules:/zkeywordentity.class].pc_entitytype",
+					"blueprint": "[modules:/zkeywordentity.class].pc_entityblueprint",
+					"properties": {
+						"m_sKeyword": {
+							"type": "ZString",
+							"value": "WEAPON_SHOTGUN"
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe8c1d52ea39cb",
+				{
+					"parent": "8e45edf81fd16c5d",
+					"name": "Keyword_WEAPON_SHOTGUN",
+					"factory": "[modules:/zkeywordentity.class].pc_entitytype",
+					"blueprint": "[modules:/zkeywordentity.class].pc_entityblueprint",
+					"properties": {
+						"m_sKeyword": {
+							"type": "ZString",
+							"value": "WEAPON_SHOTGUN"
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafebc890af94a36",
+				{
+					"parent": "8e45edf81fd16c5d",
+					"name": "Prof_Ancestral_Worker",
+					"factory": "[assembly:/_pro/design/actor/profession.template?/prof_ancestral_worker.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_ancestral_worker.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_aHolders": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["8e45edf81fd16c5d"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe090ba04a5cc4",
+				{
+					"parent": "8e45edf81fd16c5d",
+					"name": "Prof_Ancestral_Worker_Gardener",
+					"factory": "[assembly:/_pro/design/actor/profession.template?/prof_ancestral_worker_gardener.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_ancestral_worker_gardener.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_aHolders": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["8e45edf81fd16c5d"]
+						}
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

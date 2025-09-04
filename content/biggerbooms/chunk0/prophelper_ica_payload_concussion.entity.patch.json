@@ -1,0 +1,29 @@
+{
+	"tempHash": "0080759969E8E61A",
+	"tbluHash": "0069D2B7D276044E",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"828485773a6dd6a8",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_vPacifyRadii",
+						"value": { "x": 8.5, "y": 8.5, "z": 4.4 }
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"828485773a6dd6a8",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_vKnockdownRadii",
+						"value": { "x": 10.1, "y": 10.1, "z": 5.8 }
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

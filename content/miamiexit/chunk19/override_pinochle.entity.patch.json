@@ -1,0 +1,4023 @@
+{
+	"tempHash": "006084EBBAE6AF4F",
+	"tbluHash": "00A8DCCBAECC6674",
+	"patch": [
+		{
+			"AddEntity": [
+				"cafe90f65b8c0e8a",
+				{
+					"parent": "b9f72c0ebfa639de",
+					"name": "NewExit",
+					"factory": "[modules:/zentity.class].pc_entitytype",
+					"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe19a7d2ad17a0",
+				{
+					"parent": "cafe90f65b8c0e8a",
+					"name": "Exit_Boat_Rhib",
+					"factory": "[modules:/zentity.class].pc_entitytype",
+					"blueprint": "[modules:/zentity.class].pc_entityblueprint",
+					"properties": {
+						"m_sequenceOrigin": {
+							"type": "SEntityTemplateReference",
+							"value": "cafec7ff79229afe",
+							"postInit": true
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "fffffffffffffffe"
+						}
+					},
+					"events": {
+						"OnSkip": { "Trigger": ["84e121f8dcced7c3"] },
+						"OnStop": { "Trigger": ["84e121f8dcced7c3"] }
+					},
+					"inputCopying": {
+						"Play": { "Play": ["cafe7e04d57dad58"] }
+					},
+					"propertyAliases": {
+						"m_sequenceOrigin": [
+							{
+								"originalProperty": "m_sequenceOrigin",
+								"originalEntity": "cafe3b01b3af1ad6"
+							}
+						]
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe3b01b3af1ad6",
+				{
+					"parent": "cafe19a7d2ad17a0",
+					"name": "Exit_Pier_06_Boat_Tacticle_No_Cage",
+					"factory": "[modules:/zsequenceentity.class].pc_entitytype",
+					"blueprint": "[modules:/zsequenceentity.class].pc_entityblueprint",
+					"properties": {
+						"m_duration": {
+							"type": "ZGameTime",
+							"value": { "m_nTicks": 8388608 }
+						},
+						"m_startTime": {
+							"type": "ZGameTime",
+							"value": { "m_nTicks": 0 }
+						},
+						"m_bLetterbox": { "type": "bool", "value": true },
+						"m_eLetterBoxAspect": {
+							"type": "ZSequenceEntity.ELetterBoxAspect",
+							"value": "LETTERBOXASPECT_CINEMASCOPE"
+						},
+						"m_bFadeOutBeforeEnd": {
+							"type": "bool",
+							"value": true
+						},
+						"m_letterboxFadeOut": {
+							"type": "ZGameTime",
+							"value": { "m_nTicks": 524288 }
+						},
+						"m_aTracksAndGroups": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": [
+								"cafe71ab993147f3",
+								"cafee0876b3fa8e2",
+								"cafe03616270ddba",
+								"cafe647d19fbabdd",
+								"cafe89cfde1c732d",
+								"cafe5c188d1528bc",
+								"cafe668f42e0351a",
+								"cafe0a6dc72a1045"
+							],
+							"postInit": true
+						},
+						"m_sequenceOrigin": {
+							"type": "SEntityTemplateReference",
+							"value": "cafec7ff79229afe",
+							"postInit": true
+						}
+					},
+					"events": {
+						"OnStart": {
+							"Activate": [
+								"cafe7ae185fd966b",
+								"cafe80d695b8c636",
+								"cafe6a2487ed1709",
+								"cafe8033a9adb505"
+							]
+						},
+						"Stopped": {
+							"Stop": [
+								"cafe7ae185fd966b",
+								"cafe80d695b8c636",
+								"cafe6a2487ed1709",
+								"cafe8033a9adb505"
+							]
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe27e7881d9e35",
+				{
+					"parent": "cafe668f42e0351a",
+					"name": "ActiveCameraItem",
+					"factory": "[modules:/zsingleactivecamerasource.class].pc_entitytype",
+					"blueprint": "[modules:/zsingleactivecamerasource.class].pc_entityblueprint",
+					"properties": {
+						"m_startTime": {
+							"type": "ZGameTime",
+							"value": { "m_nTicks": 0 }
+						},
+						"m_duration": {
+							"type": "ZGameTime",
+							"value": { "m_nTicks": 11827937 }
+						},
+						"m_pCamera": {
+							"type": "SEntityTemplateReference",
+							"value": {
+								"ref": "6757e31899c17766",
+								"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+							},
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe668f42e0351a",
+				{
+					"parent": "cafe3b01b3af1ad6",
+					"name": "Active Camera Track",
+					"factory": "[modules:/zrenderdestinationtrack.class].pc_entitytype",
+					"blueprint": "[modules:/zrenderdestinationtrack.class].pc_entityblueprint",
+					"properties": {
+						"m_aItems": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["cafe27e7881d9e35"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe144bdcd8036a",
+				{
+					"parent": "cafe71ab993147f3",
+					"name": " Track",
+					"factory": "[modules:/zentitypropertytrack.class].pc_entitytype",
+					"blueprint": "[modules:/zentitypropertytrack.class].pc_entityblueprint",
+					"properties": {
+						"m_sPropertyName": {
+							"type": "ZString",
+							"value": "m_bVisible"
+						},
+						"m_entityGroup": {
+							"type": "SEntityTemplateReference",
+							"value": "cafe71ab993147f3",
+							"postInit": true
+						},
+						"m_aItems": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["cafe5e896a961dc8"],
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe71ab993147f3",
+				{
+					"parent": "cafe3b01b3af1ad6",
+					"name": "EntityTrack_ boat_rubber_tactical_a_NoCage_B",
+					"factory": "[modules:/zentitygroup.class].pc_entitytype",
+					"blueprint": "[modules:/zentitygroup.class].pc_entityblueprint",
+					"properties": {
+						"m_aTracksAndGroups": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["cafe144bdcd8036a"]
+						},
+						"m_targetEntity": {
+							"type": "SEntityTemplateReference",
+							"value": "cafef22a393a33ca",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe5e896a961dc8",
+				{
+					"parent": "cafe144bdcd8036a",
+					"name": "BooleanItem",
+					"factory": "[modules:/zbooleansource.class].pc_entitytype",
+					"blueprint": "[modules:/zbooleansource.class].pc_entityblueprint",
+					"properties": {
+						"m_startTime": {
+							"type": "ZGameTime",
+							"value": { "m_nTicks": 0 }
+						},
+						"m_duration": {
+							"type": "ZGameTime",
+							"value": { "m_nTicks": 2097152 }
+						},
+						"m_fTimes": {
+							"type": "TArray<ZGameTime>",
+							"value": [{ "m_nTicks": 0 }]
+						},
+						"m_bValues": {
+							"type": "TArray<bool>",
+							"value": [true]
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafeb56a0e3c89b8",
+				{
+					"parent": "cafe03616270ddba",
+					"name": "MorphemeBoneTrack",
+					"factory": "[modules:/zmorphemebonetrack.class].pc_entitytype",
+					"blueprint": "[modules:/zmorphemebonetrack.class].pc_entityblueprint",
+					"properties": {
+						"m_sSlotName": {
+							"type": "ZString",
+							"value": "FullBody"
+						},
+						"m_bUpperBody": { "type": "bool", "value": false },
+						"m_entityGroup": {
+							"type": "SEntityTemplateReference",
+							"value": "cafe03616270ddba",
+							"postInit": true
+						},
+						"m_aItems": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["cafe61e1bb02c297"],
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe03616270ddba",
+				{
+					"parent": "cafe3b01b3af1ad6",
+					"name": "EntityTrack_ Agent47_Default",
+					"factory": "[modules:/zentitygroup.class].pc_entitytype",
+					"blueprint": "[modules:/zentitygroup.class].pc_entityblueprint",
+					"properties": {
+						"m_targetEntity": {
+							"type": "SEntityTemplateReference",
+							"value": {
+								"ref": "3bbdb6207e817a24",
+								"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+							},
+							"postInit": true
+						},
+						"m_aTracksAndGroups": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": [
+								"cafec07a08447d1d",
+								"cafeb56a0e3c89b8"
+							],
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafec07a08447d1d",
+				{
+					"parent": "cafe03616270ddba",
+					"name": "MorphemeTrajectoryTrack",
+					"factory": "[modules:/zmorphemetrajectorytrack.class].pc_entitytype",
+					"blueprint": "[modules:/zmorphemetrajectorytrack.class].pc_entityblueprint",
+					"properties": {
+						"m_entityGroup": {
+							"type": "SEntityTemplateReference",
+							"value": "cafe03616270ddba"
+						},
+						"m_bRestoreValueAfterEnd": {
+							"type": "bool",
+							"value": true
+						},
+						"m_aItems": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["cafe7b11231b88e9"],
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe61e1bb02c297",
+				{
+					"parent": "cafeb56a0e3c89b8",
+					"name": "BoneResourceItem",
+					"factory": "[modules:/zmorphemebonesource.class].pc_entitytype",
+					"blueprint": "[modules:/zmorphemebonesource.class].pc_entityblueprint",
+					"properties": {
+						"m_startTime": {
+							"type": "ZGameTime",
+							"value": { "m_nTicks": 0 }
+						},
+						"m_duration": {
+							"type": "ZGameTime",
+							"value": { "m_nTicks": 10485760 }
+						},
+						"m_animationResourceID": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "00EA334222A34456",
+								"flag": "5F"
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe7b11231b88e9",
+				{
+					"parent": "cafec07a08447d1d",
+					"name": "TrajectoryResourceItem",
+					"factory": "[modules:/zmorphemetrajectorysource.class].pc_entitytype",
+					"blueprint": "[modules:/zmorphemetrajectorysource.class].pc_entityblueprint",
+					"properties": {
+						"m_startTime": {
+							"type": "ZGameTime",
+							"value": { "m_nTicks": 0 }
+						},
+						"m_duration": {
+							"type": "ZGameTime",
+							"value": { "m_nTicks": 10485760 }
+						},
+						"m_eCoordinateSpace": {
+							"type": "ECoordinateSpace",
+							"value": "CSPACE_SEQUENCE_ORIGIN"
+						},
+						"m_animationResourceID": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "00EA334222A34456",
+								"flag": "5F"
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe5e7769dd00e6",
+				{
+					"parent": "cafe7d76adc6d93b",
+					"name": "CurveItem 2",
+					"factory": "[modules:/zfloatcurvesource.class].pc_entitytype",
+					"blueprint": "[modules:/zfloatcurvesource.class].pc_entityblueprint",
+					"properties": {
+						"m_startTime": {
+							"type": "ZGameTime",
+							"value": { "m_nTicks": 5207927 }
+						},
+						"m_duration": {
+							"type": "ZGameTime",
+							"value": { "m_nTicks": 3180681 }
+						},
+						"m_curve": {
+							"type": "ZCurve",
+							"value": {
+								"data": [
+									[
+										0.0, 95.3000030517578,
+										10.883387565612791,
+										-27.00969886779785,
+										28.35979652404785,
+										-15.728767395019531, 0.0,
+										95.3000030517578
+									],
+									[
+										0.10465120524168016,
+										91.80471801757812,
+										-294.7032775878906,
+										742.1405639648438,
+										-789.463623046875,
+										436.6725158691406, 0.0,
+										91.80471801757812
+									],
+									[
+										1.0, 186.4508819580078, 0.0, 0.0,
+										0.0, 0.0, 0.0, 186.4508819580078
+									]
+								]
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe9a496ed1e333",
+				{
+					"parent": "cafe89cfde1c732d",
+					"name": " Track",
+					"factory": "[modules:/zentitypropertytrack.class].pc_entitytype",
+					"blueprint": "[modules:/zentitypropertytrack.class].pc_entityblueprint",
+					"properties": {
+						"m_sPropertyName": {
+							"type": "ZString",
+							"value": "BlackWeight"
+						},
+						"m_bRestoreValueAfterEnd": {
+							"type": "bool",
+							"value": false
+						},
+						"m_entityGroup": {
+							"type": "SEntityTemplateReference",
+							"value": "cafe89cfde1c732d",
+							"postInit": true
+						},
+						"m_aItems": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": [
+								"cafed5e36f90bde8",
+								"cafe302ff82a38fb",
+								"cafefbc33faf1005"
+							],
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe828fa62eddba",
+				{
+					"parent": "cafe7d76adc6d93b",
+					"name": "CurveItem 1",
+					"factory": "[modules:/zfloatcurvesource.class].pc_entitytype",
+					"blueprint": "[modules:/zfloatcurvesource.class].pc_entityblueprint",
+					"properties": {
+						"m_startTime": {
+							"type": "ZGameTime",
+							"value": { "m_nTicks": 3005917 }
+						},
+						"m_duration": {
+							"type": "ZGameTime",
+							"value": { "m_nTicks": 2202010 }
+						},
+						"m_curve": {
+							"type": "ZCurve",
+							"value": {
+								"data": [
+									[
+										0.0, 50.94622802734375,
+										122.83867645263672,
+										-307.0967102050781,
+										327.56982421875,
+										-184.25802612304688, 0.0,
+										50.94622802734375
+									],
+									[
+										1.0, 10.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+										10.0
+									]
+								]
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafed96829ccc6ae",
+				{
+					"parent": "cafeda50fbd428c4",
+					"name": "CurveItem 2",
+					"factory": "[modules:/zfloatcurvesource.class].pc_entitytype",
+					"blueprint": "[modules:/zfloatcurvesource.class].pc_entityblueprint",
+					"properties": {
+						"m_startTime": {
+							"type": "ZGameTime",
+							"value": { "m_nTicks": 5207927 }
+						},
+						"m_duration": {
+							"type": "ZGameTime",
+							"value": { "m_nTicks": 3180681 }
+						},
+						"m_curve": {
+							"type": "ZCurve",
+							"value": {
+								"data": [
+									[
+										0.0, 0.20000000298023224,
+										0.19006140530109408,
+										-0.05343546345829964,
+										-0.8796511292457581,
+										0.955318033695221, 0.0,
+										0.20000000298023224
+									],
+									[
+										0.10465120524168016,
+										0.4122928977012634,
+										-0.28927889466285706,
+										0.9657098650932312,
+										-0.7684309482574463,
+										-0.0908591002225876,
+										0.07056622207164764,
+										0.4122928977012634
+									],
+									[
+										1.0, 0.30000001192092896, 0.0, 0.0,
+										0.0, 0.0, 0.0, 0.30000001192092896
+									]
+								]
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafeda50fbd428c4",
+				{
+					"parent": "cafe89cfde1c732d",
+					"name": " Track 5",
+					"factory": "[modules:/zentitypropertytrack.class].pc_entitytype",
+					"blueprint": "[modules:/zentitypropertytrack.class].pc_entityblueprint",
+					"properties": {
+						"m_sPropertyName": {
+							"type": "ZString",
+							"value": "CutsceneDOFAperture"
+						},
+						"m_bRestoreValueAfterEnd": {
+							"type": "bool",
+							"value": false
+						},
+						"m_entityGroup": {
+							"type": "SEntityTemplateReference",
+							"value": "cafe89cfde1c732d",
+							"postInit": true
+						},
+						"m_aItems": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": [
+								"cafe2d02309a3fdd",
+								"cafe22b8d34d88e2",
+								"cafed96829ccc6ae"
+							],
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafecfa468ee51d4",
+				{
+					"parent": "cafe0a01291b71dd",
+					"name": "CurveItem 2",
+					"factory": "[modules:/zfloatcurvesource.class].pc_entitytype",
+					"blueprint": "[modules:/zfloatcurvesource.class].pc_entityblueprint",
+					"properties": {
+						"m_startTime": {
+							"type": "ZGameTime",
+							"value": { "m_nTicks": 5207927 }
+						},
+						"m_duration": {
+							"type": "ZGameTime",
+							"value": { "m_nTicks": 3180681 }
+						},
+						"m_curve": {
+							"type": "ZCurve",
+							"value": {
+								"data": [
+									[
+										0.0, 2.0, 0.1334374099969864,
+										-0.3589212894439697,
+										0.29719245433807373,
+										-0.0921967625617981, 0.0, 2.0
+									],
+									[
+										0.10465120524168016,
+										1.979511857032776,
+										0.8585060834884644,
+										-1.3316736221313477,
+										0.5222758650779724,
+										-0.004043326713144779,
+										-0.5245768427848816,
+										1.979511857032776
+									],
+									[
+										1.0, 1.5, 0.0, 0.0, 0.0, 0.0, 0.0,
+										1.5
+									]
+								]
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafed5e36f90bde8",
+				{
+					"parent": "cafe9a496ed1e333",
+					"name": "CurveItem",
+					"factory": "[modules:/zfloatcurvesource.class].pc_entitytype",
+					"blueprint": "[modules:/zfloatcurvesource.class].pc_entityblueprint",
+					"properties": {
+						"m_startTime": {
+							"type": "ZGameTime",
+							"value": { "m_nTicks": 0 }
+						},
+						"m_duration": {
+							"type": "ZGameTime",
+							"value": { "m_nTicks": 2097152 }
+						},
+						"m_curve": {
+							"type": "ZCurve",
+							"value": {
+								"data": [
+									[
+										0.0, 1.0, 3.0, -7.5, 8.0, -4.5,
+										0.0, 1.0
+									],
+									[
+										1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+										0.0
+									]
+								]
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe7d76adc6d93b",
+				{
+					"parent": "cafe89cfde1c732d",
+					"name": " Track 4",
+					"factory": "[modules:/zentitypropertytrack.class].pc_entitytype",
+					"blueprint": "[modules:/zentitypropertytrack.class].pc_entityblueprint",
+					"properties": {
+						"m_sPropertyName": {
+							"type": "ZString",
+							"value": "CutsceneDOFFocalDistance"
+						},
+						"m_bRestoreValueAfterEnd": {
+							"type": "bool",
+							"value": false
+						},
+						"m_entityGroup": {
+							"type": "SEntityTemplateReference",
+							"value": "cafe89cfde1c732d",
+							"postInit": true
+						},
+						"m_aItems": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": [
+								"cafe81ec8d4c48ee",
+								"cafe828fa62eddba",
+								"cafe5e7769dd00e6"
+							],
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafea3578d69c4e1",
+				{
+					"parent": "cafea6efe1a4a794",
+					"name": "BooleanItem",
+					"factory": "[modules:/zbooleansource.class].pc_entitytype",
+					"blueprint": "[modules:/zbooleansource.class].pc_entityblueprint",
+					"properties": {
+						"m_startTime": {
+							"type": "ZGameTime",
+							"value": { "m_nTicks": 0 }
+						},
+						"m_duration": {
+							"type": "ZGameTime",
+							"value": { "m_nTicks": 2097152 }
+						},
+						"m_fTimes": {
+							"type": "TArray<ZGameTime>",
+							"value": [{ "m_nTicks": 0 }]
+						},
+						"m_bValues": {
+							"type": "TArray<bool>",
+							"value": [true]
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe2fc64816da65",
+				{
+					"parent": "cafe89cfde1c732d",
+					"name": " Track 6",
+					"factory": "[modules:/zentitypropertytrack.class].pc_entitytype",
+					"blueprint": "[modules:/zentitypropertytrack.class].pc_entityblueprint",
+					"properties": {
+						"m_sPropertyName": {
+							"type": "ZString",
+							"value": "m_bDepthOfFieldUseNew"
+						},
+						"m_bRestoreValueAfterEnd": {
+							"type": "bool",
+							"value": false
+						},
+						"m_entityGroup": {
+							"type": "SEntityTemplateReference",
+							"value": "cafe89cfde1c732d",
+							"postInit": true
+						},
+						"m_aItems": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["cafe95f5f0b91274"],
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe81ec8d4c48ee",
+				{
+					"parent": "cafe7d76adc6d93b",
+					"name": "CurveItem",
+					"factory": "[modules:/zfloatcurvesource.class].pc_entitytype",
+					"blueprint": "[modules:/zfloatcurvesource.class].pc_entityblueprint",
+					"properties": {
+						"m_startTime": {
+							"type": "ZGameTime",
+							"value": { "m_nTicks": 0 }
+						},
+						"m_duration": {
+							"type": "ZGameTime",
+							"value": { "m_nTicks": 3005917 }
+						},
+						"m_curve": {
+							"type": "ZCurve",
+							"value": {
+								"data": [
+									[
+										0.0, 24.200000762939453,
+										-306.8999938964844, 767.25,
+										-818.4000244140625,
+										460.3500061035156, 0.0,
+										24.200000762939453
+									],
+									[
+										1.0, 126.5, 0.0, 0.0, 0.0, 0.0,
+										0.0, 126.5
+									]
+								]
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafea6efe1a4a794",
+				{
+					"parent": "cafe89cfde1c732d",
+					"name": " Track 2",
+					"factory": "[modules:/zentitypropertytrack.class].pc_entitytype",
+					"blueprint": "[modules:/zentitypropertytrack.class].pc_entityblueprint",
+					"properties": {
+						"m_sPropertyName": {
+							"type": "ZString",
+							"value": "CutscenePFEnabled"
+						},
+						"m_aItems": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["cafea3578d69c4e1"]
+						},
+						"m_bRestoreValueAfterEnd": {
+							"type": "bool",
+							"value": false
+						},
+						"m_entityGroup": {
+							"type": "SEntityTemplateReference",
+							"value": "cafe89cfde1c732d",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe2d02309a3fdd",
+				{
+					"parent": "cafeda50fbd428c4",
+					"name": "CurveItem",
+					"factory": "[modules:/zfloatcurvesource.class].pc_entitytype",
+					"blueprint": "[modules:/zfloatcurvesource.class].pc_entityblueprint",
+					"properties": {
+						"m_startTime": {
+							"type": "ZGameTime",
+							"value": { "m_nTicks": 0 }
+						},
+						"m_duration": {
+							"type": "ZGameTime",
+							"value": { "m_nTicks": 3005917 }
+						},
+						"m_curve": {
+							"type": "ZCurve",
+							"value": {
+								"data": [
+									[
+										0.0, 0.20000000298023224,
+										-1.6653345369377348e-15,
+										6.106226635438361e-15,
+										-8.326672684688674e-15,
+										4.996003610813205e-15,
+										-1.1102230246251563e-15,
+										0.20000000298023224
+									],
+									[
+										1.0, 0.20000000298023224, 0.0, 0.0,
+										0.0, 0.0, 0.0, 0.20000000298023224
+									]
+								]
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe12a16905df6e",
+				{
+					"parent": "cafe0a01291b71dd",
+					"name": "CurveItem",
+					"factory": "[modules:/zfloatcurvesource.class].pc_entitytype",
+					"blueprint": "[modules:/zfloatcurvesource.class].pc_entityblueprint",
+					"properties": {
+						"m_startTime": {
+							"type": "ZGameTime",
+							"value": { "m_nTicks": 0 }
+						},
+						"m_duration": {
+							"type": "ZGameTime",
+							"value": { "m_nTicks": 3005917 }
+						},
+						"m_curve": {
+							"type": "ZCurve",
+							"value": {
+								"data": [
+									[
+										0.0, 2.0, 0.0, 0.0, 0.0, -0.0, 0.0,
+										2.0
+									],
+									[
+										1.0, 2.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+										2.0
+									]
+								]
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe689b3e840828",
+				{
+					"parent": "cafe0a01291b71dd",
+					"name": "CurveItem 1",
+					"factory": "[modules:/zfloatcurvesource.class].pc_entitytype",
+					"blueprint": "[modules:/zfloatcurvesource.class].pc_entityblueprint",
+					"properties": {
+						"m_startTime": {
+							"type": "ZGameTime",
+							"value": { "m_nTicks": 3005917 }
+						},
+						"m_duration": {
+							"type": "ZGameTime",
+							"value": { "m_nTicks": 2202010 }
+						},
+						"m_curve": {
+							"type": "ZCurve",
+							"value": {
+								"data": [
+									[
+										0.0, 1.919230818748474,
+										1.2576923370361328,
+										-3.144230842590332,
+										3.3538460731506348,
+										-1.8865385055541992, 0.0,
+										1.919230818748474
+									],
+									[
+										1.0, 1.5, 0.0, 0.0, 0.0, 0.0, 0.0,
+										1.5
+									]
+								]
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe89cfde1c732d",
+				{
+					"parent": "cafe3b01b3af1ad6",
+					"name": "EntityTrack_ FX_PF_PostfilterController",
+					"factory": "[modules:/zentitygroup.class].pc_entitytype",
+					"blueprint": "[modules:/zentitygroup.class].pc_entityblueprint",
+					"properties": {
+						"m_targetEntity": {
+							"type": "SEntityTemplateReference",
+							"value": "cafebe6962a8aebe"
+						},
+						"m_aTracksAndGroups": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": [
+								"cafe9a496ed1e333",
+								"cafecff5ddc0ccb0",
+								"cafea6efe1a4a794",
+								"cafe0a01291b71dd",
+								"cafe7d76adc6d93b",
+								"cafeda50fbd428c4",
+								"cafe2fc64816da65"
+							],
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe95f5f0b91274",
+				{
+					"parent": "cafe2fc64816da65",
+					"name": "BooleanItem",
+					"factory": "[modules:/zbooleansource.class].pc_entitytype",
+					"blueprint": "[modules:/zbooleansource.class].pc_entityblueprint",
+					"properties": {
+						"m_startTime": {
+							"type": "ZGameTime",
+							"value": { "m_nTicks": 0 }
+						},
+						"m_duration": {
+							"type": "ZGameTime",
+							"value": { "m_nTicks": 2097152 }
+						},
+						"m_fTimes": {
+							"type": "TArray<ZGameTime>",
+							"value": [{ "m_nTicks": 0 }]
+						},
+						"m_bValues": {
+							"type": "TArray<bool>",
+							"value": [true]
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe0a01291b71dd",
+				{
+					"parent": "cafe89cfde1c732d",
+					"name": " Track 3",
+					"factory": "[modules:/zentitypropertytrack.class].pc_entitytype",
+					"blueprint": "[modules:/zentitypropertytrack.class].pc_entityblueprint",
+					"properties": {
+						"m_sPropertyName": {
+							"type": "ZString",
+							"value": "CutsceneDOFLensBlur"
+						},
+						"m_entityGroup": {
+							"type": "SEntityTemplateReference",
+							"value": "cafe89cfde1c732d"
+						},
+						"m_aItems": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": [
+								"cafe12a16905df6e",
+								"cafe689b3e840828",
+								"cafecfa468ee51d4"
+							]
+						},
+						"m_bRestoreValueAfterEnd": {
+							"type": "bool",
+							"value": false
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe22b8d34d88e2",
+				{
+					"parent": "cafeda50fbd428c4",
+					"name": "CurveItem 1",
+					"factory": "[modules:/zfloatcurvesource.class].pc_entitytype",
+					"blueprint": "[modules:/zfloatcurvesource.class].pc_entityblueprint",
+					"properties": {
+						"m_startTime": {
+							"type": "ZGameTime",
+							"value": { "m_nTicks": 3005917 }
+						},
+						"m_duration": {
+							"type": "ZGameTime",
+							"value": { "m_nTicks": 2202010 }
+						},
+						"m_curve": {
+							"type": "ZCurve",
+							"value": {
+								"data": [
+									[
+										0.0, 0.20000000298023224,
+										-0.8999999761581421, 2.25,
+										-2.4000000953674316,
+										1.350000023841858, 0.0,
+										0.20000000298023224
+									],
+									[
+										1.0, 0.5, 0.0, 0.0, 0.0, 0.0, 0.0,
+										0.5
+									]
+								]
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe302ff82a38fb",
+				{
+					"parent": "cafe9a496ed1e333",
+					"name": "CurveItem 1",
+					"factory": "[modules:/zfloatcurvesource.class].pc_entitytype",
+					"blueprint": "[modules:/zfloatcurvesource.class].pc_entityblueprint",
+					"properties": {
+						"m_startTime": {
+							"type": "ZGameTime",
+							"value": { "m_nTicks": 6291456 }
+						},
+						"m_duration": {
+							"type": "ZGameTime",
+							"value": { "m_nTicks": 2097152 }
+						},
+						"m_curve": {
+							"type": "ZCurve",
+							"value": {
+								"data": [
+									[
+										0.0, 0.0, -3.0, 7.5, -8.0, 4.5,
+										0.0, 0.0
+									],
+									[
+										1.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+										1.0
+									]
+								]
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafefbc33faf1005",
+				{
+					"parent": "cafe9a496ed1e333",
+					"name": "CurveItem 2",
+					"factory": "[modules:/zfloatcurvesource.class].pc_entitytype",
+					"blueprint": "[modules:/zfloatcurvesource.class].pc_entityblueprint",
+					"properties": {
+						"m_startTime": {
+							"type": "ZGameTime",
+							"value": { "m_nTicks": 8388608 }
+						},
+						"m_duration": {
+							"type": "ZGameTime",
+							"value": { "m_nTicks": 2097152 }
+						},
+						"m_curve": {
+							"type": "ZCurve",
+							"value": {
+								"data": [
+									[
+										0.0, 1.0, 0.0, 0.0, 0.0, -0.0, 0.0,
+										1.0
+									],
+									[
+										1.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+										1.0
+									]
+								]
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafecff5ddc0ccb0",
+				{
+					"parent": "cafe89cfde1c732d",
+					"name": " Track 1",
+					"factory": "[modules:/zentitypropertytrack.class].pc_entitytype",
+					"blueprint": "[modules:/zentitypropertytrack.class].pc_entityblueprint",
+					"properties": {
+						"m_sPropertyName": {
+							"type": "ZString",
+							"value": "CutsceneDOFEnabled"
+						},
+						"m_entityGroup": {
+							"type": "SEntityTemplateReference",
+							"value": "cafe89cfde1c732d"
+						},
+						"m_bRestoreValueAfterEnd": {
+							"type": "bool",
+							"value": false
+						},
+						"m_aItems": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["cafe943919c9a629"],
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe943919c9a629",
+				{
+					"parent": "cafecff5ddc0ccb0",
+					"name": "BooleanItem",
+					"factory": "[modules:/zbooleansource.class].pc_entitytype",
+					"blueprint": "[modules:/zbooleansource.class].pc_entityblueprint",
+					"properties": {
+						"m_startTime": {
+							"type": "ZGameTime",
+							"value": { "m_nTicks": 0 }
+						},
+						"m_duration": {
+							"type": "ZGameTime",
+							"value": { "m_nTicks": 2097152 }
+						},
+						"m_fTimes": {
+							"type": "TArray<ZGameTime>",
+							"value": [{ "m_nTicks": 0 }]
+						},
+						"m_bValues": {
+							"type": "TArray<bool>",
+							"value": [true]
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafebe6962a8aebe",
+				{
+					"parent": "cafe90f65b8c0e8a",
+					"name": "FX_PF_PostfilterController",
+					"factory": "[assembly:/_pro/effects/templates/postfilters/fx_pf_postfiltercontroller.template?/fx_pf_postfiltercontroller.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/effects/templates/postfilters/fx_pf_postfiltercontroller.template?/fx_pf_postfiltercontroller.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_bDepthOfFieldUseNew": {
+							"type": "bool",
+							"value": false
+						},
+						"m_bColorCorrectionHDR": {
+							"type": "bool",
+							"value": true
+						},
+						"m_PostfilterParametersID": {
+							"type": "int32",
+							"value": 1
+						},
+						"BlackBlendInDuration": {
+							"type": "float32",
+							"value": 1.0
+						},
+						"m_bDepthCull": { "type": "bool", "value": false },
+						"m_nMaxMirrors": { "type": "uint32", "value": 2 },
+						"m_bEnableCloth": {
+							"type": "bool",
+							"value": true
+						},
+						"CutsceneHDREnabled": {
+							"type": "bool",
+							"value": false
+						},
+						"m_bEnableShadowPrioritization": {
+							"type": "bool",
+							"value": true
+						}
+					},
+					"platformSpecificProperties": {
+						"VR_PS4": {
+							"m_bEnableCloth": {
+								"type": "bool",
+								"value": false
+							}
+						},
+						"VR_PS4_PRO": {
+							"m_bEnableCloth": {
+								"type": "bool",
+								"value": true
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafef3cb6eb0a44c",
+				{
+					"parent": "cafe90f65b8c0e8a",
+					"name": "BlackWeight",
+					"factory": "[assembly:/_pro/design/logic/valuefloat.template?/valuefloat_entityproperty.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/logic/valuefloat.template?/valuefloat_entityproperty.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_rEntity": {
+							"type": "SEntityTemplateReference",
+							"value": "cafebe6962a8aebe"
+						},
+						"m_sPropertyName": {
+							"type": "ZString",
+							"value": "BlackWeight"
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe0689731a5627",
+				{
+					"parent": "cafe90f65b8c0e8a",
+					"name": "Set BlackWeight",
+					"factory": "[assembly:/_pro/design/logic/valuefloat.template?/valuefloat_set.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/logic/valuefloat.template?/valuefloat_set.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_rValueEntity": {
+							"type": "SEntityTemplateReference",
+							"value": "cafef3cb6eb0a44c"
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe7e04d57dad58",
+				{
+					"parent": "cafe19a7d2ad17a0",
+					"name": "SeqDir_Exit_Boat_Rhib",
+					"factory": "00CCF4A415F2EB7C",
+					"blueprint": "009F665E3F89D2F4",
+					"properties": {
+						"m_aSequences": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["cafe3b01b3af1ad6"]
+						},
+						"m_bHolsterWeaponOnStart": {
+							"type": "bool",
+							"value": true
+						},
+						"IsExitSequence": { "type": "bool", "value": true }
+					},
+					"events": {
+						"OnPlay": { "SetTrue": ["cafe7a8719ff34b3"] },
+						"OnSkip": { "SetFalse": ["cafe7a8719ff34b3"] },
+						"OnStop": { "SetFalse": ["cafe7a8719ff34b3"] }
+					},
+					"outputCopying": {
+						"OnStop": { "OnStop": ["cafe19a7d2ad17a0"] },
+						"OnSkip": { "OnSkip": ["cafe19a7d2ad17a0"] },
+						"OnPlay": { "OnPlay": ["cafe19a7d2ad17a0"] }
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe7a8719ff34b3",
+				{
+					"parent": "cafe19a7d2ad17a0",
+					"name": "VB_SOUND_CutscenePlaying_Tactical_Speedboat",
+					"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint"
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafec7ff79229afe",
+				{
+					"parent": "cafe19a7d2ad17a0",
+					"name": "SeqOrig_Rhib",
+					"factory": "[modules:/zspatialentity.class].pc_entitytype",
+					"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": -0.0,
+									"y": 0.0,
+									"z": 106.8760895389711
+								},
+								"position": {
+									"x": -252.75746154785156,
+									"y": -98.04255676269533,
+									"z": -2.0
+								}
+							}
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "fffffffffffffffe"
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe7ae185fd966b",
+				{
+					"parent": "cafe19a7d2ad17a0",
+					"name": "FX_E_Waterfall_Splashes_Big_A",
+					"factory": "[assembly:/_pro/effects/templates/water/fx_water_spray.template?/fx_e_waterfall_splashes_big_a.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/effects/templates/water/fx_water_spray.template?/fx_e_waterfall_splashes_big_a.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": -10.487301068875125,
+									"y": 85.38614578003012,
+									"z": -85.10368829559941
+								},
+								"position": {
+									"x": -0.01232600025832653,
+									"y": -4.383471965789795,
+									"z": -1.0373649597167969
+								}
+							}
+						},
+						"m_fParticlesPerSecond": {
+							"type": "float32",
+							"value": 120.0
+						},
+						"m_fParticlesPerSecond_1": {
+							"type": "float32",
+							"value": 130.0
+						},
+						"m_fEmissionCameraProximity_": {
+							"type": "float32",
+							"value": 1000.0
+						},
+						"m_fSizeB": { "type": "float32", "value": 70.0 },
+						"m_fSizeA": { "type": "float32", "value": 50.0 },
+						"m_fOuterConeAngle": {
+							"type": "float32",
+							"value": 2.0
+						},
+						"m_fParticleSizeMin": {
+							"type": "float32",
+							"value": 60.0
+						},
+						"m_fParticleSizeMax": {
+							"type": "float32",
+							"value": 90.0
+						},
+						"m_fSpeedMax": { "type": "float32", "value": 6.0 },
+						"m_fSpeedMax_1": {
+							"type": "float32",
+							"value": 7.0
+						},
+						"m_vGlobalSize": {
+							"type": "SVector3",
+							"value": {
+								"x": 0.30000001192092896,
+								"y": 0.10000000149011612,
+								"z": 1.0
+							}
+						},
+						"m_fSpeedMin": { "type": "float32", "value": 4.0 },
+						"m_fCameraFadeNearDistance": {
+							"type": "float32",
+							"value": 0.0
+						},
+						"m_fCameraFadeNearDistance_1": {
+							"type": "float32",
+							"value": 0.10000000149011612
+						},
+						"m_fCameraFadeFarDistance": {
+							"type": "float32",
+							"value": 0.0
+						},
+						"m_fCameraFadeFarDistance_1": {
+							"type": "float32",
+							"value": 0.10000000149011612
+						},
+						"Translucency": {
+							"type": "float32",
+							"value": 0.5
+						},
+						"m_fTimeToLiveSecondsMin": {
+							"type": "float32",
+							"value": 1.600000023841858
+						},
+						"m_fTimeToLiveSecondsMax": {
+							"type": "float32",
+							"value": 2.5
+						},
+						"m_fTimeToLiveSecondsMin_1": {
+							"type": "float32",
+							"value": 1.600000023841858
+						},
+						"m_fTimeToLiveSecondsMax_1": {
+							"type": "float32",
+							"value": 2.5
+						},
+						"m_bSizeDependantFadeDistances": {
+							"type": "bool",
+							"value": false
+						},
+						"m_Value_1": {
+							"type": "ZCurve",
+							"value": {
+								"data": [
+									[
+										0.0, 0.18648017942905423, 0.0, 0.0,
+										0.0, 0.0, 0.6235431432723999,
+										0.18648017942905423
+									],
+									[
+										0.10329171270132063,
+										0.810023307800293, 0.0, 0.0,
+										0.010010583326220512,
+										-0.03954065218567848,
+										0.10614094883203506,
+										0.810023307800293
+									],
+									[
+										0.1889897882938385,
+										0.8866341710090637, 0.0, 0.0,
+										0.0022739903070032597,
+										-0.012433147057890892,
+										0.05709139630198479,
+										0.8866341710090637
+									],
+									[
+										0.27468785643577576,
+										0.9335664510726928, 0.0, 0.0,
+										-0.009750178083777428,
+										-0.024059012532234192,
+										-0.16742196679115295,
+										0.9335664510726928
+									],
+									[
+										0.6373439431190491,
+										0.7323352694511414, 0.0, 0.0,
+										-0.042922329157590866,
+										-0.040771279484033585,
+										-0.24479052424430847,
+										0.7323352694511414
+									],
+									[
+										1.0, 0.4038511514663696, 0.0, 0.0,
+										0.0, 0.0, 0.0, 0.4038511514663696
+									]
+								]
+							}
+						},
+						"m_fOuterConeAngle_1": {
+							"type": "float32",
+							"value": 30.0
+						},
+						"m_FixedColor": {
+							"type": "SColorRGB",
+							"value": "#baccd6"
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "cafebd9bf0832856",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafeb321d4b52d00",
+				{
+					"parent": "cafe90f65b8c0e8a",
+					"name": "Boat_Rhib_Cosmetic",
+					"factory": "[modules:/zentity.class].pc_entitytype",
+					"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe86e3a67e0a4e",
+				{
+					"parent": "cafebd9bf0832856",
+					"name": "FlashLight_A_00_Plane01_white",
+					"factory": "[assembly:/_pro/environment/templates/props/accessories/flashlight_a.template?/flashlight_a_00.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/environment/templates/props/accessories/flashlight_a.template?/flashlight_a_00.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": -8.396539056190287,
+									"y": 6.365527851810968,
+									"z": 115.85427981972842
+								},
+								"position": {
+									"x": -1.0234529972076416,
+									"y": 1.5805339813232422,
+									"z": 0.5087109804153442
+								}
+							}
+						},
+						"m_bDisablePAC": { "type": "bool", "value": true },
+						"DiffusePower": {
+							"type": "float32",
+							"value": 100.0
+						},
+						"GlowPower": { "type": "float32", "value": 100.0 },
+						"m_diffuseColor": {
+							"type": "SColorRGB",
+							"value": "#00ff33"
+						},
+						"m_PrimitiveScale": {
+							"type": "SVector3",
+							"value": {
+								"x": 1.0,
+								"y": 0.2145410031080246,
+								"z": 1.0
+							}
+						},
+						"m_vFarAttenuation": {
+							"type": "SVector2",
+							"value": { "x": 2.0, "y": 10.0 }
+						},
+						"m_bVisible": { "type": "bool", "value": true },
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "cafebd9bf0832856",
+							"postInit": true
+						}
+					},
+					"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafebdba135511f9",
+				{
+					"parent": "cafebd9bf0832856",
+					"name": "FlashLight_A_00_Plane03_red_01",
+					"factory": "[assembly:/_pro/environment/templates/props/accessories/flashlight_a.template?/flashlight_a_00.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/environment/templates/props/accessories/flashlight_a.template?/flashlight_a_00.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": 29.849954034594862,
+									"y": 7.304415339314596,
+									"z": -48.36877651315223
+								},
+								"position": {
+									"x": -0.8409730195999146,
+									"y": -2.7519450187683105,
+									"z": 0.3648679852485657
+								}
+							}
+						},
+						"m_vFarAttenuation": {
+							"type": "SVector2",
+							"value": { "x": 1.0, "y": 1.0 }
+						},
+						"DiffusePower": {
+							"type": "float32",
+							"value": 200.0
+						},
+						"m_bDisablePAC": { "type": "bool", "value": true },
+						"m_diffuseColor": {
+							"type": "SColorRGB",
+							"value": "#ff0000"
+						},
+						"GlowPower": { "type": "float32", "value": 400.0 },
+						"m_PrimitiveScale": {
+							"type": "SVector3",
+							"value": {
+								"x": 1.0,
+								"y": 0.11159200221300124,
+								"z": 1.0
+							}
+						},
+						"m_bVisible": { "type": "bool", "value": true },
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "cafebd9bf0832856",
+							"postInit": true
+						}
+					},
+					"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafeb7f2ac20907e",
+				{
+					"parent": "cafebd9bf0832856",
+					"name": "FlashLight_A_00_Plane01_white_01",
+					"factory": "[assembly:/_pro/environment/templates/props/accessories/flashlight_a.template?/flashlight_a_00.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/environment/templates/props/accessories/flashlight_a.template?/flashlight_a_00.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": -8.58535072058659,
+									"y": 2.8644927959848454,
+									"z": -108.43092725767404
+								},
+								"position": {
+									"x": 1.0227049589157104,
+									"y": 1.573214054107666,
+									"z": 0.5011060237884521
+								}
+							}
+						},
+						"m_bDisablePAC": { "type": "bool", "value": true },
+						"DiffusePower": {
+							"type": "float32",
+							"value": 100.0
+						},
+						"GlowPower": { "type": "float32", "value": 100.0 },
+						"m_diffuseColor": {
+							"type": "SColorRGB",
+							"value": "#00ff33"
+						},
+						"m_PrimitiveScale": {
+							"type": "SVector3",
+							"value": {
+								"x": 1.0,
+								"y": 0.2145410031080246,
+								"z": 1.0
+							}
+						},
+						"m_vFarAttenuation": {
+							"type": "SVector2",
+							"value": { "x": 2.0, "y": 10.0 }
+						},
+						"m_bVisible": { "type": "bool", "value": true },
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "cafebd9bf0832856",
+							"postInit": true
+						}
+					},
+					"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafeab25563b4fd7",
+				{
+					"parent": "cafebd9bf0832856",
+					"name": "FlashLight_A_00_Plane01_white_02",
+					"factory": "[assembly:/_pro/environment/templates/props/accessories/flashlight_a.template?/flashlight_a_00.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/environment/templates/props/accessories/flashlight_a.template?/flashlight_a_00.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": -7.625076987419378,
+									"y": 6.462793105888459,
+									"z": 92.20762691363414
+								},
+								"position": {
+									"x": -1.2190090417861938,
+									"y": -2.154898881912231,
+									"z": 0.3414759933948517
+								}
+							}
+						},
+						"m_bDisablePAC": { "type": "bool", "value": true },
+						"DiffusePower": {
+							"type": "float32",
+							"value": 100.0
+						},
+						"GlowPower": { "type": "float32", "value": 100.0 },
+						"m_diffuseColor": {
+							"type": "SColorRGB",
+							"value": "#00ff33"
+						},
+						"m_PrimitiveScale": {
+							"type": "SVector3",
+							"value": {
+								"x": 1.0,
+								"y": 0.2145410031080246,
+								"z": 1.0
+							}
+						},
+						"m_vFarAttenuation": {
+							"type": "SVector2",
+							"value": { "x": 2.0, "y": 10.0 }
+						},
+						"m_bVisible": { "type": "bool", "value": true },
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "cafebd9bf0832856",
+							"postInit": true
+						}
+					},
+					"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe6bbc3c16cc02",
+				{
+					"parent": "cafef22a393a33ca",
+					"name": "ValueBool_Basic",
+					"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_bValue": { "type": "bool", "value": false },
+						"m_bFireOnLevelStart": {
+							"type": "bool",
+							"value": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafef22a393a33ca",
+				{
+					"parent": "cafeb321d4b52d00",
+					"name": "boat_rubber_tactical_a_NoCage_B",
+					"factory": "[modules:/zspatialentity.class].pc_entitytype",
+					"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": -0.0,
+									"y": 0.0,
+									"z": 89.55699633308097
+								},
+								"position": {
+									"x": -238.21499633789065,
+									"y": -85.15599060058594,
+									"z": -3.059999942779541
+								}
+							}
+						},
+						"m_bVisible": { "type": "bool", "value": true },
+						"m_eRoomBehaviour": {
+							"type": "ZSpatialEntity.ERoomBehaviour",
+							"value": "ROOM_DYNAMIC"
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "fffffffffffffffe"
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafeb220215ed1c0",
+				{
+					"parent": "cafebd9bf0832856",
+					"name": "FlashLight_A_00_Plane01_white_04",
+					"factory": "[assembly:/_pro/environment/templates/props/accessories/flashlight_a.template?/flashlight_a_00.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/environment/templates/props/accessories/flashlight_a.template?/flashlight_a_00.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": -0.0,
+									"y": 0.0,
+									"z": -0.08158921849145243
+								},
+								"position": {
+									"x": -0.0002589999930933118,
+									"y": -0.000043000000005122274,
+									"z": 0.0
+								}
+							}
+						},
+						"m_bDisablePAC": { "type": "bool", "value": true },
+						"DiffusePower": {
+							"type": "float32",
+							"value": 25.0
+						},
+						"GlowPower": { "type": "float32", "value": 50.0 },
+						"m_diffuseColor": {
+							"type": "SColorRGB",
+							"value": "#00ff33"
+						},
+						"m_PrimitiveScale": {
+							"type": "SVector3",
+							"value": {
+								"x": 1.0,
+								"y": 0.2145410031080246,
+								"z": 1.0
+							}
+						},
+						"m_vFarAttenuation": {
+							"type": "SVector2",
+							"value": { "x": 2.0, "y": 3.0 }
+						},
+						"m_bVisible": { "type": "bool", "value": true },
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "cafebd9bf0832856",
+							"postInit": true
+						}
+					},
+					"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe54f7f4e7b694",
+				{
+					"parent": "cafebd9bf0832856",
+					"name": "FlashLight_A_00_Plane01_white_03",
+					"factory": "[assembly:/_pro/environment/templates/props/accessories/flashlight_a.template?/flashlight_a_00.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/environment/templates/props/accessories/flashlight_a.template?/flashlight_a_00.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": -7.795814006563843,
+									"y": 2.6871845365095774,
+									"z": -83.9276355265228
+								},
+								"position": {
+									"x": 1.2404019832611084,
+									"y": -2.1631200313568115,
+									"z": 0.33680200576782227
+								}
+							}
+						},
+						"m_bDisablePAC": { "type": "bool", "value": true },
+						"DiffusePower": {
+							"type": "float32",
+							"value": 100.0
+						},
+						"GlowPower": { "type": "float32", "value": 100.0 },
+						"m_diffuseColor": {
+							"type": "SColorRGB",
+							"value": "#00ff33"
+						},
+						"m_PrimitiveScale": {
+							"type": "SVector3",
+							"value": {
+								"x": 1.0,
+								"y": 0.2145410031080246,
+								"z": 1.0
+							}
+						},
+						"m_vFarAttenuation": {
+							"type": "SVector2",
+							"value": { "x": 2.0, "y": 10.0 }
+						},
+						"m_bVisible": { "type": "bool", "value": true },
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "cafebd9bf0832856",
+							"postInit": true
+						}
+					},
+					"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafebd9bf0832856",
+				{
+					"parent": "cafef22a393a33ca",
+					"name": "boat_rubber_tactical_a_NoCage_B_cine",
+					"factory": "[assembly:/_pro/environment/templates/props/harbour_props/harbour_props.template?/boat_rubber_tactical_a_nocage_b.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/environment/templates/props/harbour_props/harbour_props.template?/boat_rubber_tactical_a_nocage_b.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": -0.0,
+									"y": 0.0,
+									"z": -90.32406666287926
+								},
+								"position": {
+									"x": 0.0,
+									"y": 0.0,
+									"z": 0.0
+								}
+							}
+						},
+						"m_bVisible": { "type": "bool", "value": true },
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "cafef22a393a33ca"
+						},
+						"m_eRoomBehaviour": {
+							"type": "ZSpatialEntity.ERoomBehaviour",
+							"value": "ROOM_DYNAMIC"
+						},
+						"m_bPCCastShadows": {
+							"type": "bool",
+							"value": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe20881fde269e",
+				{
+					"parent": "cafebd9bf0832856",
+					"name": "FlashLight_A_00_Plane03_red",
+					"factory": "[assembly:/_pro/environment/templates/props/accessories/flashlight_a.template?/flashlight_a_00.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/environment/templates/props/accessories/flashlight_a.template?/flashlight_a_00.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": 30.515999526658696,
+									"y": 9.610823328234924,
+									"z": 30.05893030634882
+								},
+								"position": {
+									"x": 0.8396450281143188,
+									"y": -2.758064985275269,
+									"z": 0.3673020005226135
+								}
+							}
+						},
+						"m_vFarAttenuation": {
+							"type": "SVector2",
+							"value": { "x": 1.0, "y": 1.0 }
+						},
+						"DiffusePower": {
+							"type": "float32",
+							"value": 200.0
+						},
+						"m_bDisablePAC": { "type": "bool", "value": true },
+						"m_diffuseColor": {
+							"type": "SColorRGB",
+							"value": "#ff0000"
+						},
+						"GlowPower": { "type": "float32", "value": 400.0 },
+						"m_PrimitiveScale": {
+							"type": "SVector3",
+							"value": {
+								"x": 1.0,
+								"y": 0.11159200221300124,
+								"z": 1.0
+							}
+						},
+						"m_bVisible": { "type": "bool", "value": true },
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "cafebd9bf0832856"
+						}
+					},
+					"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe80d695b8c636",
+				{
+					"parent": "cafe19a7d2ad17a0",
+					"name": "FX_E_Waterfall_Splashes_Big_A_01",
+					"factory": "[assembly:/_pro/effects/templates/water/fx_water_spray.template?/fx_e_waterfall_splashes_big_a.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/effects/templates/water/fx_water_spray.template?/fx_e_waterfall_splashes_big_a.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": 18.032899347649575,
+									"y": 85.38618661320847,
+									"z": -85.10368710150637
+								},
+								"position": {
+									"x": -0.7872070074081421,
+									"y": -4.056984901428223,
+									"z": -1.0583490133285522
+								}
+							}
+						},
+						"m_fParticlesPerSecond": {
+							"type": "float32",
+							"value": 120.0
+						},
+						"m_fParticlesPerSecond_1": {
+							"type": "float32",
+							"value": 130.0
+						},
+						"m_fEmissionCameraProximity_": {
+							"type": "float32",
+							"value": 1000.0
+						},
+						"m_fSizeB": { "type": "float32", "value": 70.0 },
+						"m_fSizeA": { "type": "float32", "value": 50.0 },
+						"m_fOuterConeAngle": {
+							"type": "float32",
+							"value": 2.0
+						},
+						"m_fParticleSizeMin": {
+							"type": "float32",
+							"value": 60.0
+						},
+						"m_fParticleSizeMax": {
+							"type": "float32",
+							"value": 90.0
+						},
+						"m_fSpeedMax": { "type": "float32", "value": 6.0 },
+						"m_fSpeedMax_1": {
+							"type": "float32",
+							"value": 7.0
+						},
+						"m_vGlobalSize": {
+							"type": "SVector3",
+							"value": {
+								"x": 0.30000001192092896,
+								"y": 0.10000000149011612,
+								"z": 1.0
+							}
+						},
+						"m_fSpeedMin": { "type": "float32", "value": 4.0 },
+						"m_fCameraFadeNearDistance": {
+							"type": "float32",
+							"value": 0.0
+						},
+						"m_fCameraFadeNearDistance_1": {
+							"type": "float32",
+							"value": 0.10000000149011612
+						},
+						"m_fCameraFadeFarDistance": {
+							"type": "float32",
+							"value": 0.0
+						},
+						"m_fCameraFadeFarDistance_1": {
+							"type": "float32",
+							"value": 0.10000000149011612
+						},
+						"Translucency": {
+							"type": "float32",
+							"value": 0.5
+						},
+						"m_fTimeToLiveSecondsMin": {
+							"type": "float32",
+							"value": 1.600000023841858
+						},
+						"m_fTimeToLiveSecondsMax": {
+							"type": "float32",
+							"value": 2.5
+						},
+						"m_fTimeToLiveSecondsMin_1": {
+							"type": "float32",
+							"value": 1.600000023841858
+						},
+						"m_fTimeToLiveSecondsMax_1": {
+							"type": "float32",
+							"value": 2.5
+						},
+						"m_bSizeDependantFadeDistances": {
+							"type": "bool",
+							"value": false
+						},
+						"m_Value_1": {
+							"type": "ZCurve",
+							"value": {
+								"data": [
+									[
+										0.0, 0.18648017942905423, 0.0, 0.0,
+										0.0, 0.0, 0.6235431432723999,
+										0.18648017942905423
+									],
+									[
+										0.10329171270132063,
+										0.810023307800293, 0.0, 0.0,
+										0.010010583326220512,
+										-0.03954065218567848,
+										0.10614094883203506,
+										0.810023307800293
+									],
+									[
+										0.1889897882938385,
+										0.8866341710090637, 0.0, 0.0,
+										0.0022739903070032597,
+										-0.012433147057890892,
+										0.05709139630198479,
+										0.8866341710090637
+									],
+									[
+										0.27468785643577576,
+										0.9335664510726928, 0.0, 0.0,
+										-0.009750178083777428,
+										-0.024059012532234192,
+										-0.16742196679115295,
+										0.9335664510726928
+									],
+									[
+										0.6373439431190491,
+										0.7323352694511414, 0.0, 0.0,
+										-0.042922329157590866,
+										-0.040771279484033585,
+										-0.24479052424430847,
+										0.7323352694511414
+									],
+									[
+										1.0, 0.4038511514663696, 0.0, 0.0,
+										0.0, 0.0, 0.0, 0.4038511514663696
+									]
+								]
+							}
+						},
+						"m_fOuterConeAngle_1": {
+							"type": "float32",
+							"value": 30.0
+						},
+						"m_FixedColor": {
+							"type": "SColorRGB",
+							"value": "#baccd6"
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "cafebd9bf0832856",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe6a2487ed1709",
+				{
+					"parent": "cafe19a7d2ad17a0",
+					"name": "FX_E_Waterfall_Splashes_Big_A_03",
+					"factory": "[assembly:/_pro/effects/templates/water/fx_water_spray.template?/fx_e_waterfall_splashes_big_a.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/effects/templates/water/fx_water_spray.template?/fx_e_waterfall_splashes_big_a.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": -43.91631542944401,
+									"y": 76.83424421385705,
+									"z": 1.13005363048234
+								},
+								"position": {
+									"x": -1.635956048965454,
+									"y": 1.550519943237305,
+									"z": -0.3608939945697784
+								}
+							}
+						},
+						"m_fParticlesPerSecond": {
+							"type": "float32",
+							"value": 40.0
+						},
+						"m_fParticlesPerSecond_1": {
+							"type": "float32",
+							"value": 55.0
+						},
+						"m_fEmissionCameraProximity_": {
+							"type": "float32",
+							"value": 15.0
+						},
+						"m_fSizeB": { "type": "float32", "value": 70.0 },
+						"m_fSizeA": { "type": "float32", "value": 50.0 },
+						"m_fOuterConeAngle": {
+							"type": "float32",
+							"value": 2.0
+						},
+						"m_fParticleSizeMin": {
+							"type": "float32",
+							"value": 60.0
+						},
+						"m_fParticleSizeMax": {
+							"type": "float32",
+							"value": 90.0
+						},
+						"m_fSpeedMax": { "type": "float32", "value": 2.0 },
+						"m_fSpeedMax_1": {
+							"type": "float32",
+							"value": 2.0
+						},
+						"m_vGlobalSize": {
+							"type": "SVector3",
+							"value": {
+								"x": 0.30000001192092896,
+								"y": 0.10000000149011612,
+								"z": 1.0
+							}
+						},
+						"m_fSpeedMin": { "type": "float32", "value": 1.0 },
+						"m_fCameraFadeNearDistance": {
+							"type": "float32",
+							"value": 0.0
+						},
+						"m_fCameraFadeNearDistance_1": {
+							"type": "float32",
+							"value": 0.10000000149011612
+						},
+						"m_fCameraFadeFarDistance": {
+							"type": "float32",
+							"value": 0.0
+						},
+						"m_fCameraFadeFarDistance_1": {
+							"type": "float32",
+							"value": 0.10000000149011612
+						},
+						"Translucency": {
+							"type": "float32",
+							"value": 0.10000000149011612
+						},
+						"m_fTimeToLiveSecondsMin": {
+							"type": "float32",
+							"value": 0.6000000238418579
+						},
+						"m_fTimeToLiveSecondsMax": {
+							"type": "float32",
+							"value": 0.800000011920929
+						},
+						"m_fTimeToLiveSecondsMin_1": {
+							"type": "float32",
+							"value": 0.6000000238418579
+						},
+						"m_fTimeToLiveSecondsMax_1": {
+							"type": "float32",
+							"value": 0.800000011920929
+						},
+						"m_bSizeDependantFadeDistances": {
+							"type": "bool",
+							"value": false
+						},
+						"m_Value_1": {
+							"type": "ZCurve",
+							"value": {
+								"data": [
+									[
+										0.0, 0.18648017942905423, 0.0, 0.0,
+										0.0, 0.0, 0.13509908318519592,
+										0.18648017942905423
+									],
+									[
+										0.10329171270132063,
+										0.3215792775154114, 0.0, 0.0,
+										0.010010583326220512,
+										-0.03954065218567848,
+										0.10614094883203506,
+										0.3215792775154114
+									],
+									[
+										0.1889897882938385,
+										0.3981901407241822, 0.0, 0.0,
+										0.0022739903070032597,
+										-0.012433147057890892,
+										0.05709139630198479,
+										0.3981901407241822
+									],
+									[
+										0.27468785643577576,
+										0.4451223909854889, 0.0, 0.0,
+										-0.0023189056664705276,
+										-0.005722006317228079,
+										-0.03981832042336464,
+										0.4451223909854889
+									],
+									[
+										0.6373439431190491,
+										0.39726313948631287, 0.0, 0.0,
+										-0.0102083096280694,
+										-0.0096967201679945,
+										-0.058219052851200104,
+										0.39726313948631287
+									],
+									[
+										1.0, 0.3191390633583069, 0.0, 0.0,
+										0.0, 0.0, 0.0, 0.3191390633583069
+									]
+								]
+							}
+						},
+						"m_fSpeedMin_1": {
+							"type": "float32",
+							"value": 1.0
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "cafebd9bf0832856",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe8033a9adb505",
+				{
+					"parent": "cafe19a7d2ad17a0",
+					"name": "FX_E_Waterfall_Splashes_Big_A_04",
+					"factory": "[assembly:/_pro/effects/templates/water/fx_water_spray.template?/fx_e_waterfall_splashes_big_a.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/effects/templates/water/fx_water_spray.template?/fx_e_waterfall_splashes_big_a.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": -34.1536210200635,
+									"y": 81.08601781710009,
+									"z": -50.00974294822145
+								},
+								"position": {
+									"x": 0.6098020076751709,
+									"y": 1.1237280368804932,
+									"z": -0.2500450015068054
+								}
+							}
+						},
+						"m_fParticlesPerSecond": {
+							"type": "float32",
+							"value": 40.0
+						},
+						"m_fParticlesPerSecond_1": {
+							"type": "float32",
+							"value": 55.0
+						},
+						"m_fEmissionCameraProximity_": {
+							"type": "float32",
+							"value": 15.0
+						},
+						"m_fSizeB": { "type": "float32", "value": 70.0 },
+						"m_fSizeA": { "type": "float32", "value": 50.0 },
+						"m_fOuterConeAngle": {
+							"type": "float32",
+							"value": 2.0
+						},
+						"m_fParticleSizeMin": {
+							"type": "float32",
+							"value": 60.0
+						},
+						"m_fParticleSizeMax": {
+							"type": "float32",
+							"value": 90.0
+						},
+						"m_fSpeedMax": { "type": "float32", "value": 2.0 },
+						"m_fSpeedMax_1": {
+							"type": "float32",
+							"value": 2.0
+						},
+						"m_vGlobalSize": {
+							"type": "SVector3",
+							"value": {
+								"x": 0.30000001192092896,
+								"y": 0.10000000149011612,
+								"z": 1.0
+							}
+						},
+						"m_fSpeedMin": { "type": "float32", "value": 1.0 },
+						"m_fCameraFadeNearDistance": {
+							"type": "float32",
+							"value": 0.0
+						},
+						"m_fCameraFadeNearDistance_1": {
+							"type": "float32",
+							"value": 0.10000000149011612
+						},
+						"m_fCameraFadeFarDistance": {
+							"type": "float32",
+							"value": 0.0
+						},
+						"m_fCameraFadeFarDistance_1": {
+							"type": "float32",
+							"value": 0.10000000149011612
+						},
+						"Translucency": {
+							"type": "float32",
+							"value": 0.10000000149011612
+						},
+						"m_fTimeToLiveSecondsMin": {
+							"type": "float32",
+							"value": 0.6000000238418579
+						},
+						"m_fTimeToLiveSecondsMax": {
+							"type": "float32",
+							"value": 0.800000011920929
+						},
+						"m_fTimeToLiveSecondsMin_1": {
+							"type": "float32",
+							"value": 0.6000000238418579
+						},
+						"m_fTimeToLiveSecondsMax_1": {
+							"type": "float32",
+							"value": 0.800000011920929
+						},
+						"m_bSizeDependantFadeDistances": {
+							"type": "bool",
+							"value": false
+						},
+						"m_Value_1": {
+							"type": "ZCurve",
+							"value": {
+								"data": [
+									[
+										0.0, 0.18648017942905423, 0.0, 0.0,
+										0.0, 0.0, 0.13509908318519592,
+										0.18648017942905423
+									],
+									[
+										0.10329171270132063,
+										0.3215792775154114, 0.0, 0.0,
+										0.010010583326220512,
+										-0.03954065218567848,
+										0.10614094883203506,
+										0.3215792775154114
+									],
+									[
+										0.1889897882938385,
+										0.3981901407241822, 0.0, 0.0,
+										0.0022739903070032597,
+										-0.012433147057890892,
+										0.05709139630198479,
+										0.3981901407241822
+									],
+									[
+										0.27468785643577576,
+										0.4451223909854889, 0.0, 0.0,
+										-0.0023189056664705276,
+										-0.005722006317228079,
+										-0.03981832042336464,
+										0.4451223909854889
+									],
+									[
+										0.6373439431190491,
+										0.39726313948631287, 0.0, 0.0,
+										-0.0102083096280694,
+										-0.0096967201679945,
+										-0.058219052851200104,
+										0.39726313948631287
+									],
+									[
+										1.0, 0.3191390633583069, 0.0, 0.0,
+										0.0, 0.0, 0.0, 0.3191390633583069
+									]
+								]
+							}
+						},
+						"m_fSpeedMin_1": {
+							"type": "float32",
+							"value": 1.0
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "cafebd9bf0832856",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafece6c0453a40b",
+				{
+					"parent": "cafe5c188d1528bc",
+					"name": "Event_A",
+					"factory": "[modules:/zeventtrackitem.class].pc_entitytype",
+					"blueprint": "[modules:/zeventtrackitem.class].pc_entityblueprint",
+					"properties": {
+						"m_startTime": {
+							"type": "ZGameTime",
+							"value": { "m_nTicks": 3156213 }
+						},
+						"m_duration": {
+							"type": "ZGameTime",
+							"value": { "m_nTicks": 618659 }
+						}
+					},
+					"outputCopying": {
+						"Fired": { "SailAwayBehind": ["cafe5c188d1528bc"] }
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe5c188d1528bc",
+				{
+					"parent": "cafe3b01b3af1ad6",
+					"name": "Event Track",
+					"factory": "[modules:/zeventtrack.class].pc_entitytype",
+					"blueprint": "[modules:/zeventtrack.class].pc_entityblueprint",
+					"properties": {
+						"m_aItems": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["cafece6c0453a40b"]
+						}
+					},
+					"outputCopying": {
+						"SailAwayBehind": {
+							"Event_Track_SailAwayBehind": [
+								"cafe3b01b3af1ad6"
+							]
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe0a6dc72a1045",
+				{
+					"parent": "cafe3b01b3af1ad6",
+					"name": "Sound",
+					"factory": "[modules:/zeventtrack.class].pc_entitytype",
+					"blueprint": "[modules:/zeventtrack.class].pc_entityblueprint",
+					"properties": {
+						"m_aItems": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["cafe423ffc19ca42"],
+							"postInit": true
+						}
+					},
+					"outputCopying": {
+						"Sound_ExitSeaplaneFired_Fired": {
+							"Event_Track_Sound_ExitSeaplaneFired_Fired": [
+								"cafe3b01b3af1ad6"
+							]
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe423ffc19ca42",
+				{
+					"parent": "cafe0a6dc72a1045",
+					"name": "Sound_ExitSeaplaneFired",
+					"factory": "[modules:/zeventtrackitem.class].pc_entitytype",
+					"blueprint": "[modules:/zeventtrackitem.class].pc_entityblueprint",
+					"properties": {
+						"m_startTime": {
+							"type": "ZGameTime",
+							"value": { "m_nTicks": 0 }
+						},
+						"m_duration": {
+							"type": "ZGameTime",
+							"value": { "m_nTicks": 262144 }
+						}
+					},
+					"outputCopying": {
+						"Fired": {
+							"Sound_ExitSeaplaneFired_Fired": [
+								"cafe0a6dc72a1045"
+							]
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe5887fb56fe42",
+				{
+					"parent": "cafe902bdf733ee9",
+					"name": "CurveTrajectoryItem 2",
+					"factory": "[modules:/zeulerangletrajectorysource.class].pc_entitytype",
+					"blueprint": "[modules:/zeulerangletrajectorysource.class].pc_entityblueprint",
+					"properties": {
+						"m_startTime": {
+							"type": "ZGameTime",
+							"value": { "m_nTicks": 5207927 }
+						},
+						"m_duration": {
+							"type": "ZGameTime",
+							"value": { "m_nTicks": 3180681 }
+						},
+						"m_CurveX": {
+							"type": "ZCurve",
+							"value": {
+								"data": [
+									[
+										0.0, -125.1647491455078,
+										61.037017822265625,
+										-152.59254455566406,
+										162.765380859375,
+										-91.55552673339844, 0.0,
+										-125.1647491455078
+									],
+									[
+										1.0, -145.5104217529297, 0.0, 0.0,
+										0.0, 0.0, 0.0, -145.5104217529297
+									]
+								]
+							}
+						},
+						"m_CurveRotX": {
+							"type": "ZCurve",
+							"value": {
+								"data": [
+									[
+										0.0, -28.545141220092773, 0.0, 0.0,
+										-6.348917007446289,
+										28.885330200195312,
+										-61.26032257080078,
+										-28.545141220092773
+									],
+									[
+										0.25, -67.26905059814453, 0.0, 0.0,
+										-2.3356361389160156,
+										10.62631893157959,
+										-22.536413192749023,
+										-67.26905059814453
+									],
+									[
+										0.5, -81.51477813720703, 0.0, 0.0,
+										-4.4880876541137695,
+										13.900793075561523,
+										-16.58136558532715,
+										-81.51477813720703
+									],
+									[
+										1.0, -88.68344116210938, 0.0, 0.0,
+										0.0, 0.0, 0.0, -88.68344116210938
+									]
+								]
+							}
+						},
+						"m_CurveY": {
+							"type": "ZCurve",
+							"value": {
+								"data": [
+									[
+										0.0, -28.41510009765625,
+										4.427490234375, -11.0687255859375,
+										11.806640625, -6.6412353515625,
+										0.0, -28.41510009765625
+									],
+									[
+										1.0, -29.89093017578125, 0.0, 0.0,
+										0.0, 0.0, 0.0, -29.89093017578125
+									]
+								]
+							}
+						},
+						"m_CurveRotY": {
+							"type": "ZCurve",
+							"value": {
+								"data": [
+									[
+										0.0, 0.0, 0.0, 0.0, 0.0, -0.0, 0.0,
+										0.0
+									],
+									[
+										1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+										0.0
+									]
+								]
+							}
+						},
+						"m_CurveZ": {
+							"type": "ZCurve",
+							"value": {
+								"data": [
+									[
+										0.0, 4.732850074768066,
+										2.895157814025879,
+										-7.237894535064697,
+										7.720420837402344,
+										-4.342736721038818, 0.0,
+										4.732850074768066
+									],
+									[
+										1.0, 3.7677974700927734, 0.0, 0.0,
+										0.0, 0.0, 0.0, 3.7677974700927734
+									]
+								]
+							}
+						},
+						"m_CurveRotZ": {
+							"type": "ZCurve",
+							"value": {
+								"data": [
+									[
+										0.0, -75.33157348632812, 0.0, 0.0,
+										-3.1491122245788574,
+										14.327347755432127,
+										-30.385595321655273,
+										-75.33157348632812
+									],
+									[
+										0.25, -94.53893280029295, 0.0, 0.0,
+										-1.1584936380386353,
+										5.2707366943359375,
+										-11.17823600769043,
+										-94.53893280029295
+									],
+									[
+										0.5, -101.60492706298828, 0.0, 0.0,
+										-2.2261264324188232,
+										6.894900798797607,
+										-8.224486351013184,
+										-101.60492706298828
+									],
+									[
+										1.0, -105.16063690185548, 0.0, 0.0,
+										0.0, 0.0, 0.0, -105.16063690185548
+									]
+								]
+							}
+						},
+						"m_eCoordinateSpace": {
+							"type": "ECoordinateSpace",
+							"value": "CSPACE_SEQUENCE_ORIGIN"
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe65001741752e",
+				{
+					"parent": "cafe014695095701",
+					"name": "CurveItem 1",
+					"factory": "[modules:/zfloatcurvesource.class].pc_entitytype",
+					"blueprint": "[modules:/zfloatcurvesource.class].pc_entityblueprint",
+					"properties": {
+						"m_startTime": {
+							"type": "ZGameTime",
+							"value": { "m_nTicks": 5207927 }
+						},
+						"m_duration": {
+							"type": "ZGameTime",
+							"value": { "m_nTicks": 3180681 }
+						},
+						"m_curve": {
+							"type": "ZCurve",
+							"value": {
+								"data": [
+									[
+										0.0, 45.0, 0.0, 0.0, 0.0, -0.0,
+										0.0, 45.0
+									],
+									[
+										1.0, 45.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+										45.0
+									]
+								]
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe7fdfb1226ee7",
+				{
+					"parent": "cafe902bdf733ee9",
+					"name": "CurveTrajectoryItem 4",
+					"factory": "[modules:/zeulerangletrajectorysource.class].pc_entitytype",
+					"blueprint": "[modules:/zeulerangletrajectorysource.class].pc_entityblueprint",
+					"properties": {
+						"m_startTime": {
+							"type": "ZGameTime",
+							"value": { "m_nTicks": 10905191 }
+						},
+						"m_duration": {
+							"type": "ZGameTime",
+							"value": { "m_nTicks": 3005917 }
+						},
+						"m_CurveX": {
+							"type": "ZCurve",
+							"value": {
+								"data": [
+									[
+										0.0, -14.10280418395996,
+										-4.276468276977539,
+										10.691170692443848,
+										-11.403915405273438,
+										6.414702415466309, 0.0,
+										-14.10280418395996
+									],
+									[
+										0.9883723855018616,
+										-12.67731475830078,
+										230.88880920410156,
+										-577.2220458984375,
+										615.7034912109375,
+										-346.3332214355469, 0.0,
+										-12.67731475830078
+									],
+									[
+										1.0, -89.64025115966797, 0.0, 0.0,
+										0.0, 0.0, 0.0, -89.64025115966797
+									]
+								]
+							}
+						},
+						"m_CurveRotX": {
+							"type": "ZCurve",
+							"value": {
+								"data": [
+									[
+										0.0, -74.47911834716797,
+										24.960296630859375,
+										-62.40074157714844,
+										66.560791015625,
+										-37.44044494628906, 0.0,
+										-74.47911834716797
+									],
+									[
+										0.9883723855018616,
+										-82.7992172241211,
+										16.795440673828125,
+										-41.98860168457031,
+										44.787841796875,
+										-25.193161010742188, 0.0,
+										-82.7992172241211
+									],
+									[
+										1.0, -88.39769744873047, 0.0, 0.0,
+										0.0, 0.0, 0.0, -88.39769744873047
+									]
+								]
+							}
+						},
+						"m_CurveY": {
+							"type": "ZCurve",
+							"value": {
+								"data": [
+									[
+										0.0, -38.62010192871094,
+										-11.727081298828123,
+										29.317703247070312,
+										-31.272216796875,
+										17.590621948242188, 0.0,
+										-38.62010192871094
+									],
+									[
+										0.9883723855018616,
+										-34.71107482910156,
+										-39.077728271484375,
+										97.69432067871094,
+										-104.207275390625,
+										58.61659240722656, 0.0,
+										-34.71107482910156
+									],
+									[
+										1.0, -21.68516540527344, 0.0, 0.0,
+										0.0, 0.0, 0.0, -21.68516540527344
+									]
+								]
+							}
+						},
+						"m_CurveRotY": {
+							"type": "ZCurve",
+							"value": {
+								"data": [
+									[
+										0.0, 0.0, 0.0, 0.0, 0.0, -0.0, 0.0,
+										0.0
+									],
+									[
+										0.9883723855018616, 0.0, 0.0, 0.0,
+										0.0, -0.0, 0.0, 0.0
+									],
+									[
+										1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+										0.0
+									]
+								]
+							}
+						},
+						"m_CurveZ": {
+							"type": "ZCurve",
+							"value": {
+								"data": [
+									[
+										0.0, 7.626326084136963, 0.0, 0.0,
+										0.0, -0.0, 0.0, 7.626326084136963
+									],
+									[
+										0.9883723855018616,
+										7.626326084136963,
+										16.567167282104492,
+										-41.41791534423828,
+										44.17911148071289,
+										-24.850749969482425, 0.0,
+										7.626326084136963
+									],
+									[
+										1.0, 2.1039371490478516, 0.0, 0.0,
+										0.0, 0.0, 0.0, 2.1039371490478516
+									]
+								]
+							}
+						},
+						"m_CurveRotZ": {
+							"type": "ZCurve",
+							"value": {
+								"data": [
+									[
+										0.0, -47.81044006347656,
+										72.96196746826172,
+										-182.40492248535156,
+										194.56524658203125,
+										-109.44295501708984, 0.0,
+										-47.81044006347656
+									],
+									[
+										0.9883723855018616,
+										-72.13109588623047,
+										-479.7212219238281,
+										1199.3031005859375,
+										-1279.256591796875,
+										719.5818481445312, 0.0,
+										-72.13109588623047
+									],
+									[
+										1.0, 87.7759780883789, 0.0, 0.0,
+										0.0, 0.0, 0.0, 87.7759780883789
+									]
+								]
+							}
+						},
+						"m_eCoordinateSpace": {
+							"type": "ECoordinateSpace",
+							"value": "CSPACE_SEQUENCE_ORIGIN"
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe68a58cc6fca4",
+				{
+					"parent": "cafe902bdf733ee9",
+					"name": "CurveTrajectoryItem",
+					"factory": "[modules:/zeulerangletrajectorysource.class].pc_entitytype",
+					"blueprint": "[modules:/zeulerangletrajectorysource.class].pc_entityblueprint",
+					"properties": {
+						"m_startTime": {
+							"type": "ZGameTime",
+							"value": { "m_nTicks": 13911108 }
+						},
+						"m_duration": {
+							"type": "ZGameTime",
+							"value": { "m_nTicks": 11827937 }
+						},
+						"m_CurveX": {
+							"type": "ZCurve",
+							"value": {
+								"data": [
+									[
+										0.0, 140.6988983154297,
+										388.5794372558594,
+										-971.4485473632812,
+										1036.2117919921875, -582.869140625,
+										0.0, 140.6988983154297
+									],
+									[
+										1.0, 11.172423362731934, 0.0, 0.0,
+										0.0, 0.0, 0.0, 11.172423362731934
+									]
+								]
+							}
+						},
+						"m_CurveRotX": {
+							"type": "ZCurve",
+							"value": {
+								"data": [
+									[
+										0.0, -86.6361083984375,
+										-7.1969146728515625,
+										17.992286682128906,
+										-19.1917724609375,
+										10.795372009277344, 0.0,
+										-86.6361083984375
+									],
+									[
+										1.0, -84.23713684082031, 0.0, 0.0,
+										0.0, 0.0, 0.0, -84.23713684082031
+									]
+								]
+							}
+						},
+						"m_CurveY": {
+							"type": "ZCurve",
+							"value": {
+								"data": [
+									[
+										0.0, -101.956787109375,
+										-185.21270751953125,
+										463.03179931640625,
+										-493.9005737304687,
+										277.8190612792969, 0.0,
+										-101.956787109375
+									],
+									[
+										1.0, -40.219215393066406, 0.0, 0.0,
+										0.0, 0.0, 0.0, -40.219215393066406
+									]
+								]
+							}
+						},
+						"m_CurveRotY": {
+							"type": "ZCurve",
+							"value": {
+								"data": [
+									[
+										0.0, 0.0, 0.0, 0.0, 0.0, -0.0, 0.0,
+										0.0
+									],
+									[
+										1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+										0.0
+									]
+								]
+							}
+						},
+						"m_CurveZ": {
+							"type": "ZCurve",
+							"value": {
+								"data": [
+									[
+										0.0, 3.087588310241699,
+										-463.4051513671875,
+										1158.5128173828125,
+										-1235.7470703125,
+										695.1077270507812, 0.0,
+										3.087588310241699
+									],
+									[
+										1.0, 157.55596923828125, 0.0, 0.0,
+										0.0, 0.0, 0.0, 157.55596923828125
+									]
+								]
+							}
+						},
+						"m_CurveRotZ": {
+							"type": "ZCurve",
+							"value": {
+								"data": [
+									[
+										0.0, -128.13658142089844,
+										2.736152172088623,
+										-8.733474731445312,
+										3.1803982257843018,
+										5.855971336364746, 0.0,
+										-128.13658142089844
+									],
+									[
+										1.0, -125.0975341796875, 0.0, 0.0,
+										0.0, 0.0, 0.0, -125.0975341796875
+									]
+								]
+							}
+						},
+						"m_eCoordinateSpace": {
+							"type": "ECoordinateSpace",
+							"value": "CSPACE_SEQUENCE_ORIGIN"
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe902bdf733ee9",
+				{
+					"parent": "cafe647d19fbabdd",
+					"name": "TrajectoryTrack",
+					"factory": "[modules:/ztrajectorytrack.class].pc_entitytype",
+					"blueprint": "[modules:/ztrajectorytrack.class].pc_entityblueprint",
+					"properties": {
+						"m_bRestoreValueAfterEnd": {
+							"type": "bool",
+							"value": false
+						},
+						"m_entityGroup": {
+							"type": "SEntityTemplateReference",
+							"value": "cafe647d19fbabdd",
+							"postInit": true
+						},
+						"m_aItems": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": [
+								"cafeb9d5bc142cea",
+								"cafeed0ae97b1da5",
+								"cafe5887fb56fe42",
+								"cafe7fdfb1226ee7",
+								"cafe68a58cc6fca4"
+							],
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafeed0ae97b1da5",
+				{
+					"parent": "cafe902bdf733ee9",
+					"name": "CurveTrajectoryItem 3",
+					"factory": "[modules:/zeulerangletrajectorysource.class].pc_entitytype",
+					"blueprint": "[modules:/zeulerangletrajectorysource.class].pc_entityblueprint",
+					"properties": {
+						"m_startTime": {
+							"type": "ZGameTime",
+							"value": { "m_nTicks": 2831155 }
+						},
+						"m_duration": {
+							"type": "ZGameTime",
+							"value": { "m_nTicks": 2376772 }
+						},
+						"m_CurveX": {
+							"type": "ZCurve",
+							"value": {
+								"data": [
+									[
+										0.0, -84.66334533691406, 0.0, 0.0,
+										0.0, 0.0, -41.73738861083984,
+										-84.66334533691406
+									],
+									[
+										1.0, -126.4007339477539, 0.0, 0.0,
+										0.0, 0.0, 0.0, -126.4007339477539
+									]
+								]
+							}
+						},
+						"m_CurveRotX": {
+							"type": "ZCurve",
+							"value": {
+								"data": [
+									[
+										0.0, -89.5789566040039,
+										-4.0239715576171875,
+										10.059928894042969,
+										-10.7305908203125,
+										6.035957336425781, 0.0,
+										-89.5789566040039
+									],
+									[
+										1.0, -88.23763275146484, 0.0, 0.0,
+										0.0, 0.0, 0.0, -88.23763275146484
+									]
+								]
+							}
+						},
+						"m_CurveY": {
+							"type": "ZCurve",
+							"value": {
+								"data": [
+									[
+										0.0, -24.9385986328125, 0.0, 0.0,
+										-0.1625571995973587,
+										-0.1914013475179672,
+										-1.1429635286331177,
+										-24.9385986328125
+									],
+									[
+										0.5, -26.43552017211914, 0.0, 0.0,
+										-0.0981665849685669,
+										-0.16230584681034088,
+										-1.0067188739776611,
+										-26.43552017211914
+									],
+									[
+										0.75, -27.70271110534668, 0.0, 0.0,
+										-0.8019082546234131,
+										-0.09557779133319856,
+										-1.6258304119110107,
+										-27.70271110534668
+									],
+									[
+										1.0, -30.226028442382812, 0.0, 0.0,
+										0.0, 0.0, 0.0, -30.226028442382812
+									]
+								]
+							}
+						},
+						"m_CurveRotY": {
+							"type": "ZCurve",
+							"value": {
+								"data": [
+									[
+										0.0, 0.0, 0.0, 0.0, 0.0, -0.0, 0.0,
+										0.0
+									],
+									[
+										1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+										0.0
+									]
+								]
+							}
+						},
+						"m_CurveZ": {
+							"type": "ZCurve",
+							"value": {
+								"data": [
+									[
+										0.0, 1.0445871353149414, 0.0, 0.0,
+										-0.011125856079161167,
+										-0.013100027106702328,
+										-0.07822751998901367,
+										1.0445871353149414
+									],
+									[
+										0.5, 0.9421337246894836, 0.0, 0.0,
+										-0.006718786899000406,
+										-0.011108651757240295,
+										-0.06890256702899933,
+										0.9421337246894836
+									],
+									[
+										0.75, 0.85540372133255, 0.0, 0.0,
+										-0.05488477274775505,
+										-0.0065416027791798115,
+										-0.11127623915672302,
+										0.85540372133255
+									],
+									[
+										1.0, 0.6827011108398438, 0.0, 0.0,
+										0.0, 0.0, 0.0, 0.6827011108398438
+									]
+								]
+							}
+						},
+						"m_CurveRotZ": {
+							"type": "ZCurve",
+							"value": {
+								"data": [
+									[
+										0.0, 71.2913589477539, 0.0, 0.0,
+										-0.9290679693222046,
+										-0.702323317527771,
+										-4.348268508911133,
+										71.2913589477539
+									],
+									[
+										0.5, 65.31169891357422, 0.0, 0.0,
+										-0.8588934540748596,
+										-0.6984188556671143,
+										-4.270059585571289,
+										65.31169891357422
+									],
+									[
+										0.75, 59.48432922363281, 0.0, 0.0,
+										-0.7387438416481018,
+										-0.6851218938827515,
+										-4.121788501739502,
+										59.48432922363281
+									],
+									[
+										0.875, 53.93867492675781, 0.0, 0.0,
+										-0.55889892578125,
+										-0.6457021832466125,
+										-3.8541319370269775,
+										53.93867492675781
+									],
+									[
+										0.9375, 48.879940032958984, 0.0,
+										0.0, -0.3434692323207855,
+										-0.5527487993240356,
+										-3.411116600036621,
+										48.879940032958984
+									],
+									[
+										0.96875, 44.57260513305664, 0.0,
+										0.0, -2.9521636962890625,
+										-0.2172248810529709,
+										-5.547021865844727,
+										44.57260513305664
+									],
+									[
+										1.0, 35.85619354248047, 0.0, 0.0,
+										0.0, 0.0, 0.0, 35.85619354248047
+									]
+								]
+							}
+						},
+						"m_eCoordinateSpace": {
+							"type": "ECoordinateSpace",
+							"value": "CSPACE_SEQUENCE_ORIGIN"
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe647d19fbabdd",
+				{
+					"parent": "cafe3b01b3af1ad6",
+					"name": "EntityTrack_ Cam_SeaPlaneExit",
+					"factory": "[modules:/zentitygroup.class].pc_entitytype",
+					"blueprint": "[modules:/zentitygroup.class].pc_entityblueprint",
+					"properties": {
+						"m_targetEntity": {
+							"type": "SEntityTemplateReference",
+							"value": {
+								"ref": "6757e31899c17766",
+								"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+							},
+							"postInit": true
+						},
+						"m_aTracksAndGroups": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": [
+								"cafe902bdf733ee9",
+								"cafe014695095701"
+							],
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe014695095701",
+				{
+					"parent": "cafe647d19fbabdd",
+					"name": " Track",
+					"factory": "[modules:/zentitypropertytrack.class].pc_entitytype",
+					"blueprint": "[modules:/zentitypropertytrack.class].pc_entityblueprint",
+					"properties": {
+						"m_sPropertyName": {
+							"type": "ZString",
+							"value": "m_fFovYDeg"
+						},
+						"m_entityGroup": {
+							"type": "SEntityTemplateReference",
+							"value": "cafe647d19fbabdd"
+						},
+						"m_bRestoreValueAfterEnd": {
+							"type": "bool",
+							"value": false
+						},
+						"m_aItems": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": [
+								"cafe140bd6e7a5c1",
+								"cafe26032268c2ef",
+								"cafe65001741752e"
+							],
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe140bd6e7a5c1",
+				{
+					"parent": "cafe014695095701",
+					"name": "CurveItem 2",
+					"factory": "[modules:/zfloatcurvesource.class].pc_entitytype",
+					"blueprint": "[modules:/zfloatcurvesource.class].pc_entityblueprint",
+					"properties": {
+						"m_startTime": {
+							"type": "ZGameTime",
+							"value": { "m_nTicks": 0 }
+						},
+						"m_duration": {
+							"type": "ZGameTime",
+							"value": { "m_nTicks": 2831155 }
+						},
+						"m_curve": {
+							"type": "ZCurve",
+							"value": {
+								"data": [
+									[
+										0.0, 30.0, 0.0, 0.0, 0.0, -0.0,
+										0.0, 30.0
+									],
+									[
+										1.0, 30.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+										30.0
+									]
+								]
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe26032268c2ef",
+				{
+					"parent": "cafe014695095701",
+					"name": "CurveItem",
+					"factory": "[modules:/zfloatcurvesource.class].pc_entitytype",
+					"blueprint": "[modules:/zfloatcurvesource.class].pc_entityblueprint",
+					"properties": {
+						"m_startTime": {
+							"type": "ZGameTime",
+							"value": { "m_nTicks": 2831155 }
+						},
+						"m_duration": {
+							"type": "ZGameTime",
+							"value": { "m_nTicks": 2376772 }
+						},
+						"m_curve": {
+							"type": "ZCurve",
+							"value": {
+								"data": [
+									[
+										0.0, 40.0, 30.0, -75.0, 80.0,
+										-45.0, 0.0, 40.0
+									],
+									[
+										1.0, 30.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+										30.0
+									]
+								]
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafeb9d5bc142cea",
+				{
+					"parent": "cafe902bdf733ee9",
+					"name": "CurveTrajectoryItem 1",
+					"factory": "[modules:/zeulerangletrajectorysource.class].pc_entitytype",
+					"blueprint": "[modules:/zeulerangletrajectorysource.class].pc_entityblueprint",
+					"properties": {
+						"m_startTime": {
+							"type": "ZGameTime",
+							"value": { "m_nTicks": 0 }
+						},
+						"m_duration": {
+							"type": "ZGameTime",
+							"value": { "m_nTicks": 2831155 }
+						},
+						"m_CurveX": {
+							"type": "ZCurve",
+							"value": {
+								"data": [
+									[
+										0.0, -15.474660873413086, 0.0, 0.0,
+										0.08054040372371674,
+										0.1248091757297516,
+										0.28588998317718506,
+										-15.474660873413086
+									],
+									[
+										1.0, -14.983421325683594, 0.0, 0.0,
+										0.0, 0.0, 0.0, -14.983421325683594
+									]
+								]
+							}
+						},
+						"m_CurveRotX": {
+							"type": "ZCurve",
+							"value": {
+								"data": [
+									[
+										0.0, -80.71890258789062,
+										9.163925170898438,
+										-22.909812927246097,
+										24.4371337890625,
+										-13.745887756347656, 0.0,
+										-80.71890258789062
+									],
+									[
+										1.0, -83.77354431152344, 0.0, 0.0,
+										0.0, 0.0, 0.0, -83.77354431152344
+									]
+								]
+							}
+						},
+						"m_CurveY": {
+							"type": "ZCurve",
+							"value": {
+								"data": [
+									[
+										0.0, -34.2093505859375, 0.0, 0.0,
+										-0.033022843301296234,
+										0.15024226903915405,
+										-0.3186354339122772,
+										-34.2093505859375
+									],
+									[
+										1.0, -34.4107666015625, 0.0, 0.0,
+										0.0, 0.0, 0.0, -34.4107666015625
+									]
+								]
+							}
+						},
+						"m_CurveRotY": {
+							"type": "ZCurve",
+							"value": {
+								"data": [
+									[
+										0.0, 0.0, 0.0, 0.0, 0.0, -0.0, 0.0,
+										0.0
+									],
+									[
+										1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+										0.0
+									]
+								]
+							}
+						},
+						"m_CurveZ": {
+							"type": "ZCurve",
+							"value": {
+								"data": [
+									[
+										0.0, 6.285186767578125, 0.0, 0.0,
+										0.025016523897647858,
+										0.0387667752802372,
+										0.08879981935024261,
+										6.285186767578125
+									],
+									[
+										1.0, 6.437769889831543, 0.0, 0.0,
+										0.0, 0.0, 0.0, 6.437769889831543
+									]
+								]
+							}
+						},
+						"m_CurveRotZ": {
+							"type": "ZCurve",
+							"value": {
+								"data": [
+									[
+										0.0, -53.57169342041016, 0.0, 0.0,
+										-2.331737995147705,
+										10.6085844039917,
+										-22.49880027770996,
+										-53.57169342041016
+									],
+									[
+										1.0, -67.79364776611328, 0.0, 0.0,
+										0.0, 0.0, 0.0, -67.79364776611328
+									]
+								]
+							}
+						},
+						"m_eCoordinateSpace": {
+							"type": "ECoordinateSpace",
+							"value": "CSPACE_SEQUENCE_ORIGIN"
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe38a9b10e0b0f",
+				{
+					"parent": "cafe90f65b8c0e8a",
+					"name": "Sound",
+					"factory": "[modules:/zentity.class].pc_entitytype",
+					"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe3e637457b162",
+				{
+					"parent": "cafe38a9b10e0b0f",
+					"name": "play_cin_evergreen_safehouse_exit_tactical_speedboat",
+					"factory": "[modules:/zaudioevententity.class].pc_entitytype",
+					"blueprint": "[modules:/zaudioevententity.class].pc_entityblueprint",
+					"properties": {
+						"m_pMainEvent": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "[assembly:/sound/wwise/exportedwwisedata/events/sfx_cutscenes/sfx_cutscenes_evergreen/play_cin_evergreen_safehouse_exit_tactical_speedboat.wwiseevent].pc_wwisebank",
+								"flag": "5F"
+							}
+						},
+						"m_pEmitter": {
+							"type": "SEntityTemplateReference",
+							"value": "cafe3cda7639cd54"
+						},
+						"m_fTransitionTime": {
+							"type": "float32",
+							"value": 0.10000000149011612
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe8ba0fce2b316",
+				{
+					"parent": "cafe38a9b10e0b0f",
+					"name": "VBO_Exit Speedboat Tactical",
+					"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_eEvaluation": {
+							"type": "ZValueBool_Operation_Signal.EEvaluationType",
+							"value": "ANY"
+						},
+						"m_aValues": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["cafe7a8719ff34b3"],
+							"postInit": true
+						}
+					},
+					"events": {
+						"OnTrue": { "Send": ["cafe3e637457b162"] },
+						"OnFalse": { "Stop": ["cafe3e637457b162"] }
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafec548b21349b2",
+				{
+					"parent": "cafe90f65b8c0e8a",
+					"name": "Exit_Evergreen_PushButton",
+					"factory": "[assembly:/_pro/design/setpieces/setpieces_evergreen.template?/exit_evergreen_pushbutton.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/setpieces/setpieces_evergreen.template?/exit_evergreen_pushbutton.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": -0.0,
+									"y": 0.0,
+									"z": -89.9999965849052
+								},
+								"position": {
+									"x": -232.8814239501953,
+									"y": -85.8561782836914,
+									"z": -0.03737752139568329
+								}
+							}
+						},
+						"m_sId": {
+							"type": "ZGuid",
+							"value": "6a54cade-9fa1-4173-8e48-396a95bc218c"
+						},
+						"Manual_Exit_Trigger_Needed": {
+							"type": "bool",
+							"value": true
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "cafe19a7d2ad17a0"
+						},
+						"m_bCanBeOperatedFromAnyAngle": {
+							"type": "bool",
+							"value": true
+						},
+						"m_aUIHighlightGeom": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["cafebd9bf0832856"]
+						}
+					},
+					"events": {
+						"Exit": {
+							"Play": ["cafe19a7d2ad17a0"],
+							"Send": ["cafe3e637457b162"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe523cb5b86fc0",
+				{
+					"parent": "cafe6d7e14634336",
+					"name": "TrajectoryResourceItem",
+					"factory": "[modules:/zmorphemetrajectorysource.class].pc_entitytype",
+					"blueprint": "[modules:/zmorphemetrajectorysource.class].pc_entityblueprint",
+					"properties": {
+						"m_startTime": {
+							"type": "ZGameTime",
+							"value": { "m_nTicks": 0 }
+						},
+						"m_duration": {
+							"type": "ZGameTime",
+							"value": { "m_nTicks": 10485760 }
+						},
+						"m_eCoordinateSpace": {
+							"type": "ECoordinateSpace",
+							"value": "CSPACE_SEQUENCE_ORIGIN"
+						},
+						"m_animationResourceID": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "00589AFF33CCE3C4",
+								"flag": "5F"
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe6d7e14634336",
+				{
+					"parent": "cafee0876b3fa8e2",
+					"name": "TrajectoryTrack",
+					"factory": "[modules:/ztrajectorytrack.class].pc_entitytype",
+					"blueprint": "[modules:/ztrajectorytrack.class].pc_entityblueprint",
+					"properties": {
+						"m_aItems": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["cafe523cb5b86fc0"]
+						},
+						"m_bRestoreValueAfterEnd": {
+							"type": "bool",
+							"value": false
+						},
+						"m_entityGroup": {
+							"type": "SEntityTemplateReference",
+							"value": "cafee0876b3fa8e2",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafee0876b3fa8e2",
+				{
+					"parent": "cafe3b01b3af1ad6",
+					"name": "EntityTrack_ Boat_SpeedBoat_A_00",
+					"factory": "[modules:/zentitygroup.class].pc_entitytype",
+					"blueprint": "[modules:/zentitygroup.class].pc_entityblueprint",
+					"properties": {
+						"m_targetEntity": {
+							"type": "SEntityTemplateReference",
+							"value": "cafebd9bf0832856",
+							"postInit": true
+						},
+						"m_aTracksAndGroups": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": [
+								"cafe6d7e14634336",
+								"cafebae2418d8a7f"
+							],
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafebae2418d8a7f",
+				{
+					"parent": "cafee0876b3fa8e2",
+					"name": " Track",
+					"factory": "[modules:/zentitypropertytrack.class].pc_entitytype",
+					"blueprint": "[modules:/zentitypropertytrack.class].pc_entityblueprint",
+					"properties": {
+						"m_sPropertyName": {
+							"type": "ZString",
+							"value": "m_bVisible"
+						},
+						"m_entityGroup": {
+							"type": "SEntityTemplateReference",
+							"value": "cafee0876b3fa8e2"
+						},
+						"m_bRestoreValueAfterEnd": {
+							"type": "bool",
+							"value": false
+						},
+						"m_aItems": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["cafe9ed0414caef1"],
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe9ed0414caef1",
+				{
+					"parent": "cafebae2418d8a7f",
+					"name": "BooleanItem",
+					"factory": "[modules:/zbooleansource.class].pc_entitytype",
+					"blueprint": "[modules:/zbooleansource.class].pc_entityblueprint",
+					"properties": {
+						"m_startTime": {
+							"type": "ZGameTime",
+							"value": { "m_nTicks": 0 }
+						},
+						"m_duration": {
+							"type": "ZGameTime",
+							"value": { "m_nTicks": 2097152 }
+						},
+						"m_fTimes": {
+							"type": "TArray<ZGameTime>",
+							"value": [{ "m_nTicks": 0 }]
+						},
+						"m_bValues": {
+							"type": "TArray<bool>",
+							"value": [true]
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe3cda7639cd54",
+				{
+					"parent": "cafe38a9b10e0b0f",
+					"name": "2DAE_Sicbo_Beach_Exit",
+					"factory": "[assembly:/templates/sound/wwise/soundentities.template?/2daudioemitter.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/templates/sound/wwise/soundentities.template?/2daudioemitter.entitytemplate].pc_entityblueprint",
+					"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe16674fba2a9d",
+				{
+					"parent": "cafe38a9b10e0b0f",
+					"name": "TEST_play_cin_evergreen_safehouse_exit_tactical_speedboat",
+					"factory": "[modules:/zaudioevententity.class].pc_entitytype",
+					"blueprint": "[modules:/zaudioevententity.class].pc_entityblueprint",
+					"properties": {
+						"m_pMainEvent": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "[assembly:/sound/wwise/exportedwwisedata/events/sfx_cutscenes/sfx_cutscenes_evergreen/play_cin_evergreen_safehouse_exit_tactical_speedboat.wwiseevent].pc_wwisebank",
+								"flag": "5F"
+							}
+						},
+						"m_pEmitter": {
+							"type": "SEntityTemplateReference",
+							"value": "cafe3cda7639cd54"
+						},
+						"m_fTransitionTime": {
+							"type": "float32",
+							"value": 0.10000000149011612
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafec8c028be764d",
+				{
+					"parent": "cafe38a9b10e0b0f",
+					"name": "TEST_play_cin_evergreen_safehouse_exit_tactical_speedboat",
+					"factory": "[modules:/zaudioevententity.class].pc_entitytype",
+					"blueprint": "[modules:/zaudioevententity.class].pc_entityblueprint",
+					"properties": {
+						"m_pMainEvent": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "[assembly:/sound/wwise/exportedwwisedata/events/sfx_cutscenes/sfx_cutscenes_flamingo/play_cin_sfx_exitcut_speedboat_01.wwiseevent].pc_wwisebank",
+								"flag": "5F"
+							}
+						},
+						"m_pEmitter": {
+							"type": "SEntityTemplateReference",
+							"value": "cafe3cda7639cd54"
+						},
+						"m_fTransitionTime": {
+							"type": "float32",
+							"value": 0.10000000149011612
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafed32c25e83bc3",
+				{
+					"parent": "cafe38a9b10e0b0f",
+					"name": "evergreen",
+					"factory": "[modules:/zsoundbankentity.class].pc_entitytype",
+					"blueprint": "[modules:/zsoundbankentity.class].pc_entityblueprint",
+					"properties": {
+						"m_pBankResource": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "[assembly:/sound/wwise/exportedwwisedata/soundbanks/levelspecific/evergreen.wwisesoundbank].pc_wwisebank",
+								"flag": "5F"
+							}
+						}
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

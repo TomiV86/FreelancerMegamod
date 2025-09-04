@@ -1,0 +1,68 @@
+{
+	"tempHash": "0000DD70F1FFCB27",
+	"tbluHash": "004BD84C99C0C350",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"4a477572fef5fad4",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_bIsIllegal",
+						"value": false
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"4a477572fef5fad4",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_bIsSevere",
+						"value": false
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"c323abd7e9517f38",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_vTargetRadii",
+						"value": { "x": 8.0, "y": 8.0, "z": 8.0 }
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"c323abd7e9517f38",
+				{
+					"AddProperty": [
+						"m_vPacifyRadii",
+						{
+							"type": "SVector3",
+							"value": { "x": 9.5, "y": 9.5, "z": 9.5 }
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"c323abd7e9517f38",
+				{
+					"AddProperty": [
+						"m_vKnockdownRadii",
+						{
+							"type": "SVector3",
+							"value": { "x": 10.5, "y": 10.5, "z": 10.5 }
+						}
+					]
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

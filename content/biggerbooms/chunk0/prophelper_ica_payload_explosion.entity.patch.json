@@ -1,0 +1,51 @@
+{
+	"tempHash": "00A5CBD36DA02475",
+	"tbluHash": "005D53A865F068C1",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"7b84d80f1eced79e",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_vTargetRadii",
+						"value": { "x": 6, "y": 6, "z": 6 }
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"7b84d80f1eced79e",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_fEffectsRangeMultiplier",
+						"value": 2.5
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"7b84d80f1eced79e",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_vPacifyRadii",
+						"value": { "x": 6.5, "y": 6.5, "z": 6.5 }
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"7b84d80f1eced79e",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_vKnockdownRadii",
+						"value": { "x": 9.0, "y": 9.0, "z": 9.0 }
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

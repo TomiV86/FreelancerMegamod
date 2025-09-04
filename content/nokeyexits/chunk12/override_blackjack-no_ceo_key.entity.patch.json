@@ -1,0 +1,60 @@
+{
+	"tempHash": "006F1B125C1ACD3B",
+	"tbluHash": "002F31AC2A27BC09",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"6e3aaf9132ed8a5a",
+				{
+					"SetFactory": "[assembly:/_pro/design/setpieces/setpieces_evergreen.template?/exit_evergreen_pushbutton.entitytemplate].pc_entitytype"
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"6e3aaf9132ed8a5a",
+				{
+					"SetBlueprint": "[assembly:/_pro/design/setpieces/setpieces_evergreen.template?/exit_evergreen_pushbutton.entitytemplate].pc_entityblueprint"
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"6e3aaf9132ed8a5a",
+				{ "RemovePropertyByName": "m_rToolKeywordRequirements" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"6e3aaf9132ed8a5a",
+				{ "RemovePropertyByName": "m_RequiredItem" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"6e3aaf9132ed8a5a",
+				{
+					"AddProperty": [
+						"Manual_Exit_Trigger_Needed",
+						{ "type": "bool", "value": true }
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"6e3aaf9132ed8a5a",
+				{
+					"AddProperty": [
+						"name_metricvalue",
+						{
+							"type": "ZString",
+							"value": "Exit_raccoon_ExitName"
+						}
+					]
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

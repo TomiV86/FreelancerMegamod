@@ -1,0 +1,181 @@
+{
+	"tempHash": "00C3787ADAC529E1",
+	"tbluHash": "0023BB157F22A5FE",
+	"patch": [
+		{
+			"RemoveOverrideDelete": {
+				"ref": "2e8a27ecd1030365",
+				"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/location.brick].pc_entitytype"
+			}
+		},
+		{
+			"RemoveOverrideDelete": {
+				"ref": "ad5ca8fca5a86bce",
+				"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/location.brick].pc_entitytype"
+			}
+		},
+		{
+			"RemoveOverrideDelete": {
+				"ref": "420f0abe4258a3dc",
+				"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/location.brick].pc_entitytype"
+			}
+		},
+		{
+			"RemoveOverrideDelete": {
+				"ref": "fc006b8a43f58d34",
+				"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/location.brick].pc_entitytype"
+			}
+		},
+		{
+			"RemoveOverrideDelete": {
+				"ref": "83c2e0c90aa51618",
+				"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/location.brick].pc_entitytype"
+			}
+		},
+		{
+			"RemoveOverrideDelete": {
+				"ref": "f6d50880d72521a5",
+				"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/location.brick].pc_entitytype"
+			}
+		},
+		{
+			"RemoveOverrideDelete": {
+				"ref": "60284e4ecc895a59",
+				"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/location.brick].pc_entitytype"
+			}
+		},
+		{
+			"RemoveOverrideDelete": {
+				"ref": "935e0167c688d667",
+				"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/mission_bull.brick].pc_entitytype"
+			}
+		},
+		{
+			"RemoveOverrideDelete": {
+				"ref": "69cae14d17f02b11",
+				"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/location.brick].pc_entitytype"
+			}
+		},
+		{
+			"RemoveOverrideDelete": {
+				"ref": "12e86e30c2c26098",
+				"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/location.brick].pc_entitytype"
+			}
+		},
+		{
+			"RemoveOverrideDelete": {
+				"ref": "1c33b7572d5f0b5c",
+				"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/location.brick].pc_entitytype"
+			}
+		},
+		{
+			"RemoveOverrideDelete": {
+				"ref": "eb59bf61330a44a3",
+				"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/location.brick].pc_entitytype"
+			}
+		},
+		{
+			"RemoveOverrideDelete": {
+				"ref": "566db6959b4d5621",
+				"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/location.brick].pc_entitytype"
+			}
+		},
+		{
+			"RemoveOverrideDelete": {
+				"ref": "f26752fede6160a0",
+				"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/location.brick].pc_entitytype"
+			}
+		},
+		{
+			"RemoveOverrideDelete": {
+				"ref": "eec1fd905dd1a51d",
+				"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/location.brick].pc_entitytype"
+			}
+		},
+		{
+			"RemoveOverrideDelete": {
+				"ref": "93bfa1257de5f63a",
+				"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/location.brick].pc_entitytype"
+			}
+		},
+		{
+			"RemoveOverrideDelete": {
+				"ref": "078ad0aaa255f064",
+				"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/location.brick].pc_entitytype"
+			}
+		},
+		{
+			"RemoveOverrideDelete": {
+				"ref": "ac260e00bd5e2c59",
+				"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/location.brick].pc_entitytype"
+			}
+		},
+		{
+			"RemoveOverrideDelete": {
+				"ref": "d45987a4bbc7d458",
+				"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/location.brick].pc_entitytype"
+			}
+		},
+		{
+			"RemoveOverrideDelete": {
+				"ref": "1f83b081cab22114",
+				"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/location.brick].pc_entitytype"
+			}
+		},
+		{
+			"RemoveOverrideDelete": {
+				"ref": "0793495457b12d53",
+				"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/location.brick].pc_entitytype"
+			}
+		},
+		{
+			"RemoveOverrideDelete": {
+				"ref": "ebd2bb1d638f4fe4",
+				"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/location.brick].pc_entitytype"
+			}
+		},
+		{
+			"RemoveOverrideDelete": {
+				"ref": "8ea5f356bec00064",
+				"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/location.brick].pc_entitytype"
+			}
+		},
+		{
+			"RemoveOverrideDelete": {
+				"ref": "19f56b5d1611e553",
+				"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/location.brick].pc_entitytype"
+			}
+		},
+		{
+			"RemoveOverrideDelete": {
+				"ref": "0c352db21ec00d41",
+				"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/location.brick].pc_entitytype"
+			}
+		},
+		{
+			"RemoveOverrideDelete": {
+				"ref": "8d43d70e5ea6fc30",
+				"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/location.brick].pc_entitytype"
+			}
+		},
+		{
+			"RemoveOverrideDelete": {
+				"ref": "0dc8574ac5a0ff3c",
+				"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/location.brick].pc_entitytype"
+			}
+		},
+		{
+			"RemoveOverrideDelete": {
+				"ref": "5969bd0fcce858c3",
+				"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/location.brick].pc_entitytype"
+			}
+		},
+		{
+			"RemoveOverrideDelete": {
+				"ref": "9a5e1bddb8b2806a",
+				"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/location.brick].pc_entitytype"
+			}
+		}
+	],
+	"patchVersion": 6
+}

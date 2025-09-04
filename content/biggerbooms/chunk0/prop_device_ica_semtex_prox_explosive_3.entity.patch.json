@@ -1,0 +1,18 @@
+{
+	"tempHash": "00961DB60108ED0E",
+	"tbluHash": "001390B19C87F215",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"098532a6799882c8",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_vTargetRadii",
+						"value": { "x": 8.0, "y": 8.0, "z": 8.0 }
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

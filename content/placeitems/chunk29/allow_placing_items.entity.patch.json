@@ -1,0 +1,177 @@
+{
+	"tempHash": "00A9B93A825F5BDC",
+	"tbluHash": "005BA5CA6AC00627",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"b6c08ae62887f029",
+				{ "RemoveAllEventConnectionsForEvent": "Dropped" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"80a351216ee45b53",
+				{ "RemovePropertyByName": "m_eEvaluation" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"80a351216ee45b53",
+				{ "RemovePropertyByName": "m_bFireOnLevelStart" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"80a351216ee45b53",
+				{ "RemovePropertyByName": "m_aValues" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"80a351216ee45b53",
+				{ "RemoveAllEventConnectionsForEvent": "OnFalse" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"80a351216ee45b53",
+				{ "RemoveAllEventConnectionsForEvent": "OnTrue" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"e07c81c25ad49639",
+				{ "RemovePropertyByName": "m_bBlindFire" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"e07c81c25ad49639",
+				{ "RemovePropertyByName": "m_bHairTrigger" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"e07c81c25ad49639",
+				{ "RemovePropertyByName": "m_bFire" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"e07c81c25ad49639",
+				{ "RemovePropertyByName": "m_bThrowItem" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"e07c81c25ad49639",
+				{ "RemovePropertyByName": "m_bPlaceItem" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"6dc8b9e643da837f",
+				{ "RemovePropertyByName": "m_bPickupItem" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"6dc8b9e643da837f",
+				{ "RemovePropertyByName": "m_bDropItem" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"6dc8b9e643da837f",
+				{ "RemovePropertyByName": "m_bDragBody" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"cf04a0e71fc794e6",
+				{ "RemovePropertyByName": "m_rChannelToken" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"cf04a0e71fc794e6",
+				{ "RemoveAllEventConnectionsForEvent": "EventReceived" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"901665526a9ff11c",
+				{ "RemovePropertyByName": "m_bAim" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"901665526a9ff11c",
+				{ "RemovePropertyByName": "m_bPlaceItem" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"901665526a9ff11c",
+				{ "RemovePropertyByName": "m_bThrowItem" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"021b00c44646306c",
+				{ "RemovePropertyByName": "m_aValues" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"021b00c44646306c",
+				{ "RemovePropertyByName": "m_bFireOnLevelStart" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"021b00c44646306c",
+				{ "RemoveAllEventConnectionsForEvent": "OnTrue" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"021b00c44646306c",
+				{ "RemoveAllEventConnectionsForEvent": "OnFalse" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"021b00c44646306c",
+				{
+					"RemoveAllInputCopyConnectionsForInput": "ForceUpdateValue"
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"559912cee4ebe70d",
+				{ "RemovePropertyByName": "m_eEvent" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"559912cee4ebe70d",
+				{ "RemoveAllEventConnectionsForEvent": "EventOccurred" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"975b7045061419a5",
+				{ "RemovePropertyByName": "m_bThrowItem" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"975b7045061419a5",
+				{ "RemovePropertyByName": "m_bPlaceItem" }
+			]
+		}
+	],
+	"patchVersion": 6
+}

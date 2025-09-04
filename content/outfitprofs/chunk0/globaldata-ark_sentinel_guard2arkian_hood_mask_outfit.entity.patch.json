@@ -1,0 +1,116 @@
+{
+	"tempHash": "00097AA87B144150",
+	"tbluHash": "00E738E7CF7A35E1",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"256a7b1943055437",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_bWeaponsAllowed",
+						"value": true
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"256a7b1943055437",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_eOutfitAICategory",
+						"value": "OAC_Elite"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"256a7b1943055437",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_eActorCCClass",
+						"value": "ACCP_GuardMaleSuperElite"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"256a7b1943055437",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_eActorType",
+						"value": "eAT_Guard"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"256a7b1943055437",
+				{
+					"AddProperty": [
+						"m_aWeaponsAllowedExceptionKeywords",
+						{
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["cafea69ef9ce787a"]
+						}
+					]
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe56042941e18e",
+				{
+					"parent": "256a7b1943055437",
+					"name": "prof_theisland_guard_sentinel",
+					"factory": "[assembly:/_pro/design/actor/profession.template?/prof_theisland_guard_sentinel.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_theisland_guard_sentinel.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_aHolders": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["256a7b1943055437"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafea69ef9ce787a",
+				{
+					"parent": "256a7b1943055437",
+					"name": "Keyword_WEAPON_SNIPER",
+					"factory": "[modules:/zkeywordentity.class].pc_entitytype",
+					"blueprint": "[modules:/zkeywordentity.class].pc_entityblueprint",
+					"properties": {
+						"m_sKeyword": {
+							"type": "ZString",
+							"value": "WEAPON_SNIPER"
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe44b37b967953",
+				{
+					"parent": "256a7b1943055437",
+					"name": "Prof_TheIsland_Guard",
+					"factory": "[assembly:/_pro/design/actor/profession.template?/prof_theisland_guard.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_theisland_guard.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_aHolders": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["256a7b1943055437"]
+						}
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

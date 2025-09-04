@@ -1,0 +1,88 @@
+{
+	"tempHash": "00A9B93A825F5BDC",
+	"tbluHash": "005BA5CA6AC00627",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"5bf8720f7386b970",
+				{
+					"PatchArrayPropertyValue": [
+						"m_aBonusRequirements",
+						[
+							{
+								"AddItemAfter": [
+									"a1173bd02186fe4d",
+									"cafe365138236516"
+								]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe365138236516",
+				{
+					"parent": "ec35ba7ec67bf19a",
+					"name": "BonusReq_ID72_No_Firearms",
+					"factory": "[modules:/zevergreenbonusrequirementdefinitionentity.class].pc_entitytype",
+					"blueprint": "[modules:/zevergreenbonusrequirementdefinitionentity.class].pc_entityblueprint",
+					"properties": {
+						"m_id": { "type": "int32", "value": 72 },
+						"m_sweetTitle": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "[assembly:/localization/hitman6/conversations/ui/pro/gamemode_evergreen/evergreen_bonusrequirements.sweetmenutext?/ui_contract_evergreen_mild_client_requirements_no_firearms_name.sweetline].pc_sweetline",
+								"flag": "5F"
+							}
+						},
+						"m_icon": {
+							"type": "EUIIconLibrary",
+							"value": "evergreen_kill_method_accident"
+						},
+						"m_killRequirement": {
+							"type": "bool",
+							"value": true
+						},
+						"m_argsTitle": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": [
+								{
+									"ref": "1c8a3cd106f999fe",
+									"externalScene": null,
+									"exposedEntity": "Obj_PayoutValue_072"
+								}
+							]
+						},
+						"m_requirementBlacklist": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": [
+								"ad4b23aa56362496",
+								"e0a032babad383e2",
+								"2ddda2801c050eb0",
+								"0826a41d02ab31b4",
+								"a1173bd02186fe4d",
+								"a3a40119f08893cf",
+								"3a0054925b8a17ec",
+								"6940fde2b481e5a0",
+								"29caebff2d749e7b",
+								"16b52fa31ff3b0b6",
+								"2dd6cd78d1ed4726",
+								"d9e5c8ecc926c976",
+								"2669a1b8e10ca2fc",
+								"3c0e9d6150d302b0",
+								"d38f004aadeaab5d",
+								"0c1c2cca4c3e1184",
+								"c4fbf31358c50209",
+								"132501e06b59bd38"
+							],
+							"postInit": true
+						}
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

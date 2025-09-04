@@ -1,0 +1,42 @@
+{
+	"tempHash": "007015A746FF0E1F",
+	"tbluHash": "00A42A04C1D012E7",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"01c406eb3998f808",
+				{
+					"PatchArrayPropertyValue": [
+						"m_EntranceIds",
+						[
+							{
+								"AddItemAfter": [
+									"52918dd66edb5037",
+									"cafe6cc38ffffc09"
+								]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe6cc38ffffc09",
+				{
+					"parent": "01c406eb3998f808",
+					"name": "Underground Office",
+					"factory": "[modules:/zrepositorykeyentity.class].pc_entitytype",
+					"blueprint": "[modules:/zrepositorykeyentity.class].pc_entityblueprint",
+					"properties": {
+						"m_RepositoryId": {
+							"type": "ZGuid",
+							"value": "79f6dbff-b6cb-42cc-9c6c-e4bbf82c0561"
+						}
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

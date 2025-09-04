@@ -1,0 +1,74 @@
+{
+	"tempHash": "00A9B93A825F5BDC",
+	"tbluHash": "005BA5CA6AC00627",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"5f37900bf49880fb",
+				{
+					"PatchArrayPropertyValue": [
+						"m_aBonusRequirements",
+						[
+							{
+								"AddItemAfter": [
+									"2ddda2801c050eb0",
+									"cafe9b05f64967ef"
+								]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe9b05f64967ef",
+				{
+					"parent": "ec35ba7ec67bf19a",
+					"name": "BonusReq_ID14_SMG_Kill",
+					"factory": "[modules:/zevergreenbonusrequirementdefinitionentity.class].pc_entitytype",
+					"blueprint": "[modules:/zevergreenbonusrequirementdefinitionentity.class].pc_entityblueprint",
+					"properties": {
+						"m_id": { "type": "int32", "value": 14 },
+						"m_sweetTitle": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "[assembly:/localization/hitman6/conversations/ui/pro/gamemode_evergreen/evergreen_bonusrequirements.sweetmenutext?/ui_contract_evergreen_mild_client_requirements_killmethod_smg_name.sweetline].pc_sweetline",
+								"flag": "5F"
+							}
+						},
+						"m_icon": {
+							"type": "EUIIconLibrary",
+							"value": "evergreen_kill_method_smg"
+						},
+						"m_argsTitle": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": [
+								{
+									"ref": "1c8a3cd106f999fe",
+									"externalScene": null,
+									"exposedEntity": "Obj_PayoutValue_014"
+								}
+							]
+						},
+						"m_killRequirement": {
+							"type": "bool",
+							"value": true
+						},
+						"m_requirementBlacklist": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": [
+								"c314a6e8e0b8e9b4",
+								"6940fde2b481e5a0",
+								"132501e06b59bd38",
+								"2669a1b8e10ca2fc",
+								"0826a41d02ab31b4"
+							]
+						}
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

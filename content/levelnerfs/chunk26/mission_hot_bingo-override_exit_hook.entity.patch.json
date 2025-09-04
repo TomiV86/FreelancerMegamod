@@ -1,0 +1,39 @@
+{
+	"tempHash": "00388F1B2D4DC026",
+	"tbluHash": "009C235DE33D2D59",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"0a502b85187ca680",
+				{
+					"PatchArrayPropertyValue": [
+						"m_aValues",
+						[
+							{
+								"AddItemAfter": [
+									{
+										"ref": "d5aa959458203abf",
+										"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/override_bingo.brick].pc_entitytype",
+										"exposedEntity": "exitActivated"
+									},
+									{
+										"ref": "cafe1bc79a68b951",
+										"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/override_bingo.brick].pc_entitytype",
+										"exposedEntity": "exitActivated"
+									}
+								]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"0a502b85187ca680",
+				{ "SetPropertyPostInit": ["m_aValues", true] }
+			]
+		}
+	],
+	"patchVersion": 6
+}

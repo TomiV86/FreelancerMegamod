@@ -1,0 +1,42 @@
+{
+	"tempHash": "007015A746FF0E1F",
+	"tbluHash": "00A42A04C1D012E7",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"7d8aab24e85fb54f",
+				{
+					"PatchArrayPropertyValue": [
+						"m_EntranceIds",
+						[
+							{
+								"AddItemBefore": [
+									"3b8fcbd462f01a30",
+									"cafe0dc3d52daa6b"
+								]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe0dc3d52daa6b",
+				{
+					"parent": "7d8aab24e85fb54f",
+					"name": "Church Ruins",
+					"factory": "[modules:/zrepositorykeyentity.class].pc_entitytype",
+					"blueprint": "[modules:/zrepositorykeyentity.class].pc_entityblueprint",
+					"properties": {
+						"m_RepositoryId": {
+							"type": "ZGuid",
+							"value": "3cc8d597-2858-46d4-b03f-e60b0b07c5ca"
+						}
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

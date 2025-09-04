@@ -1,0 +1,116 @@
+{
+	"tempHash": "00B6203193FA4502",
+	"tbluHash": "00FEBCD26A141E0C",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"dbc1b75ff9116082",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_vGlobalSize",
+						"value": {
+							"x": 0.13136300444602966,
+							"y": 0.3721770107746124,
+							"z": 0.009999999776482582
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"dbc1b75ff9116082",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": -0.0,
+								"y": 90.0,
+								"z": -0.02796034430185432
+							},
+							"position": {
+								"x": -0.00006900000153109431,
+								"y": 0.003639000002294779,
+								"z": 0.011966999620199203
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"c0230d21852b5300",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_RepositoryId",
+						"value": "a83349bf-3d9c-43ec-92ee-c8c98cbeabc1"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"c0230d21852b5300",
+				{
+					"SetPropertyValue": {
+						"property_name": "InspectionPivotTransform",
+						"value": {
+							"rotation": { "x": -0.0, "y": 0.0, "z": 0.0 },
+							"position": {
+								"x": -0.10999999940395357,
+								"y": 0.0,
+								"z": -0.5900000095367433
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"c0230d21852b5300",
+				{
+					"SetPropertyValue": {
+						"property_name": "melee",
+						"value": false
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"c0230d21852b5300",
+				{
+					"SetPropertyValue": {
+						"property_name": "ItemTransform",
+						"value": {
+							"rotation": {
+								"x": -0.0,
+								"y": 0.0,
+								"z": -90.0
+							},
+							"position": { "x": 0.0, "y": 0.0, "z": 0.0 }
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"c0230d21852b5300",
+				{
+					"AddProperty": [
+						"m_PrimitiveScale",
+						{
+							"type": "SVector3",
+							"value": { "x": 0.8, "y": 0.8, "z": 0.8 }
+						}
+					]
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

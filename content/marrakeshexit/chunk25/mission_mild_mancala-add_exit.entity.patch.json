@@ -1,0 +1,39 @@
+{
+	"tempHash": "009613F820E477D4",
+	"tbluHash": "00A91EC7439FCD5B",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"81233e3f0e44959c",
+				{
+					"PatchArrayPropertyValue": [
+						"m_aValues",
+						[
+							{
+								"AddItemAfter": [
+									{
+										"ref": "f6bee40262da7fe9",
+										"externalScene": "[assembly:/_pro/scenes/missions/marrakesh/override_mancala.brick].pc_entitytype",
+										"exposedEntity": "exitActivated"
+									},
+									{
+										"ref": "cafe54417fad4e81",
+										"externalScene": "[assembly:/_pro/scenes/missions/marrakesh/override_mancala.brick].pc_entitytype",
+										"exposedEntity": "exitActivated"
+									}
+								]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"81233e3f0e44959c",
+				{ "SetPropertyPostInit": ["m_aValues", true] }
+			]
+		}
+	],
+	"patchVersion": 6
+}

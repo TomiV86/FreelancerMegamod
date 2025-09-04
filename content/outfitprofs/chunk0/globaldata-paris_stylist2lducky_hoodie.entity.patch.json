@@ -1,0 +1,53 @@
+{
+	"tempHash": "00097AA87B144150",
+	"tbluHash": "00E738E7CF7A35E1",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"f631af5b2a7b337f",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_eOutfitAICategory",
+						"value": "OAC_Stylist"
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe6bff7537a947",
+				{
+					"parent": "f631af5b2a7b337f",
+					"name": "Prof_Paris_Worker",
+					"factory": "[assembly:/_pro/design/actor/profession.template?/prof_paris_worker.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_paris_worker.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_aHolders": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["f631af5b2a7b337f"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe735290a05fc7",
+				{
+					"parent": "f631af5b2a7b337f",
+					"name": "Prof_Paris_Worker_Stylist",
+					"factory": "[assembly:/_pro/design/actor/profession.template?/prof_paris_worker_stylist.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_paris_worker_stylist.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_aHolders": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["f631af5b2a7b337f"],
+							"postInit": true
+						}
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

@@ -1,0 +1,44 @@
+{
+	"tempHash": "0043E30E7F6DF53A",
+	"tbluHash": "007F089B147CBE08",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"a59327485d1b5f4d",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_vTargetRadii",
+						"value": { "x": 2.5, "y": 2.5, "z": 2.5 }
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"a59327485d1b5f4d",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_vPacifyRadii",
+						"value": { "x": 3.5, "y": 3.5, "z": 3.5 }
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"a59327485d1b5f4d",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_vKnockdownRadii",
+						"value": {
+							"x": 4.400000047683716,
+							"y": 4.400000047683716,
+							"z": 4.400000047683716
+						}
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

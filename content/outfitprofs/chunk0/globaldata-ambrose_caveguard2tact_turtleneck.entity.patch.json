@@ -1,0 +1,122 @@
+{
+	"tempHash": "00097AA87B144150",
+	"tbluHash": "00E738E7CF7A35E1",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"ba9c0950703e2837",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_eOutfitAICategory",
+						"value": "OAC_Militiasec"
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe9f7d5e5910e4",
+				{
+					"parent": "ba9c0950703e2837",
+					"name": "Prof_Rocky_Guard",
+					"factory": "[assembly:/_pro/design/actor/profession.template?/prof_rocky_guard.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_rocky_guard.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_aHolders": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["ba9c0950703e2837"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe84db4705b70e",
+				{
+					"parent": "ba9c0950703e2837",
+					"name": "Prof_Rocky_MilitiaBasic",
+					"factory": "[assembly:/_pro/design/actor/profession.template?/prof_rocky_militiabasic.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_rocky_militiabasic.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_aHolders": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["ba9c0950703e2837"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe758d17154959",
+				{
+					"parent": "ba9c0950703e2837",
+					"name": "Prof_Sapienza_Guard_Biolab",
+					"factory": "[assembly:/_pro/design/actor/profession.template?/prof_sapienza_guard_biolab.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_sapienza_guard_biolab.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_aHolders": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["ba9c0950703e2837"],
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafeb9549df2e1f5",
+				{
+					"parent": "ba9c0950703e2837",
+					"name": "Prof_Sapienza_Guard",
+					"factory": "[assembly:/_pro/design/actor/profession.template?/prof_sapienza_guard.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_sapienza_guard.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_aHolders": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["ba9c0950703e2837"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe78cfdcdfa6a1",
+				{
+					"parent": "ba9c0950703e2837",
+					"name": "Prof_Sapienza_Lab",
+					"factory": "[assembly:/_pro/design/actor/profession.template?/prof_sapienza_lab.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_sapienza_lab.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_aHolders": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["ba9c0950703e2837"],
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafea4aba7d73489",
+				{
+					"parent": "ba9c0950703e2837",
+					"name": "Prof_Sapienza_Mansion",
+					"factory": "[assembly:/_pro/design/actor/profession.template?/prof_sapienza_mansion.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_sapienza_mansion.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_aHolders": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["ba9c0950703e2837"]
+						}
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

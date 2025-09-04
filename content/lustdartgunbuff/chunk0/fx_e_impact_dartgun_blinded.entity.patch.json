@@ -1,0 +1,18 @@
+{
+	"tempHash": "0049082339F7C4E2",
+	"tbluHash": "00BB0E8D2CF65804",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"a4de2f516fe74e68",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_StunDuration",
+						"value": 15.0
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

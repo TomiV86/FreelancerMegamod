@@ -1,0 +1,29 @@
+{
+	"tempHash": "00379CEFADC21F24",
+	"tbluHash": "008DEEB5FD16A5B0",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"91338404ee8e7ca0",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_nMax",
+						"value": 1750
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"91338404ee8e7ca0",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_nMin",
+						"value": 1250
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

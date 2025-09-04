@@ -1,0 +1,64 @@
+{
+	"tempHash": "00CE74E8ECBA1117",
+	"tbluHash": "00FED3920A0D0DED",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"79e5d2b4e9ff570d",
+				{
+					"AddEventConnection": [
+						"OnOpening",
+						"SetHeroHidden",
+						"cafeaf2c0b39e737"
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"79e5d2b4e9ff570d",
+				{
+					"AddEventConnection": [
+						"OnClosed",
+						"SetHeroVisible",
+						"cafeaf2c0b39e737"
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"d41895c5278a8a75",
+				{
+					"AddProperty": [
+						"m_bAllowBaseMovements",
+						{ "type": "bool", "value": true }
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"d41895c5278a8a75",
+				{
+					"AddProperty": [
+						"m_bNoSnapSneak",
+						{ "type": "bool", "value": false }
+					]
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafeaf2c0b39e737",
+				{
+					"parent": "50628f15b633e999",
+					"name": "AICrippleEntity",
+					"factory": "[modules:/zaicrippleentity.class].pc_entitytype",
+					"blueprint": "[modules:/zaicrippleentity.class].pc_entityblueprint"
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

@@ -1,0 +1,54 @@
+{
+	"tempHash": "00097AA87B144150",
+	"tbluHash": "00E738E7CF7A35E1",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"93ea440e7b54c958",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_eOutfitAICategory",
+						"value": "OAC_SoundCrew"
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe81c343389c7e",
+				{
+					"parent": "93ea440e7b54c958",
+					"name": "Prof_Bangkok_Worker",
+					"factory": "[assembly:/_pro/design/actor/profession.template?/prof_bangkok_worker.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_bangkok_worker.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_aHolders": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["93ea440e7b54c958"],
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe9a7c34ee5cd8",
+				{
+					"parent": "93ea440e7b54c958",
+					"name": "Prof_Bangkok_Worker_RecordingCrew",
+					"factory": "[assembly:/_pro/design/actor/profession.template?/prof_bangkok_worker_recordingcrew.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_bangkok_worker_recordingcrew.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_aHolders": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["93ea440e7b54c958"],
+							"postInit": true
+						}
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

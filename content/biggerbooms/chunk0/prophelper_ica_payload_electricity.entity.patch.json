@@ -1,0 +1,29 @@
+{
+	"tempHash": "0003DA019343E8BE",
+	"tbluHash": "00EF332402BA682B",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"a06bf818fc9d5c6c",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_fRadius",
+						"value": 0.40000000298023225
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"d741e7b6e39ce9e7",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_fRadius",
+						"value": 2.0
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

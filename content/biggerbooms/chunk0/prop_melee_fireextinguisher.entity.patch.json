@@ -1,0 +1,18 @@
+{
+	"tempHash": "0037B1B02FEC6D74",
+	"tbluHash": "00E6DC00DCD2552C",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"53596a279e8e44d3",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_vPacifyRadiiMedium",
+						"value": { "x": 7.8, "y": 7.8, "z": 5.8 }
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

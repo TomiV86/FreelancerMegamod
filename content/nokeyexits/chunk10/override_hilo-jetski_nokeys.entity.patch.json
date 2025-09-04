@@ -1,0 +1,155 @@
+{
+	"tempHash": "00BAC180AAB6FB31",
+	"tbluHash": "0008892CD17F0801",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"b955c06331530cb9",
+				{
+					"SetFactory": "[assembly:/_pro/design/setpieces/setpieces_evergreen.template?/exit_evergreen_pushbutton.entitytemplate].pc_entitytype"
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"b955c06331530cb9",
+				{
+					"SetBlueprint": "[assembly:/_pro/design/setpieces/setpieces_evergreen.template?/exit_evergreen_pushbutton.entitytemplate].pc_entityblueprint"
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"b955c06331530cb9",
+				{ "RemovePropertyByName": "m_rRequirements" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"b955c06331530cb9",
+				{ "RemovePropertyByName": "OutfitRequirement" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"b955c06331530cb9",
+				{
+					"AddProperty": [
+						"Manual_Exit_Trigger_Needed",
+						{ "type": "bool", "value": true }
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"3c1ce4164a9af607",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": -0.0,
+								"y": 0.0,
+								"z": 97.216621640658
+							},
+							"position": {
+								"x": 28.962060928344727,
+								"y": 274.1976013183594,
+								"z": 0.5086309909820557
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"130f14aaa126d869",
+				{
+					"SetFactory": "[assembly:/_pro/design/setpieces/setpieces_evergreen.template?/exit_evergreen_pushbutton.entitytemplate].pc_entitytype"
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"130f14aaa126d869",
+				{
+					"SetBlueprint": "[assembly:/_pro/design/setpieces/setpieces_evergreen.template?/exit_evergreen_pushbutton.entitytemplate].pc_entityblueprint"
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"130f14aaa126d869",
+				{ "RemovePropertyByName": "m_aConditions" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"130f14aaa126d869",
+				{ "RemovePropertyByName": "m_rToolKeywordRequirements" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"130f14aaa126d869",
+				{
+					"AddProperty": [
+						"Manual_Exit_Trigger_Needed",
+						{ "type": "bool", "value": true }
+					]
+				}
+			]
+		},
+		{
+			"RemovePropertyOverrideConnection": {
+				"entity": {
+					"ref": "5dd0b637e1ed9775",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				"propertyName": "m_mTransform",
+				"propertyOverride": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 1.9464254490938406
+						},
+						"position": {
+							"x": -0.004112000111490488,
+							"y": 0.1128230020403862,
+							"z": -0.08340899646282196
+						}
+					}
+				}
+			}
+		},
+		{
+			"AddPropertyOverrideConnection": {
+				"entity": {
+					"ref": "5dd0b637e1ed9775",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				"propertyName": "m_mTransform",
+				"propertyOverride": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 1.9464254490938409
+						},
+						"position": {
+							"x": -0.004112000111490488,
+							"y": 0.1128230020403862,
+							"z": -0.08340899646282196
+						}
+					}
+				}
+			}
+		}
+	],
+	"patchVersion": 6
+}

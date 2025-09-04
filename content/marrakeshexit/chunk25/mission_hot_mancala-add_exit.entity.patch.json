@@ -1,0 +1,81 @@
+{
+	"tempHash": "000546C5F2631263",
+	"tbluHash": "0040E7DD108C0A75",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"4edeb8a8bb52b4d7",
+				{
+					"PatchArrayPropertyValue": [
+						"m_aValues",
+						[
+							{
+								"AddItemAfter": [
+									{
+										"ref": "c1108923f33e008e",
+										"externalScene": "[assembly:/_pro/scenes/missions/marrakesh/override_mancala.brick].pc_entitytype",
+										"exposedEntity": "exitActivated"
+									},
+									{
+										"ref": "cafe54417fad4e81",
+										"externalScene": "[assembly:/_pro/scenes/missions/marrakesh/override_mancala.brick].pc_entitytype",
+										"exposedEntity": "exitActivated"
+									}
+								]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"RemovePropertyOverrideConnection": {
+				"entity": {
+					"ref": "86b5706505bacd05",
+					"externalScene": "[assembly:/_pro/scenes/missions/marrakesh/dressing_market.brick].pc_entitytype"
+				},
+				"propertyName": "m_mTransform",
+				"propertyOverride": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -103.00382001581897
+						},
+						"position": {
+							"x": 26.213409423828125,
+							"y": -14.793219566345217,
+							"z": -0.03215299919247627
+						}
+					}
+				}
+			}
+		},
+		{
+			"AddPropertyOverrideConnection": {
+				"entity": {
+					"ref": "86b5706505bacd05",
+					"externalScene": "[assembly:/_pro/scenes/missions/marrakesh/dressing_market.brick].pc_entitytype"
+				},
+				"propertyName": "m_mTransform",
+				"propertyOverride": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -103.00382001581896
+						},
+						"position": {
+							"x": 26.213409423828125,
+							"y": -14.793219566345217,
+							"z": -0.03215299919247627
+						}
+					}
+				}
+			}
+		}
+	],
+	"patchVersion": 6
+}

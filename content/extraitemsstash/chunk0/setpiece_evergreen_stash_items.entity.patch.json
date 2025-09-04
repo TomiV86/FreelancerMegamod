@@ -1,0 +1,646 @@
+{
+	"tempHash": "00100757521CC642",
+	"tbluHash": "00512EC270635802",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"b888cc688d29859a",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_Weight",
+						"value": 0.18
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"2c3dfca5d2825703",
+				{ "SetParent": "cafe84f995d239ec" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"6c4c1e16275e960d",
+				{
+					"PatchArrayPropertyValue": [
+						"m_Choices",
+						[
+							{
+								"AddItemAfter": [
+									"b888cc688d29859a",
+									"cafec27f909ccd91"
+								]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"ad18b65a4c79888b",
+				{
+					"AddEventConnection": [
+						"EventReceived",
+						"Unpick",
+						"cafe84f995d239ec"
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"54c4831d70bc2a57",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_Weight",
+						"value": 0.82
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"6ec42fc462851709",
+				{
+					"PatchArrayPropertyValue": [
+						"m_Choices",
+						[
+							{
+								"AddItemAfter": [
+									"2c348bf5de015c23",
+									"cafeff9b9913123d"
+								]
+							},
+							{
+								"AddItemAfter": [
+									"2c348bf5de015c23",
+									"cafe0f207a54bd18"
+								]
+							},
+							{
+								"AddItemAfter": [
+									"2c348bf5de015c23",
+									"cafefd009985be26"
+								]
+							},
+							{
+								"AddItemAfter": [
+									"2c348bf5de015c23",
+									"cafe8ea6ae198b5c"
+								]
+							},
+							{
+								"AddItemAfter": [
+									"2c348bf5de015c23",
+									"cafebeeadbe88bd1"
+								]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"6ec42fc462851709",
+				{
+					"SetExposedEntity": [
+						"Entries",
+						{
+							"isArray": true,
+							"refersTo": [
+								"d25171bb831be137",
+								"58222ea72a566dc7",
+								"1635c226400eec2a",
+								"5c56e9e6e44c72b2",
+								"fc1ac1a248edd3bc",
+								"dde43e485003647f",
+								"e375347aa9c4ee6c",
+								"961549e124a2996f",
+								"2bb9ea4f2fc561f7",
+								"e7d54724e88e1c8e",
+								"4b5ad547cf1ff057",
+								"2bb28c57afd2db32",
+								"9579b6bf5c8b6c2e",
+								"4cc12e1f84ded6da",
+								"77d7ac7474ba95ba",
+								"8137a9f86fc93615",
+								"33b7661b2ca2049c",
+								"ec9b0e43ff39e4f7",
+								"4270bb373d3c255b",
+								"d6a6348001375c95",
+								"39912a26ca2e1938",
+								"76f351bae43a28eb",
+								"3fbf5617801ac9a6",
+								"da56fd90dbf5ff49",
+								"6b82484c20c7068d",
+								"7827dc12fb638e8a",
+								"2383769a854480df",
+								"cbc28567edfc062e",
+								"80ee5b6c813ca60d",
+								"2c348bf5de015c23",
+								"cafebeeadbe88bd1",
+								"cafe8ea6ae198b5c",
+								"cafefd009985be26",
+								"cafe364bbd62a37c",
+								"cafe0f207a54bd18"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"0d00ce10aaf32a1c",
+				{
+					"PatchArrayPropertyValue": [
+						"m_Choices",
+						[{ "RemoveItemByValue": "2c3dfca5d2825703" }]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"e6dfbd4a2eda5f64",
+				{
+					"SetExposedEntity": [
+						"Entries",
+						{
+							"isArray": true,
+							"refersTo": [
+								"68d231b1ce2fff02",
+								"00e9c323643e38b8",
+								"b41662759f328b9a",
+								"9ec22223692ca8f6",
+								"a50f341370e47cf2",
+								"f4837bf94bfb739f",
+								"2ed9ee235fdea087",
+								"7a93b4078512b04c",
+								"ce6f2fb7ca98a49e",
+								"c33129eea9616714",
+								"80d3b7ff5d06215f",
+								"41ffd59331a52af2",
+								"31f5d872b70fdf05",
+								"13249c81f5ec3992",
+								"8a3dbd2d358ef8b0",
+								"cc734fd0ca325459",
+								"dca464eb658c78dd",
+								"ace0ae4e28463986",
+								"0c9fd59081016021",
+								"f1dcedacd539a9ef",
+								"75558aac59c1a910",
+								"94c193517a497378",
+								"5f379c16883d129d",
+								"ec4e43ec6076605d",
+								"5bf47158086b4124",
+								"4def110a82ed148b",
+								"28aabf2695300557",
+								"c02c7ce4bf8e36d2",
+								"1c1a0ba31f26e9ba",
+								"bcaa3eed87d67122",
+								"436858b4075449a1",
+								"2c3dfca5d2825703",
+								"651129d4a5de135e",
+								"3d0dbb7a74de3fe2",
+								"1361f8369fb9269c",
+								"442fba15ecc069c0",
+								"142185fedce22901",
+								"65c9152ddc50528b",
+								"1c45cffedac73b57",
+								"cb9b561f7e476d08",
+								"912598c521aeb776",
+								"1dd391aa904b957b",
+								"302a26e72b21e5d1",
+								"aba91980473a80da",
+								"ad21edf9625475d0",
+								"4e44648c8a1f1cea",
+								"04cdb8f1273ea233",
+								"b2eb6f49a14581ef",
+								"3afa04c53190e319",
+								"689ff88a9ca31dc6",
+								"16e1363c6cd1c555",
+								"eaf2f61090f9f542",
+								"8a89f69670e71468",
+								"991d5bdd615e2795",
+								"90b9c7eabe32a200",
+								"ff9876060165c49f",
+								"a78bf44994a6208c",
+								"f95a94c959281ded",
+								"2adaa22e7df2fc9b",
+								"a840eca828304fd3",
+								"31ed27def6dfd37b",
+								"f4ec90e88c52e7a0",
+								"1386ff8b158f4dba",
+								"4d1f4a4ad9baff28",
+								"e148fb25e8ed5875",
+								"d25171bb831be137",
+								"58222ea72a566dc7",
+								"1635c226400eec2a",
+								"5c56e9e6e44c72b2",
+								"fc1ac1a248edd3bc",
+								"dde43e485003647f",
+								"e375347aa9c4ee6c",
+								"961549e124a2996f",
+								"2bb9ea4f2fc561f7",
+								"e7d54724e88e1c8e",
+								"4b5ad547cf1ff057",
+								"2bb28c57afd2db32",
+								"9579b6bf5c8b6c2e",
+								"4cc12e1f84ded6da",
+								"77d7ac7474ba95ba",
+								"8137a9f86fc93615",
+								"33b7661b2ca2049c",
+								"ec9b0e43ff39e4f7",
+								"4270bb373d3c255b",
+								"d6a6348001375c95",
+								"39912a26ca2e1938",
+								"76f351bae43a28eb",
+								"3fbf5617801ac9a6",
+								"da56fd90dbf5ff49",
+								"6b82484c20c7068d",
+								"7827dc12fb638e8a",
+								"2383769a854480df",
+								"cbc28567edfc062e",
+								"80ee5b6c813ca60d",
+								"2c348bf5de015c23",
+								"cafebeeadbe88bd1",
+								"cafe8ea6ae198b5c",
+								"cafefd009985be26",
+								"cafe99c37bb188ce",
+								"cafe364bbd62a37c",
+								"cafe0f207a54bd18",
+								"cafe02e27b2f0453",
+								"cafeff9b9913123d"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe02e27b2f0453",
+				{
+					"parent": "6ec42fc462851709",
+					"name": "Helper_Evergreen_SelectableItem_Grenade_RedFlash",
+					"factory": "00AB4393BEC3F269",
+					"blueprint": "00F1707ED5ACEF81",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": -0.0,
+									"y": 0.0,
+									"z": -90.0
+								},
+								"position": {
+									"x": -0.012450999580323696,
+									"y": 0.033032000064849854,
+									"z": 0.04871800169348717
+								}
+							}
+						},
+						"Stash": { "type": "bool", "value": true },
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "59dbe5bffaf34f19",
+							"postInit": true
+						}
+					},
+					"subsets": { "AudioEmitters": ["e6dfbd4a2eda5f64"] }
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe364bbd62a37c",
+				{
+					"parent": "cafe84f995d239ec",
+					"name": "Helper_Evergreen_SelectableItem_RecordShuriken",
+					"factory": "00211CBAA87398CC",
+					"blueprint": "00CFCC1F60A291BA",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": 0.0,
+									"y": 0.0,
+									"z": 0.0
+								},
+								"position": {
+									"x": 0.01547400001436472,
+									"y": -0.16481399536132812,
+									"z": 0.037018999457359314
+								}
+							}
+						},
+						"RewardCrate": { "type": "bool", "value": true },
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "6ec42fc462851709",
+							"postInit": true
+						}
+					},
+					"subsets": { "AudioEmitters": ["e6dfbd4a2eda5f64"] }
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe0f207a54bd18",
+				{
+					"parent": "6ec42fc462851709",
+					"name": "Helper_Evergreen_SelectableItem_SplitterKukri",
+					"factory": "006745987B8F6F80",
+					"blueprint": "003848A58032DE77",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": -0.0,
+									"y": 0.0,
+									"z": -0.0
+								},
+								"position": {
+									"x": -0.03159331902861595,
+									"y": 0.0,
+									"z": 0.0
+								}
+							}
+						},
+						"RewardCrate": { "type": "bool", "value": true },
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "6ec42fc462851709",
+							"postInit": true
+						}
+					},
+					"subsets": { "AudioEmitters": ["e6dfbd4a2eda5f64"] }
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafeff9b9913123d",
+				{
+					"parent": "6ec42fc462851709",
+					"name": "Helper_Evergreen_SelectableItem_SplodyPen",
+					"factory": "00D48393F7E4E472",
+					"blueprint": "000FC13253985088",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": -0.0,
+									"y": 0.0,
+									"z": -90.0
+								},
+								"position": {
+									"x": 0.0,
+									"y": -0.03942200168967247,
+									"z": 0.0
+								}
+							}
+						},
+						"Stash": { "type": "bool", "value": true },
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "8924a8fcbeb8bbdb",
+							"postInit": true
+						}
+					},
+					"subsets": { "AudioEmitters": ["e6dfbd4a2eda5f64"] }
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafefd009985be26",
+				{
+					"parent": "6ec42fc462851709",
+					"name": "Helper_Evergreen_SelectableItem_ChampionBat",
+					"factory": "00A65EBE38CC54EA",
+					"blueprint": "00E9ABDB03AE5118",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": -0.0,
+									"y": 0.0,
+									"z": -0.0
+								},
+								"position": {
+									"x": 0.013821999542415142,
+									"y": 0.0,
+									"z": 0.0
+								}
+							}
+						},
+						"RewardCrate": { "type": "bool", "value": true },
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "6ec42fc462851709",
+							"postInit": true
+						}
+					},
+					"subsets": { "AudioEmitters": ["e6dfbd4a2eda5f64"] }
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe8ea6ae198b5c",
+				{
+					"parent": "6ec42fc462851709",
+					"name": "Helper_Evergreen_SelectableItem_BankerRope",
+					"factory": "00409B0DA08346C4",
+					"blueprint": "00BBBAB696F1F20A",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": -0.0,
+									"y": 0.0,
+									"z": -0.0
+								},
+								"position": {
+									"x": -0.03159331902861595,
+									"y": 0.0,
+									"z": 0.0
+								}
+							}
+						},
+						"RewardCrate": { "type": "bool", "value": true },
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "6ec42fc462851709",
+							"postInit": true
+						}
+					},
+					"subsets": { "AudioEmitters": ["e6dfbd4a2eda5f64"] }
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafebeeadbe88bd1",
+				{
+					"parent": "6ec42fc462851709",
+					"name": "Helper_Evergreen_SelectableItem_BankerChip",
+					"factory": "009F7707C8C33251",
+					"blueprint": "0021804AF5D0E04D",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": -180.0,
+									"y": 0.0,
+									"z": -0.0
+								},
+								"position": {
+									"x": 0.0,
+									"y": 0.0,
+									"z": -0.019700000062584877
+								}
+							}
+						},
+						"RewardCrate": { "type": "bool", "value": true },
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "6ec42fc462851709",
+							"postInit": true
+						}
+					},
+					"subsets": { "AudioEmitters": ["e6dfbd4a2eda5f64"] }
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe99c37bb188ce",
+				{
+					"parent": "cafe84f995d239ec",
+					"name": "Helper_Evergreen_SelectableItem_Merces_RandLarge",
+					"factory": "0050079A9D9F31D4",
+					"blueprint": "003647AE3DABA492",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": -0.0,
+									"y": 0.0,
+									"z": -0.0
+								},
+								"position": {
+									"x": 0.0,
+									"y": 0.0,
+									"z": 0.039719998836517334
+								}
+							}
+						},
+						"RewardCrate": { "type": "bool", "value": true },
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "cafe84f995d239ec",
+							"postInit": true
+						}
+					},
+					"subsets": { "AudioEmitters": ["e6dfbd4a2eda5f64"] }
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe84f995d239ec",
+				{
+					"parent": "e6dfbd4a2eda5f64",
+					"name": "Super Rarity Items",
+					"factory": "[assembly:/_pro/design/gamecore/helpers_evergreen.template?/helper_evergreen_vendorgear_category.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/gamecore/helpers_evergreen.template?/helper_evergreen_vendorgear_category.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_Choices": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": [
+								"cafe99c37bb188ce",
+								"cafe364bbd62a37c",
+								"2c3dfca5d2825703"
+							]
+						},
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": -0.0,
+									"y": 0.0,
+									"z": -0.0
+								},
+								"position": {
+									"x": 0.025171000510454174,
+									"y": -0.01499900035560131,
+									"z": 0.15122200548648834
+								}
+							}
+						},
+						"UnpickBeforeRepick": {
+							"type": "bool",
+							"value": false
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "54b06bc08d5e6a46"
+						},
+						"m_Seed": {
+							"type": "SEntityTemplateReference",
+							"value": "c1d8d4ccc0415c1a"
+						}
+					},
+					"events": {
+						"OnPickFailed": {
+							"Pick": [
+								"0d00ce10aaf32a1c",
+								"59dbe5bffaf34f19",
+								"8924a8fcbeb8bbdb"
+							]
+						}
+					},
+					"exposedEntities": {
+						"Entries": {
+							"isArray": true,
+							"refersTo": ["cafe99c37bb188ce"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafec27f909ccd91",
+				{
+					"parent": "e6dfbd4a2eda5f64",
+					"name": "Super rarity item",
+					"factory": "[modules:/zrandomselectorchoice.class].pc_entitytype",
+					"blueprint": "[modules:/zrandomselectorchoice.class].pc_entityblueprint",
+					"properties": {
+						"m_Weight": { "type": "float32", "value": 0.09 }
+					},
+					"events": {
+						"OnPicked": { "Pick": ["cafe84f995d239ec"] }
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

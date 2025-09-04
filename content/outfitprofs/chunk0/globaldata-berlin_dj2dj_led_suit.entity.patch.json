@@ -1,0 +1,54 @@
+{
+	"tempHash": "00097AA87B144150",
+	"tbluHash": "00E738E7CF7A35E1",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"bd4e7fd5a313f350",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_eOutfitAICategory",
+						"value": "OAC_DJ"
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe3d3fe4f677f5",
+				{
+					"parent": "bd4e7fd5a313f350",
+					"name": "prof_edgy_worker_dj",
+					"factory": "00D5500C0E6CCDDC",
+					"blueprint": "00AEB36D321DE2F8",
+					"properties": {
+						"m_aHolders": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["bd4e7fd5a313f350"],
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe9d8e3c02d385",
+				{
+					"parent": "bd4e7fd5a313f350",
+					"name": "Prof_Edgy_Worker",
+					"factory": "[assembly:/_pro/design/actor/profession.template?/prof_edgy_worker.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_edgy_worker.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_aHolders": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["bd4e7fd5a313f350"],
+							"postInit": true
+						}
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

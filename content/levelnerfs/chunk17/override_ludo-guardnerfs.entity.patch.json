@@ -1,0 +1,252 @@
+{
+	"tempHash": "00B03EB467FEA625",
+	"tbluHash": "00184B3FC2B4B0AB",
+	"patch": [
+		{
+			"AddEntity": [
+				"cafeb241d599b020",
+				{
+					"parent": "37f1723f8805b54e",
+					"name": "NPC Drama",
+					"factory": "[modules:/zentity.class].pc_entitytype",
+					"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe4b168d337ee5",
+				{
+					"parent": "cafeb241d599b020",
+					"name": "Act_MR_Stand_Smoke_ArmHip",
+					"factory": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_smoke_armhip.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_smoke_armhip.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": -0.0,
+									"y": 0,
+									"z": 130.73329
+								},
+								"position": {
+									"x": -178.9726,
+									"y": -131.22812,
+									"z": 13.715232
+								}
+							}
+						},
+						"m_fActTimeout": {
+							"type": "float32",
+							"value": 30.0
+						},
+						"m_pActor": {
+							"type": "SEntityTemplateReference",
+							"value": {
+								"ref": "5438e3f2733969a6",
+								"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+							},
+							"postInit": true
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "fffffffffffffffe"
+						}
+					},
+					"events": {
+						"OnActTimeout": { "Start": ["cafedabe254c1d60"] }
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafedabe254c1d60",
+				{
+					"parent": "cafeb241d599b020",
+					"name": "Act_MR_Stand_WaitImpatient",
+					"factory": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_waitimpatient.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_waitimpatient.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": -0.0,
+									"y": 0,
+									"z": -23.354597
+								},
+								"position": {
+									"x": -174.45677,
+									"y": -130.03012,
+									"z": 13.695534
+								}
+							}
+						},
+						"m_fActTimeout": {
+							"type": "float32",
+							"value": 20.0
+						},
+						"m_pActor": {
+							"type": "SEntityTemplateReference",
+							"value": {
+								"ref": "5438e3f2733969a6",
+								"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+							},
+							"postInit": true
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "fffffffffffffffe"
+						}
+					},
+					"events": {
+						"OnActTimeout": { "Start": ["cafe4b168d337ee5"] }
+					}
+				}
+			]
+		},
+		{
+			"RemovePropertyOverrideConnection": {
+				"entity": {
+					"ref": "27a50000174e74c3",
+					"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+				},
+				"propertyName": "m_mTransform",
+				"propertyOverride": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 1.1729485879140313,
+							"y": -2.6191575774113662,
+							"z": 114.14424046029872
+						},
+						"position": {
+							"x": 5.736122131347656,
+							"y": -3.394906997680664,
+							"z": 0.3012959957122803
+						}
+					}
+				}
+			}
+		},
+		{
+			"RemovePropertyOverrideConnection": {
+				"entity": {
+					"ref": "e6b325936946074c",
+					"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+				},
+				"propertyName": "m_mTransform",
+				"propertyOverride": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 2.1709452374981386,
+							"y": 1.8182435003974462,
+							"z": -140.91457201515087
+						},
+						"position": {
+							"x": 8.61390209197998,
+							"y": -6.042206764221191,
+							"z": 0.9818480014801024
+						}
+					}
+				}
+			}
+		},
+		{
+			"AddPropertyOverrideConnection": {
+				"entity": {
+					"ref": "27a50000174e74c3",
+					"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+				},
+				"propertyName": "m_mTransform",
+				"propertyOverride": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 1.1729485879140311,
+							"y": -2.6191575774113662,
+							"z": 114.14424046029872
+						},
+						"position": {
+							"x": 5.736122131347656,
+							"y": -3.394906997680664,
+							"z": 0.3012959957122803
+						}
+					}
+				}
+			}
+		},
+		{
+			"AddPropertyOverrideConnection": {
+				"entity": {
+					"ref": "e6b325936946074c",
+					"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+				},
+				"propertyName": "m_mTransform",
+				"propertyOverride": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 2.1709452374981386,
+							"y": 1.8182435003974464,
+							"z": -140.91457201515087
+						},
+						"position": {
+							"x": 8.61390209197998,
+							"y": -6.042206764221191,
+							"z": 0.9818480014801024
+						}
+					}
+				}
+			}
+		},
+		{
+			"AddOverrideDelete": {
+				"ref": "67330dce51f9e1aa",
+				"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+			}
+		},
+		{
+			"AddOverrideDelete": {
+				"ref": "21d855fea727e80e",
+				"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+			}
+		},
+		{
+			"AddOverrideDelete": {
+				"ref": "64fca1a2a3f8780b",
+				"externalScene": "[assembly:/_pro/scenes/missions/mumbai/difficulty_hard_mumbai_mongoose.brick].pc_entitytype"
+			}
+		},
+		{
+			"AddOverrideDelete": {
+				"ref": "9e90098f4a722b44",
+				"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+			}
+		},
+		{
+			"AddOverrideDelete": {
+				"ref": "f6c9287da95a99cc",
+				"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+			}
+		},
+		{
+			"AddPinConnectionOverride": {
+				"fromEntity": {
+					"ref": "d84ec3be2939bca0",
+					"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+				},
+				"fromPin": "OnStart",
+				"toEntity": "cafe4b168d337ee5",
+				"toPin": "Start"
+			}
+		},
+		{
+			"AddExternalScene": "[assembly:/_pro/scenes/missions/mumbai/difficulty_hard_mumbai_mongoose.brick].pc_entitytype"
+		}
+	],
+	"patchVersion": 6
+}

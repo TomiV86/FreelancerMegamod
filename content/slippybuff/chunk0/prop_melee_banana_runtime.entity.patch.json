@@ -1,0 +1,167 @@
+{
+	"tempHash": "0081B00895C6FD6B",
+	"tbluHash": "00FB3CAE336F6090",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"157bb986fdbc2cca",
+				{
+					"AddProperty": [
+						"m_eDamageEvent",
+						{ "type": "EDamageEvent", "value": "eDE_Sedated" }
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"3df5ec2758f556ef",
+				{
+					"RemoveAllEventConnectionsForTrigger": [
+						"Event_Track_pacify_Fired",
+						"PacifyByAccident"
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"3df5ec2758f556ef",
+				{
+					"AddEventConnection": [
+						"Event_Track_pacify_Fired",
+						"AccidentEndPacify",
+						"157bb986fdbc2cca"
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"3df5ec2758f556ef",
+				{
+					"RemoveAllEventConnectionsForTrigger": [
+						"Stopped",
+						"PacifyByAccident"
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"3df5ec2758f556ef",
+				{
+					"AddEventConnection": [
+						"Stopped",
+						"AccidentEndPacify",
+						"157bb986fdbc2cca"
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"670c9c505f43ebed",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_fRadius",
+						"value": 0.6
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"6ef0cf797a2809ef",
+				{
+					"RemoveAllEventConnectionsForTrigger": [
+						"Event_Track_pacify_Fired",
+						"PacifyByAccident"
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"6ef0cf797a2809ef",
+				{
+					"AddEventConnection": [
+						"Event_Track_pacify_Fired",
+						"AccidentEndPacify",
+						"157bb986fdbc2cca"
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"6ef0cf797a2809ef",
+				{
+					"RemoveAllEventConnectionsForTrigger": [
+						"Stopped",
+						"PacifyByAccident"
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"6ef0cf797a2809ef",
+				{
+					"AddEventConnection": [
+						"Stopped",
+						"AccidentEndPacify",
+						"157bb986fdbc2cca"
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"3a634dc5b13b8cf4",
+				{
+					"RemoveAllEventConnectionsForTrigger": [
+						"Event_Track_pacify_Fired",
+						"PacifyByAccident"
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"3a634dc5b13b8cf4",
+				{
+					"AddEventConnection": [
+						"Event_Track_pacify_Fired",
+						"AccidentEndPacify",
+						"157bb986fdbc2cca"
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"3a634dc5b13b8cf4",
+				{
+					"RemoveAllEventConnectionsForTrigger": [
+						"Stopped",
+						"PacifyByAccident"
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"3a634dc5b13b8cf4",
+				{
+					"AddEventConnection": [
+						"Stopped",
+						"AccidentEndPacify",
+						"157bb986fdbc2cca"
+					]
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

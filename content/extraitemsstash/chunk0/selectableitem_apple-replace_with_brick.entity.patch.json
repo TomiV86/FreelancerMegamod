@@ -1,0 +1,33 @@
+{
+	"tempHash": "005496E506E49134",
+	"tbluHash": "00C95D0139BD591E",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"c5167ed0e8f164a3",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_RepositoryId",
+						"value": "5cc4d1ea-b4fa-4667-ba3a-b6e859f03059"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"c9af40e32bfe35cc",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_vGlobalSize",
+						"value": {
+							"x": 0.2155410036444664,
+							"y": 0.11242999881505968,
+							"z": 0.009999999776482582
+						}
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

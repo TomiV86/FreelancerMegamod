@@ -1,0 +1,953 @@
+{
+	"tempHash": "005331FEC70BBDE3",
+	"tbluHash": "0047FB7B709A3502",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"bb70ae371f2b3c37",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_nValue",
+						"value": 2000
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"b0e891c1bdd695bb",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_nValue",
+						"value": 1250
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"488e0bb02adbe9cc",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_nValue",
+						"value": 5000
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"7dbc953dc6c08a05",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_nValue",
+						"value": 1150
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"8c433930681d2877",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_nValue",
+						"value": 5000
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"de01dabcb91dde55",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_nValue",
+						"value": 1000
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"b1425fcf7e3ebe00",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_nValue",
+						"value": 2400
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"572445fc9294dd52",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_nValue",
+						"value": 1500
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"7c269f4cf949bf4f",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_nValue",
+						"value": 2100
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"bc6d090001b23164",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_nValue",
+						"value": 1100
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"d3880cf8ac27da2b",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_nValue",
+						"value": 1500
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"01d2103184cb1f29",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_nValue",
+						"value": 1500
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"4c6eb52d8c98c343",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_nValue",
+						"value": 2000
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"de76dd222ca57351",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_nValue",
+						"value": 1250
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"4a35175d1e5831f0",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_nValue",
+						"value": 900
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"8a3cb69f18855a62",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_nValue",
+						"value": 2400
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"50fc63c9e0fb2b9e",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_nValue",
+						"value": 1350
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"2648f345710b537a",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_nValue",
+						"value": 1000
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"c41f40f4c2d6c968",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_nValue",
+						"value": 1150
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"a3f989f228bf0fa9",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_nValue",
+						"value": 1000
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"ce1c5038633276b0",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_nValue",
+						"value": 2800
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"f1ad1407b9f0bfb7",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_nValue",
+						"value": 3500
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"ee7b56c26556444d",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_nValue",
+						"value": 2500
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"da6165d8bea5e24f",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_nValue",
+						"value": 1150
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"9114b8874fb1eaa1",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_nValue",
+						"value": 1500
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"ec2e8f44593531fe",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_nValue",
+						"value": 1250
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"0984ce6e129240a1",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_nValue",
+						"value": 2250
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"2d09530707667427",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_nValue",
+						"value": 1650
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"cea6acd1046c3c7d",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_nValue",
+						"value": 4000
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"214b5fb787bea117",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_nValue",
+						"value": 2500
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"944f8930a6ea0797",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_nValue",
+						"value": 2500
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"1bca0bc3213b9ae0",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_nValue",
+						"value": 1150
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"ebcc1e9cddf02fe2",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_nValue",
+						"value": 1150
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"394c822a16435974",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_nValue",
+						"value": 1500
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"663a520e251c69ed",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_nValue",
+						"value": 3750
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"0a5a95a4763f0beb",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_nValue",
+						"value": 1500
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"ecdce6efa381044f",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_nValue",
+						"value": 3500
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"ae75d78b9d639953",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_nValue",
+						"value": 1350
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"81669794e2a2c1bb",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_nValue",
+						"value": 1150
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"d9788bdba0da37cc",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_nValue",
+						"value": 7000
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"fa005480bd1133a0",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_nValue",
+						"value": 3500
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"d49961d711645d52",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_nValue",
+						"value": 750
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"c556d188a44dc865",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_nValue",
+						"value": 1550
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"45e235060ddb1a3e",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_nValue",
+						"value": 10000
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"309c37664e565e4c",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_nValue",
+						"value": 1250
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"0e1b8697eab6c062",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_nValue",
+						"value": 1150
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"7d163ea1110f5f01",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_nValue",
+						"value": 1000
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"0bc4722d56c014da",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_nValue",
+						"value": 1750
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"ff20e5aa18d0385b",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_nValue",
+						"value": 2000
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"f4c2acb39b536bc1",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_nValue",
+						"value": 1750
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"91ba13cfb39b2ddc",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_nValue",
+						"value": 2000
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"01746970161babbc",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_nValue",
+						"value": 4000
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"4528da8d7c0b5ab3",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_nValue",
+						"value": 1650
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"ef5bafff7e62fdc2",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_nValue",
+						"value": 1250
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"eb6af48d9c070e05",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_nValue",
+						"value": 4000
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"6d8b26d919490b80",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_nValue",
+						"value": 1150
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"ada934348861556b",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_nValue",
+						"value": 2750
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"43757f1cd3551b65",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_nValue",
+						"value": 7000
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"b659a2abf805bbfe",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_nValue",
+						"value": 1150
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"afc7aab7a277d49a",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_nValue",
+						"value": 2000
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"60ce3e55aa2bd697",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_nValue",
+						"value": 1600
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"502c52ed3ddb3b57",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_nValue",
+						"value": 1750
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"896c6fc5bc0945b8",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_nValue",
+						"value": 1750
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"f4c319a00a45c15f",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_nValue",
+						"value": 1250
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"0f992ab02d39a004",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_nValue",
+						"value": 2500
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"b5b6fdd88aad5678",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_nValue",
+						"value": 750
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"178f549c6e91fbc3",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_nValue",
+						"value": 2000
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"47a1c50ceb086bda",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_nValue",
+						"value": 750
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"90aeecc811ec672d",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_nValue",
+						"value": 1250
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"c5fb821ec76f6ac7",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_nValue",
+						"value": 1600
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"4c87932a3b4026d2",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_nValue",
+						"value": 1250
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"2ed4e49cb0839cab",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_nValue",
+						"value": 4000
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"47af8277ce0da3ad",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_nValue",
+						"value": 9000
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"2d316dabf75913ce",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_nValue",
+						"value": 1750
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"00e624ecb3b33556",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_nValue",
+						"value": 2000
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"1c66d777c00f83fd",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_nValue",
+						"value": 2500
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"299f327944c38db7",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_nValue",
+						"value": 1250
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"8dd867729044a4fa",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_nValue",
+						"value": 1000
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"737bcacfc817efd2",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_nValue",
+						"value": 1500
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"d40f9ceac2f3549f",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_nValue",
+						"value": 1250
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"a96cd0644ea435dd",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_nValue",
+						"value": 850
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"0bbc691c03ebcc3f",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_nValue",
+						"value": 1150
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"c9909b4bf76b120a",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_nValue",
+						"value": 1850
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"02f0508ec0d9ff2d",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_nValue",
+						"value": 2150
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"6d1516f6df467671",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_nValue",
+						"value": 2250
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"b5349678faaa50c9",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_nValue",
+						"value": 1850
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

@@ -1,0 +1,45 @@
+{
+	"tempHash": "007015A746FF0E1F",
+	"tbluHash": "00A42A04C1D012E7",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"b4610bf2bc258f0a",
+				{
+					"PatchArrayPropertyValue": [
+						"m_EntranceIds",
+						[
+							{ "RemoveItemByValue": "35dc87b2cff1cf33" },
+							{ "RemoveItemByValue": "1adf81e2d57799a4" },
+							{ "RemoveItemByValue": "9e908eb4fe96c867" },
+							{
+								"AddItemBefore": [
+									"1adf81e2d57799a4",
+									"cafe8109dd4b2533"
+								]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe8109dd4b2533",
+				{
+					"parent": "b4610bf2bc258f0a",
+					"name": "Keep Rampart",
+					"factory": "[modules:/zrepositorykeyentity.class].pc_entitytype",
+					"blueprint": "[modules:/zrepositorykeyentity.class].pc_entityblueprint",
+					"properties": {
+						"m_RepositoryId": {
+							"type": "ZGuid",
+							"value": "0389731a-54ea-4556-9025-69f371ebedfd"
+						}
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

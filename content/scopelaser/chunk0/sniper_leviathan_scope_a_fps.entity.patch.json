@@ -1,0 +1,29 @@
+{
+	"tempHash": "00FC750EA906ADFE",
+	"tbluHash": "0069F8A39228141C",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"a4a744f6223a0737",
+				{
+					"SetPropertyValue": {
+						"property_name": "Texture2D_01_enab",
+						"value": false
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"a4a744f6223a0737",
+				{
+					"SetPropertyValue": {
+						"property_name": "ConstantVector1D_13_Value",
+						"value": 0.0
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

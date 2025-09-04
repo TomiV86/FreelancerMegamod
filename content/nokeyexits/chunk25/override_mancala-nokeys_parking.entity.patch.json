@@ -1,0 +1,90 @@
+{
+	"tempHash": "00048E86C447E109",
+	"tbluHash": "00D68646CD3CE448",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"ca59d5794141000b",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": -0.0,
+								"y": 0.0,
+								"z": -90.90617041248288
+							},
+							"position": {
+								"x": -42.27555847167969,
+								"y": -1.5427449941635132,
+								"z": 0.0
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"c1108923f33e008e",
+				{
+					"SetFactory": "[assembly:/_pro/design/setpieces/setpieces_evergreen.template?/exit_evergreen_pushbutton.entitytemplate].pc_entitytype"
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"c1108923f33e008e",
+				{
+					"SetBlueprint": "[assembly:/_pro/design/setpieces/setpieces_evergreen.template?/exit_evergreen_pushbutton.entitytemplate].pc_entityblueprint"
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"c1108923f33e008e",
+				{ "RemovePropertyByName": "m_aConditions" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"c1108923f33e008e",
+				{ "RemovePropertyByName": "m_rToolKeywordRequirements" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"c1108923f33e008e",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": -0.0,
+								"y": 0.0,
+								"z": 99.37393044904324
+							},
+							"position": {
+								"x": -10.790379524230955,
+								"y": -141.16090393066406,
+								"z": -3.9998180866241455
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"c1108923f33e008e",
+				{
+					"AddProperty": [
+						"Manual_Exit_Trigger_Needed",
+						{ "type": "bool", "value": true }
+					]
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

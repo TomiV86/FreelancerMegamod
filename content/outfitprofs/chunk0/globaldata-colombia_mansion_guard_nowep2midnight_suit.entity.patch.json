@@ -1,0 +1,54 @@
+{
+	"tempHash": "00097AA87B144150",
+	"tbluHash": "00E738E7CF7A35E1",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"342341822acc1080",
+				{
+					"AddProperty": [
+						"m_bWeaponsAllowed",
+						{ "type": "bool", "value": false }
+					]
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe8abc5b30e6f8",
+				{
+					"parent": "342341822acc1080",
+					"name": "Prof_Colombia_Guard",
+					"factory": "[assembly:/_pro/design/actor/profession.template?/prof_colombia_guard.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_colombia_guard.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_aHolders": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["342341822acc1080"],
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafee5540cba0f6a",
+				{
+					"parent": "342341822acc1080",
+					"name": "Prof_Colombia_Guard_Mansion",
+					"factory": "[assembly:/_pro/design/actor/profession.template?/prof_colombia_guard_mansion.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_colombia_guard_mansion.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_aHolders": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["342341822acc1080"],
+							"postInit": true
+						}
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

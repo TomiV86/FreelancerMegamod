@@ -1,0 +1,40 @@
+{
+	"tempHash": "00CA3B1A06440007",
+	"tbluHash": "00A5D6F12C238B3F",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"a0233c6faf83dfa0",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_nInterval",
+						"value": 7000
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"0e8889ee6f1c95c9",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_fRange",
+						"value": 20.0
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"ba7afb6d4dc34734",
+				{
+					"SetPropertyValue": {
+						"property_name": "Delay",
+						"value": 7000
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

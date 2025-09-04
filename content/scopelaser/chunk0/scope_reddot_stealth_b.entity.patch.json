@@ -1,0 +1,40 @@
+{
+	"tempHash": "00DA9F5E6BBC8B9C",
+	"tbluHash": "002934A6D2C45B17",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"32531d08ecc89b55",
+				{
+					"SetPropertyValue": {
+						"property_name": "Texture2DNormal_01_enab",
+						"value": false
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"32531d08ecc89b55",
+				{
+					"SetPropertyValue": {
+						"property_name": "ConstantVector1D_07_Value",
+						"value": 0.0
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"32531d08ecc89b55",
+				{
+					"SetPropertyValue": {
+						"property_name": "Texture2D_04_enab",
+						"value": false
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

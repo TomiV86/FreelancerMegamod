@@ -1,0 +1,52 @@
+{
+	"tempHash": "00097AA87B144150",
+	"tbluHash": "00E738E7CF7A35E1",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"4b76e3b1a5e00689",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_eOutfitAICategory",
+						"value": "OAC_Hacker"
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe43f9d81599b7",
+				{
+					"parent": "4b76e3b1a5e00689",
+					"name": "prof_colorado_hacker",
+					"factory": "[assembly:/_pro/design/actor/profession.template?/prof_colorado_hacker.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_colorado_hacker.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_aHolders": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["4b76e3b1a5e00689"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe7c6da9faa53d",
+				{
+					"parent": "4b76e3b1a5e00689",
+					"name": "Prof_Colorado_Worker",
+					"factory": "[assembly:/_pro/design/actor/profession.template?/prof_colorado_worker.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_colorado_worker.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_aHolders": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["4b76e3b1a5e00689"]
+						}
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

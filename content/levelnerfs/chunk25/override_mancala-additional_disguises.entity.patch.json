@@ -1,0 +1,144 @@
+{
+	"tempHash": "00048E86C447E109",
+	"tbluHash": "00D68646CD3CE448",
+	"patch": [
+		{
+			"AddEntity": [
+				"cafe1d83f3768d15",
+				{
+					"parent": "c8164f4ab3d888e2",
+					"name": "ItemSpawner_ClothBundle_Soldier",
+					"factory": "[modules:/zclothbundlespawnentity.class].pc_entitytype",
+					"blueprint": "[modules:/zclothbundlespawnentity.class].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": -157.81615,
+									"y": 90,
+									"z": 0
+								},
+								"position": {
+									"x": -40.10786,
+									"y": -31.044987,
+									"z": 9.83
+								}
+							}
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "fffffffffffffffe"
+						},
+						"m_RepositoryId": {
+							"type": "ZGuid",
+							"value": "955bca9e-bc91-46da-a4df-3dfc787c8aff"
+						},
+						"m_eRoomBehaviour": {
+							"type": "ZSpatialEntity.ERoomBehaviour",
+							"value": "ROOM_DYNAMIC"
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe0acc433ce58c",
+				{
+					"parent": "c8164f4ab3d888e2",
+					"name": "ItemSpawner_Propane01",
+					"factory": "[modules:/zitemspawner.class].pc_entitytype",
+					"blueprint": "0091F571BB6B2F32",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": -0.62702185,
+									"y": -0.050054077,
+									"z": 9.128472
+								},
+								"position": {
+									"x": 147.78989,
+									"y": 13.449011,
+									"z": 0.3955432
+								}
+							}
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "fffffffffffffffe"
+						},
+						"m_eRoomBehaviour": {
+							"type": "ZSpatialEntity.ERoomBehaviour",
+							"value": "ROOM_DYNAMIC"
+						},
+						"m_rMainItemKey": {
+							"type": "SEntityTemplateReference",
+							"value": "cafe7b3f816048eb"
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe7b3f816048eb",
+				{
+					"parent": "c8164f4ab3d888e2",
+					"name": "ItemKey_Propane",
+					"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+					"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+					"properties": {
+						"m_RepositoryId": {
+							"type": "ZGuid",
+							"value": "a8a0c154-c36f-413e-8f29-b83a1b7a22f0"
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe15e7883b6858",
+				{
+					"parent": "c8164f4ab3d888e2",
+					"name": "ItemSpawner_ClothBundle_General",
+					"factory": "[modules:/zclothbundlespawnentity.class].pc_entitytype",
+					"blueprint": "[modules:/zclothbundlespawnentity.class].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": -39.38916,
+									"y": 89.97202,
+									"z": 0
+								},
+								"position": {
+									"x": 84.7322,
+									"y": -31.950802,
+									"z": 0.6
+								}
+							}
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "fffffffffffffffe"
+						},
+						"m_RepositoryId": {
+							"type": "ZGuid",
+							"value": "65d860f4-998e-4f92-a1d7-9f40c04a2474"
+						},
+						"m_eRoomBehaviour": {
+							"type": "ZSpatialEntity.ERoomBehaviour",
+							"value": "ROOM_DYNAMIC"
+						}
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

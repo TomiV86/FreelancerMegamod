@@ -1,0 +1,43 @@
+{
+	"tempHash": "00BC389354418A6C",
+	"tbluHash": "00F2260139321CED",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"48994bfeec7939e6",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_fTargetRadiusOverride",
+						"value": 2.1
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"fc4b73c8e32c69e9",
+				{
+					"AddProperty": [
+						"m_VolumeBoxSize",
+						{
+							"type": "SVector3",
+							"value": { "x": 2.1, "y": 2.1, "z": 0.9 }
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"e086fa930d1163e5",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_vGlobalSize",
+						"value": { "x": 2.1, "y": 2.1, "z": 0.9 }
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

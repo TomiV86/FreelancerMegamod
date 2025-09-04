@@ -1,0 +1,29 @@
+{
+	"tempHash": "00632B25568084C3",
+	"tbluHash": "001B6E5243485F4E",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"48f18523fc2c6bc5",
+				{
+					"SetPropertyValue": {
+						"property_name": "MinStunDuration",
+						"value": 8.0
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"48f18523fc2c6bc5",
+				{
+					"SetPropertyValue": {
+						"property_name": "MaxStunDuration",
+						"value": 14.0
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

@@ -1,0 +1,22 @@
+{
+	"tempHash": "00FE969A0E8ED062",
+	"tbluHash": "0038CC712D1D6C1C",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"4256bfaceefe2047",
+				{
+					"SetPropertyValue": {
+						"property_name": "PlacementVolumeSize",
+						"value": {
+							"x": 0.42,
+							"y": 0.42,
+							"z": 0.05999999865889549
+						}
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}
