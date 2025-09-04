@@ -1,0 +1,74 @@
+{
+	"tempHash": "00A9B93A825F5BDC",
+	"tbluHash": "005BA5CA6AC00627",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"5bf8720f7386b970",
+				{
+					"PatchArrayPropertyValue": [
+						"m_aBonusRequirements",
+						[
+							{
+								"AddItemAfter": [
+									"a1173bd02186fe4d",
+									"cafecc2b45a1f216"
+								]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafecc2b45a1f216",
+				{
+					"parent": "ec35ba7ec67bf19a",
+					"name": "BonusReq_ID03_No_Disguise",
+					"factory": "[modules:/zevergreenbonusrequirementdefinitionentity.class].pc_entitytype",
+					"blueprint": "[modules:/zevergreenbonusrequirementdefinitionentity.class].pc_entityblueprint",
+					"properties": {
+						"m_id": { "type": "int32", "value": 3 },
+						"m_sweetTitle": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "[assembly:/localization/hitman6/conversations/ui/pro/gamemode_evergreen/evergreen_bonusrequirements.sweetmenutext?/ui_contract_evergreen_mild_client_requirements_no_disguise_name.sweetline].pc_sweetline",
+								"flag": "5F"
+							}
+						},
+						"m_icon": {
+							"type": "EUIIconLibrary",
+							"value": "evergreen_no_disguise_change"
+						},
+						"m_argsTitle": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": [
+								{
+									"ref": "1c8a3cd106f999fe",
+									"externalScene": null,
+									"exposedEntity": "Obj_PayoutValue_003"
+								}
+							],
+							"postInit": true
+						},
+						"m_requirementBlacklist": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": [
+								"e31e5a91e404c1e3",
+								"a3a40119f08893cf",
+								"d8875b9463abfea8",
+								"132501e06b59bd38",
+								"7d66742ec3db9988",
+								"43f7a25ef3dcc16d",
+								"211e0cba1b455236"
+							],
+							"postInit": true
+						}
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

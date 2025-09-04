@@ -30,7 +30,7 @@
 				{
 					"SetPropertyValue": {
 						"property_name": "m_nMaxRequirements",
-						"value": 11
+						"value": 12
 					}
 				}
 			]
@@ -41,7 +41,7 @@
 				{
 					"SetPropertyValue": {
 						"property_name": "m_nMinRequirements",
-						"value": 11
+						"value": 12
 					}
 				}
 			]
