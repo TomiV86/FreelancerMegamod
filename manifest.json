@@ -3,7 +3,7 @@
 	"id": "syncretic86.freelancerbalance",
 	"name": "Freelancer Balancing",
 	"description": "An eclectic mix of Freelancer balancing.",
-	"version": "0.2.0",
+	"version": "0.3.0",
 	"authors": ["Syncretic86"],
 	"frameworkVersion": "2.33.27",
 	"updateCheck": "https://github.com/TomiV86/FreelancerMegamod/releases/latest/download/updates.json",

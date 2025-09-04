@@ -6,4 +6,4 @@ An eclectic mix of Freelancer balancing.
 
 ---
 
-`syncretic86.freelancerbalance` v0.2.0, by Syncretic86. This README was automatically generated from the mod's manifest.
+`syncretic86.freelancerbalance` v0.3.0, by Syncretic86. This README was automatically generated from the mod's manifest.
