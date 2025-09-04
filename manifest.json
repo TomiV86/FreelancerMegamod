@@ -1,4 +1,5 @@
 {
+	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
 	"id": "syncretic86.freelancerbalance",
 	"name": "Freelancer Balancing",
 	"description": "An eclectic mix of Freelancer balancing.",
@@ -7,6 +8,7 @@
 		"Syncretic86"
 	],
 	"frameworkVersion": "2.33.23",
+	"updateCheck": "https://github.com/TomiV86/FreelancerMegamod/releases/latest/download/updates.json",
 	"options": [
 		{
 			"name": "Assassin Nerf",
